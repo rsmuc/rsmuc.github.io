@@ -13,6 +13,15 @@ Aber es geht hier ja um das digitale private Büro. Es musste also eine Lösung 
 
 # Geräteauswahl
 
+Wichtige Kriterien:
+
+* Automatischer Dokumenteneinzug
+* Beidseitiger Scan
+* Treiberunterstützung für Linux
+
+Zunächst habe ich es mit einem gebrauchten Gerät von eBay versucht. Prinzipiell gibt es dort günstige Dokumentenscanner, welche alle Kriterien erfüllen. Man kann dort schon für 80€ ein gebrauchtes Profigerät ergattern. Allerdings muss man beachten, dass es sich hier um ältere Geräte handelt und diese diverse Verschleißteile enthalten. Besonders die Walzen des Einzugs und die Separationseinheit, also der Teil der die einzelnen Blätter trennt, können für Frust sorgen. Also unbedingt vorher prüfen ob es Ersatzteile zu einem vernünftigen Preis gibt.
+
+
 # Treiberinstallation
 
 # Scan Software
