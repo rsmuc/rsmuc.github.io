@@ -1,4 +1,4 @@
-[zurück zur Startseite] (https://rsmuc.github.io/)
+[zurück zur Startseite](https://rsmuc.github.io/)
 
 ## Schritt 1: Der Scanner
 
