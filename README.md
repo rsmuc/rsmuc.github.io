@@ -1,6 +1,6 @@
 ## Willkommen auf rsmuc.github.io - Thema: papierloses privates Büro
 
-Auf dieser Seite möchte ich meine Strategie dokumentieren, wie ich meine privaten Dokumente verwalte. Diese Seite ist zu 80% Dokumentation für mich selbst und zu 20% Blog. Bei Bedarf könnt ihr mich gerne per Mail kontaktieren: <rsmuc@sec-dev.de>.
+Auf dieser Seite möchte ich meine Strategie dokumentieren, wie ich meine privaten Dokumente verwalte. Diese Seite ist zu 80% Dokumentation für mich selbst und zu 20% Blog. Bei Bedarf könnt ihr mich gerne per Mail kontaktieren: <rsmuc@sec-dev.de>. Wenn ihr auf "View on GitHub" geht, dürft ihr auch gerne einen Stern hinterlassen oder auch gerne Issues mit Fragen oder Verbesserungsvorschlägen hinterlassen.
 
 ### Die Ausgangssituation
 
@@ -32,7 +32,7 @@ Hat man sich durch diese Punkte durchgekämpft, wird man gleich mehrfach belohnt
 
 Hier könnt ihr die einzelnen Schritte und Konzepte nachlesen.
 
-* Der Scanner
+* [Schritt 1: Der Scanner](https://rsmuc.github.io/scanner)
 * Der Aktenvernichter
 * OCR unter Linux
 * Die Ordnerstruktur
