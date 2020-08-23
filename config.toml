@@ -5,7 +5,7 @@ theme = "ananke"
 publishdir = "docs/"
 #themesDir = "../.."
 
-DefaultContentLanguage = "de"
+DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
@@ -37,4 +37,6 @@ enableRobotsTXT = true
   recent_posts_number = 2
   disable_share = true
   show_reading_time = true
+  mainSections = ["Blog", "Paperless"]
+  section = "paperless"
   
