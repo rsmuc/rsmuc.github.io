@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scanner on rsmuc</title>
+    <link>https://rsmuc.github.io/tags/scanner/</link>
+    <description>Recent content in Scanner on rsmuc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 23 Aug 2020 21:46:27 +0200</lastBuildDate>
+    
+	<atom:link href="https://rsmuc.github.io/tags/scanner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Der Scanner</title>
+      <link>https://rsmuc.github.io/paperless/scanner/</link>
+      <pubDate>Sun, 23 Aug 2020 21:46:27 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/paperless/scanner/</guid>
+      <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einbiegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
+    </item>
+    
+  </channel>
+</rss>

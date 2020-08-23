@@ -6,18 +6,29 @@
     <description>Recent content in rsmuc.github.io on rsmuc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 23 Aug 2020 21:46:27 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2020 22:29:46 +0200</lastBuildDate>
     
 	<atom:link href="https://rsmuc.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Scanner</title>
-      <link>https://rsmuc.github.io/buero/scanner/</link>
+      <title>Grazie</title>
+      <link>https://rsmuc.github.io/blog/grazie/</link>
+      <pubDate>Sun, 23 Aug 2020 22:29:46 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/blog/grazie/</guid>
+      <description>Pycharm: Grazie - Rechtschreibkorrektur Mein Lieblingseditor für Python ist die Community Edition von Pycharm. Ich nutze die Community Edition aus dem offiziellen Repository von Manjaro.
+Um diese Seite hier zu erstellen, welche ausnahmsweise auf Deutsch ist, nutze ich auch Pycharm. Dafür sprechen die Github-Integration und der Support von Markdown im Editor.
+Da jedoch natürlich auch immer mal Tippfehler und Rechtschreibfehler passieren können, ist eine Rechtschreibkorrektur hilfreich. Diese ist als Plugin verfügbar: https://plugins.</description>
+    </item>
+    
+    <item>
+      <title>Der Scanner</title>
+      <link>https://rsmuc.github.io/paperless/scanner/</link>
       <pubDate>Sun, 23 Aug 2020 21:46:27 +0200</pubDate>
       
-      <guid>https://rsmuc.github.io/buero/scanner/</guid>
-      <description>Scanner </description>
+      <guid>https://rsmuc.github.io/paperless/scanner/</guid>
+      <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einbiegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
     </item>
     
   </channel>

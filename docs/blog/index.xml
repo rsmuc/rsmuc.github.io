@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on rsmuc</title>
+    <link>https://rsmuc.github.io/blog/</link>
+    <description>Recent content in Blog on rsmuc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 23 Aug 2020 22:25:04 +0200</lastBuildDate>
+    
+	<atom:link href="https://rsmuc.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grazie</title>
+      <link>https://rsmuc.github.io/blog/grazie/</link>
+      <pubDate>Sun, 23 Aug 2020 22:29:46 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/blog/grazie/</guid>
+      <description>Pycharm: Grazie - Rechtschreibkorrektur Mein Lieblingseditor für Python ist die Community Edition von Pycharm. Ich nutze die Community Edition aus dem offiziellen Repository von Manjaro.
+Um diese Seite hier zu erstellen, welche ausnahmsweise auf Deutsch ist, nutze ich auch Pycharm. Dafür sprechen die Github-Integration und der Support von Markdown im Editor.
+Da jedoch natürlich auch immer mal Tippfehler und Rechtschreibfehler passieren können, ist eine Rechtschreibkorrektur hilfreich. Diese ist als Plugin verfügbar: https://plugins.</description>
+    </item>
+    
+  </channel>
+</rss>
