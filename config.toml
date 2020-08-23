@@ -1,0 +1,40 @@
+title = "rsmuc"
+baseURL = "https://example.com"
+languageCode = "de-de"
+theme = "ananke"
+publishdir = "docs/"
+#themesDir = "../.."
+
+DefaultContentLanguage = "de"
+SectionPagesMenu = "main"
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "Papierloses Büro"
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/rsmuc/rsmuc.github.io"
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/bg.jpg"
+  recent_posts_number = 2
+  disable_share = true
+  show_reading_time = true
+  
