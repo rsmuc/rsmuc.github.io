@@ -1,5 +1,5 @@
 title = "rsmuc"
-baseURL = "https://example.com"
+baseURL = "https://rsmuc.github.io"
 languageCode = "de-de"
 theme = "ananke"
 publishdir = "docs/"
