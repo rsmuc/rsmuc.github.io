@@ -10,14 +10,14 @@
   </url>
   
   <url>
-    <loc>https://example.com/b%C3%BCro/scanner/</loc>
+    <loc>https://example.com/buero/scanner/</loc>
     <lastmod>2020-08-23T21:46:27+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://example.com/b%C3%BCro/</loc>
+    <loc>https://example.com/buero/</loc>
     <lastmod>2020-08-23T21:46:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
