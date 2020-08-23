@@ -11,7 +11,7 @@ other = "Neuste {{.Title }}"
 other = "weiterlesen"
 
 [whatsInThis]
-other = "Was ist in dieser {{ .Type }}"
+other = "Inhalt"
 
 [related]
 other = "Ähnliches"
