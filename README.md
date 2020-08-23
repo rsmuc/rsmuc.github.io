@@ -1,3 +1,4 @@
+
 ## Willkommen auf rsmuc.github.io - Thema: papierloses privates Büro
 
 Auf dieser Seite möchte ich meine Strategie dokumentieren, wie ich meine privaten Dokumente verwalte. Diese Seite ist zu 80% Dokumentation für mich selbst und zu 20% Blog. Bei Bedarf könnt ihr mich gerne per Mail kontaktieren: <rsmuc@sec-dev.de>. Wenn ihr auf "View on GitHub" geht, dürft ihr auch gerne einen Stern hinterlassen oder auch gerne Issues mit Fragen oder Verbesserungsvorschlägen hinterlassen.
@@ -33,15 +34,59 @@ Hat man sich durch diese Punkte durchgekämpft, wird man gleich mehrfach belohnt
 Hier könnt ihr die einzelnen Schritte und Konzepte nachlesen.
 
 * [Schritt 1: Der Scanner](https://rsmuc.github.io/scanner)
-* Der Aktenvernichter
+* Der Aktenvernichter & die Aufbewahrungspflicht
 * OCR unter Linux
+* Dateiformat: PDF/A
 * Die Ordnerstruktur
 * Die Suche
 * Das Backup
 * Besser als Scannen: Gleich papierlos
-* Einfachte Sortierung mittels "organize"
+* [WIP: Organize - Dokumente automatisch sortieren](https://rsmuc.github.io/organize)
 * Bugfix: HypoVereinsbank
+* Foto-Digitalisierung
 
+
+### Weiteres
+
+* [Pycharm: Grazie - Rechtschreibkorrektur](https://rsmuc.github.io/grazie)
+
+### Danke sagen
+
+Wenn euch die Infos hier weitergeholfen haben, hinterlasst gerne einen Stern auf Github. 
+Ansonsten könnt ihr mir auch gerne einen Kaffee spendieren:
+
+***Bitcoin:*** 133NsdLmqsQYbHGY8KUU3rrxZTPv3NpJiJ
+
+***Etherum:*** 0x9b16C4Ca53d9d38c2ab2B40ADC2cFBcB8E5BBfa9
+
+***Litecoin:*** LPBjAyY6VvJuA2nHJWsWTLMiY5r9h8rnXP
+
+***Monero:*** 4A7QB4UEbTSG5eiLetCCstYWm2i4oBQwVGA33dnZiKTdUq68m2wMiQ9V6TeGmdshjvL6TE1EX65e61cQEVmbwDDAUd6WYpk
+
+***Flattr:*** <https://flattr.com/@rsmuc>
+
+### Github.io
+
+Da ich eine Seite mit möglichst wenig Blödsinn außenrum haben möchte und nur eine einfache Dokumentation bereitstellen möchte, habe ich mich für Github.io entschieden. Alternativ hatte ich noch überlegt das Wiki meines Seafile-Servers zu verwenden ... Aber das war mir einfach etwas zu nah an meiner privaten Infrastruktur. Die Seite hier wird sehr rudimentär bleiben ... also nicht wundern ...
+
+## Status
+
+Letztes Update: 2020-08-22
+
+2020-08-21: Intro
+
+### Danke sagen
+
+Wenn euch die Infos hier weitergeholfen haben, hinterlasst gerne einen Stern auf Github. 
+Ansonsten könnt ihr mir auch gerne einen Kaffee spendieren:
+
+***Bitcoin:*** 133NsdLmqsQYbHGY8KUU3rrxZTPv3NpJiJ
+
+***Etherum:*** 0x9b16C4Ca53d9d38c2ab2B40ADC2cFBcB8E5BBfa9
+
+***Litecoin:*** LPBjAyY6VvJuA2nHJWsWTLMiY5r9h8rnXP
+
+***Monero:*** 4A7QB4UEbTSG5eiLetCCstYWm2i4oBQwVGA33dnZiKTdUq68m2wMiQ9V6TeGmdshjvL6TE1EX65e61cQEVmbwDDAUd6WYpk
 
 
 ### Github.io
