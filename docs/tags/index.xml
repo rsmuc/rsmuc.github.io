@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on rsmuc</title>
+    <title>Tags on rsmuc Blog - papierloses privates Büro</title>
     <link>https://rsmuc.github.io/tags/</link>
-    <description>Recent content in Tags on rsmuc</description>
+    <description>Recent content in Tags on rsmuc Blog - papierloses privates Büro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 23 Aug 2020 21:46:27 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2020 23:59:32 +0200</lastBuildDate>
     
 	<atom:link href="https://rsmuc.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>papierloses Büro</title>
       <link>https://rsmuc.github.io/tags/papierloses-b%C3%BCro/</link>
-      <pubDate>Sun, 23 Aug 2020 21:46:27 +0200</pubDate>
+      <pubDate>Sun, 23 Aug 2020 23:59:32 +0200</pubDate>
       
       <guid>https://rsmuc.github.io/tags/papierloses-b%C3%BCro/</guid>
       <description></description>

@@ -1,4 +1,4 @@
-title = "rsmuc"
+title = "rsmuc Blog - papierloses privates Büro"
 baseURL = "https://rsmuc.github.io"
 languageCode = "de-de"
 theme = "ananke"
@@ -41,4 +41,3 @@ enableRobotsTXT = true
   show_reading_time = true
   mainSections = ["Blog", "Paperless"]
   section = "paperless"
-  production = true

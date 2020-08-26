@@ -2,11 +2,18 @@
 title: "Schritt 0: Die Basics"
 date: 2020-08-23T23:59:32+02:00
 draft: false
+toc: true
+tags: ["papierloses Büro"]
+
 ---
 
 ### Die Ausgangssituation
 
-Vor circa 2 Jahren hatte ich die Nase voll. Ich hatte die Wahl, dass ich mir entweder 6 neue Aktenordner kaufe oder ich kümmere mich darum, dass ich meine ganzen gesammelten Papierdokumente irgendwie digitalisiert bekomme. Besonders meine Hausbank hat mich die letzte Jahre mit Kontoauszügen und allen möglichen anderen Dokumenten bombadiert. In den ganzen Aktenordnern noch irgendetwas wieder zu finden, war beinahe unmöglich. Für 6 weitere Aktenordner fehlte der Platz und vor allem die Lust.
+Vor circa 2 Jahren hatte ich die Nase voll. Ich hatte die Wahl, dass ich mir entweder 6 neue Aktenordner 
+kaufe oder ich kümmere mich darum, dass ich meine ganzen gesammelten Papierdokumente irgendwie 
+digitalisiert bekomme. Besonders meine Hausbank hat mich die letzte Jahre mit Kontoauszügen und allen möglichen 
+anderen Dokumenten bombardiert. In den ganzen Aktenordnern noch irgendetwas wiederzufinden, 
+war beinahe unmöglich. Für 6 weitere Aktenordner fehlte der Platz und vor allem die Lust.
 Also war die Entscheidung schnell getroffen. Die Strategie musste geändert werden.
 
 ### Das Ziel
@@ -20,7 +27,9 @@ Das Ziel war es auf ein papierloses privates Büro zu erschaffen:
 
 ### Der Weg
 
-Der Weg zum papierlosen Büro ist eigentlich nicht schwer. Wichtig sind, dass man ein paar Grundlagen schafft bevor man ernsthaft loslegt. Der Basisworkflow (Scannen, Speichern, Backup) sollte sitzen, bevor man wirklich startet. Letztendlich gibt es vier Hauptschritte zum Ziel:
+Der Weg zum papierlosen Büro ist eigentlich nicht schwer. Wichtig ist, dass man ein paar Grundlagen 
+schafft bevor man ernsthaft loslegt. Der Basisworkflow (Scannen, Speichern, Backup) sollte sitzen, 
+bevor man wirklich startet. Letztendlich gibt es vier Hauptschritte zum Ziel:
 
 * Vorbereitung der Grundlagen
 * Abarbeitung der bereits angehäuften Ordner
@@ -54,4 +63,5 @@ Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 * Foto-Digitalisierung
 * Die Cloud
 
-Die einzelnen Kapitel können sich im Laufe der Zeit natürlich noch ändern. Auch werden sie nicht genau in der Reihenfolge erscheinen.
+Die einzelnen Kapitel können sich im Laufe der Zeit natürlich noch ändern. 
+Auch werden sie nicht genau in der Reihenfolge erscheinen.

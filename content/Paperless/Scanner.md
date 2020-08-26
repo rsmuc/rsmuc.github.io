@@ -9,9 +9,19 @@ tags: ["Scanner", "papierloses Büro"]
 
 ### Grundlagen
 
-Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.
+Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. 
+Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und 
+umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. 
+Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. 
+Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, 
+Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.
 
-Besser war dann die Idee den Scanner im Multifunktionsgerät (Standgerät) im Büro zu verwenden. Hier muss ich ganz klar sagen, dass damit gute Scan Ergebnisse mit maximaler Geschwindigkeit zu erreichen sind. Zudem kommt es kaum zum fehlerhaften Einzug von gleichzeitig zwei Seiten oder ähnlichem. Aber auf Dauer ist es natürlich keine Lösung alle Dokumente ins Büro zu schleppen. Aber gerade am Anfang zum Scannen einer großen Menge an alten Rechnungen etc. (also Dokumenten, die man wohl eher nie wieder ansieht) ist diese Methode nicht schlecht.
+Besser war dann die Idee den Scanner im Multifunktionsgerät (Standgerät) im Büro zu verwenden. 
+Hier muss ich ganz klar sagen, dass damit gute Scan Ergebnisse mit maximaler Geschwindigkeit zu 
+erreichen sind. Zudem kommt es kaum zum fehlerhaften Einzug von gleichzeitig zwei Seiten oder 
+ähnlichem. Aber auf Dauer ist es natürlich keine Lösung alle Dokumente ins Büro zu schleppen. 
+Aber gerade am Anfang zum Scannen einer großen Menge an alten Rechnungen etc. 
+(also Dokumente, die man wohl eher nie wieder ansieht) ist diese Methode nicht schlecht.
 
 Aber es geht hier ja um das digitale private Büro. Es musste also eine Lösung für zu Hause gefunden werden.
 
@@ -24,16 +34,35 @@ Es gibt einige wichtige Kriterien, die bei der Auswahl des Scanners zu berücksi
 
 ADF = Automatic Document Feeder
 
-Da sich bei mir doch einige Aktenordner mit Dokumenten angesammelt hatten, welche zu digitalisieren waren, war es wichtig eine hohe Arbeitsgeschwindigkeit zu erreichen. Eine der zeitintensivsten Aufgaben beim Digitalisieren ist das einzlegen der Dokumente in den Scanner. Jede Seite einzeln enizulegen und dann auch noch umzudrehen, wie bei den meisten einfachen Flachbettscanner üblich ist,  ist da nicht der richtige Weg. Der Scanner musste also über einen automatischen Dokumenteneinzug verfügen. Die richtigen Schlagworte um fündig zu werden: Dokumentenscanner, ADF.
+Da sich bei mir doch einige Aktenordner mit Dokumenten angesammelt hatten, welche zu digitalisieren waren, 
+war es wichtig eine hohe Arbeitsgeschwindigkeit zu erreichen. 
+Eine der zeitintensivsten Aufgaben beim Digitalisieren ist das Einlegen der Dokumente in den Scanner. J
+ede Seite einzeln einzulegen und dann auch noch umzudrehen, wie bei den meisten einfachen 
+Flachbettscanner üblich ist,  ist da nicht der richtige Weg. 
+Der Scanner musste also über einen automatischen Dokumenteneinzug verfügen. 
+Die richtigen Schlagworte um fündig zu werden: Dokumentenscanner, ADF.
 
-Der Scanner sollte circa 20 Seiten (nach Datenblatt) fassen können. In der Praxis werden es dann einige weniger sein, da der automatische Einzug mit 20 Seiten häufig überfordert ist und es auf die Papierstärke und Qualität (verknickt?) ankommt. Aber mit 20 Seiten ist man im privaten Umfeld ganz gut unterwegs.
+Der Scanner sollte circa 20 Seiten (nach Datenblatt) fassen können. 
+In der Praxis werden es dann einige weniger sein, da der automatische Einzug 
+mit 20 Seiten häufig überfordert ist und es auf die Papierstärke und Qualität (verknickt?) ankommt. 
+Aber mit dem Richtwert 20 Seiten ist man im privaten Umfeld ganz gut unterwegs.
 
-Wie schon geschrieben. Besonders die Walzen und die Seperationseinheit für den Dokumenteneinzug sind die Verschleißteile bei einem Dokumentenscanner. Deswegen sollte man bei einem Gebrauchten darauf achten, dass dieser nicht zu alt ist und die Weichmacher aus den Gummiwalzen sich noch nicht verflüchtigt haben. Bei meinem ersten gebrauchten Fujitsu Scanner hätte eine neue Seperationseinheit (das sind nur ein paar Plastik- und Gummiteile mit sehr einfachem Aufbau) zwischen 80 und 100 € gekostet. Der ganze Scanner war gebraucht nicht so teuer.    
+Besonders die Walzen und die Separationseinheit für den Dokumenteneinzug sind die 
+Verschleißteile bei einem Dokumentenscanner. Deswegen sollte man bei einem Gebrauchten 
+darauf achten, dass dieser nicht zu alt ist und die Weichmacher aus den Gummiwalzen 
+sich noch nicht verflüchtigt haben. Bei meinem ersten gebrauchten Fujitsu Scanner hätte 
+eine neue Separationseinheit (das sind nur ein paar Plastik- und Gummiteile mit sehr 
+einfachem Aufbau) zwischen 80 und 100 € gekostet. Der ganze Scanner hatte gebraucht weniger gekostet.
+Es war also ganz klar eine Fehlinvestition und der Gebrauchte musste weg.    
 
 
 ####  Beidseitiger Scan / Duplex
 
-Zweite wichtige Eigenschaft ist er beidseitige Scan. Dokumentenscanner haben hierfür meistens zwei Scan-Einheiten verbaut, die die Vorder- und Rückseite gleichzeitig erfassen. Das Papier muss also nicht gedreht werden und schon gar nicht händisch gedreht und nochmal eingelegt werden. Viele Multifunktionsgeräte mit ADF haben dies nicht. Sind also nicht wirklich gut geeignet. 
+Zweite wichtige Eigenschaft ist er beidseitige Scan. Dokumentenscanner haben hierfür meistens 
+zwei Scan-Einheiten verbaut, die die Vorder- und Rückseite gleichzeitig erfassen. 
+Das Papier muss also nicht mechanisch gedreht werden und schon gar nicht händisch gedreht und 
+nochmal eingelegt werden. Viele Multifunktionsgeräte (Drucker, Scanner, Fax) mit ADF haben dies nicht. 
+Sind also nicht wirklich gut für den gewünschten Zweck geeignet. 
 
 #### Geschwindigkeit
 
