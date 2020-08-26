@@ -1,6 +1,6 @@
 ---
 title: "rsmuc.github.io"
-featured_image: '/images/bg.jpg'
+featured_image: 'documents.jpg'
 description: "Papierloses privates Büro & Linux"
 ---
 
