@@ -1,16 +1,17 @@
 ---
-title: "Schritt 1: Der Scanner"
+title: "Schritt 1: Der richtige Scanner fürs papierlose Büro"
 date: 2020-08-23T21:46:27+02:00
 draft: false
 toc: true
 disable_share: true
-tags: ["Scanner"]
+tags: ["Scanner", "papierloses Büro"]
 ---
 
 ### Grundlagen
 
-Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einbiegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.
-Besser war die Idee dann die Idee den Scanner im Multifunktionsgerät (Standgerät) im Büro zu verwenden. Hier muss ich ganz klar sagen, dass damit gute Scan Ergebnisse mit maximaler Geschwindigkeit zu erreichen sind. Zudem kommt es kaum zum fehlerhaften Einzug von gleichzeitig zwei Seiten oder ähnlichem. Aber auf Dauer ist es natürlich keine Lösung alle Dokumente und Büro zu schleppen. Aber gerade am Anfang zum Scannen einer großen Menge an alten Rechnungen (also Dokumenten, die man wohl eher nie wieder ansieht) ist diese Methode nicht schlecht.
+Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.
+
+Besser war dann die Idee den Scanner im Multifunktionsgerät (Standgerät) im Büro zu verwenden. Hier muss ich ganz klar sagen, dass damit gute Scan Ergebnisse mit maximaler Geschwindigkeit zu erreichen sind. Zudem kommt es kaum zum fehlerhaften Einzug von gleichzeitig zwei Seiten oder ähnlichem. Aber auf Dauer ist es natürlich keine Lösung alle Dokumente ins Büro zu schleppen. Aber gerade am Anfang zum Scannen einer großen Menge an alten Rechnungen etc. (also Dokumenten, die man wohl eher nie wieder ansieht) ist diese Methode nicht schlecht.
 
 Aber es geht hier ja um das digitale private Büro. Es musste also eine Lösung für zu Hause gefunden werden.
 

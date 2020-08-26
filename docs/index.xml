@@ -6,10 +6,20 @@
     <description>Recent content in rsmuc.github.io on rsmuc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 23 Aug 2020 23:59:32 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 16:27:59 +0200</lastBuildDate>
     
 	<atom:link href="https://rsmuc.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Los geht&#39;s</title>
+      <link>https://rsmuc.github.io/blog/losgehts/</link>
+      <pubDate>Wed, 26 Aug 2020 16:27:59 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/blog/losgehts/</guid>
+      <description>So, es hat zwar niemand drauf gewartet und es wird niemals jemanden interessieren, aber losgeht es mit dem Blog. Hugo, die Software zur Erzeugung des Blogs funktioniert, die ersten beiden Kapitel sind geschrieben &amp;hellip; Also viel Spaß hier.
+Über Feedback freue ich mich natürlich.</description>
+    </item>
     
     <item>
       <title>Schritt 0: Die Basics</title>
@@ -17,7 +27,7 @@
       <pubDate>Sun, 23 Aug 2020 23:59:32 +0200</pubDate>
       
       <guid>https://rsmuc.github.io/paperless/basics/</guid>
-      <description>Die Ausgangssituation Vor circa 2 Jahren hatte ich die Nase voll. Ich hatte die Wahl, dass ich mir entweder 6 neue Aktenordner kaufe oder ich kümmere mich darum, dass ich meine ganzen gesammelten Papierdokumente irgendwie digitalisiert bekomme. Besonders meine Hausbank hat mich die letzte Jahre mit Kontoauszügen und allen möglichen anderen Dokumenten bombadiert. In den ganzen Aktenordnern noch irgendetwas wieder zu finden, war beinahe unmöglich. Für 6 weitere Aktenordner fehlte der Platz.</description>
+      <description>Die Ausgangssituation Vor circa 2 Jahren hatte ich die Nase voll. Ich hatte die Wahl, dass ich mir entweder 6 neue Aktenordner kaufe oder ich kümmere mich darum, dass ich meine ganzen gesammelten Papierdokumente irgendwie digitalisiert bekomme. Besonders meine Hausbank hat mich die letzte Jahre mit Kontoauszügen und allen möglichen anderen Dokumenten bombadiert. In den ganzen Aktenordnern noch irgendetwas wieder zu finden, war beinahe unmöglich. Für 6 weitere Aktenordner fehlte der Platz und vor allem die Lust.</description>
     </item>
     
     <item>
@@ -32,12 +42,12 @@ Da jedoch natürlich auch immer mal Tippfehler und Rechtschreibfehler passieren 
     </item>
     
     <item>
-      <title>Schritt 1: Der Scanner</title>
+      <title>Schritt 1: Der richtige Scanner fürs papierlose Büro</title>
       <link>https://rsmuc.github.io/paperless/scanner/</link>
       <pubDate>Sun, 23 Aug 2020 21:46:27 +0200</pubDate>
       
       <guid>https://rsmuc.github.io/paperless/scanner/</guid>
-      <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einbiegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
+      <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
     </item>
     
   </channel>

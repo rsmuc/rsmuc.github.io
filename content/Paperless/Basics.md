@@ -6,12 +6,17 @@ draft: false
 
 ### Die Ausgangssituation
 
-Vor circa 2 Jahren hatte ich die Nase voll. Ich hatte die Wahl, dass ich mir entweder 6 neue Aktenordner kaufe oder ich kümmere mich darum, dass ich meine ganzen gesammelten Papierdokumente irgendwie digitalisiert bekomme. Besonders meine Hausbank hat mich die letzte Jahre mit Kontoauszügen und allen möglichen anderen Dokumenten bombadiert. In den ganzen Aktenordnern noch irgendetwas wieder zu finden, war beinahe unmöglich. Für 6 weitere Aktenordner fehlte der Platz.
+Vor circa 2 Jahren hatte ich die Nase voll. Ich hatte die Wahl, dass ich mir entweder 6 neue Aktenordner kaufe oder ich kümmere mich darum, dass ich meine ganzen gesammelten Papierdokumente irgendwie digitalisiert bekomme. Besonders meine Hausbank hat mich die letzte Jahre mit Kontoauszügen und allen möglichen anderen Dokumenten bombadiert. In den ganzen Aktenordnern noch irgendetwas wieder zu finden, war beinahe unmöglich. Für 6 weitere Aktenordner fehlte der Platz und vor allem die Lust.
 Also war die Entscheidung schnell getroffen. Die Strategie musste geändert werden.
 
 ### Das Ziel
 
-Das Ziel war es auf ein papierloses privates Büro zu erschaffen - mit einem überschaubaren Aufwand - mit einer hohen Datensicherheit (kein Verlust von Daten) - mit hohem Datenschutz.
+Das Ziel war es auf ein papierloses privates Büro zu erschaffen:
+ * mit einem überschaubaren Aufwand
+ * mit einer hohen Datensicherheit (kein Verlust von Daten)
+ * mit hohem Datenschutz.
+ * mit hohem Komfort
+ * mit Linux
 
 ### Der Weg
 
@@ -28,3 +33,25 @@ Hat man sich durch diese Punkte durchgekämpft, wird man gleich mehrfach belohnt
 * Schnelles Auffinden von Dokumenten (spätestens bei der Steuererklärung jedes Jahr...)
 * Sicherheit der Dokumente
 * Weniger Arbeit & Chaos
+
+### Die Schritte
+
+Das papierlose private Büro ist bei mir nun seit circa 2 Jahren Realität und ich habe
+es nicht bereut.
+
+Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
+
+* Der Scanner
+* Der Aktenvernichter & die Aufbewahrungspflicht
+* OCR von PDFs unter Linux
+* Dateiformat: PDF/A
+* Die Ordnerstruktur
+* Die Suche
+* Das Backup
+* Besser als Scannen: Gleich papierlos
+* Organize - Dokumente automatisch sortieren
+* Bugfix: HypoVereinsbank
+* Foto-Digitalisierung
+* Die Cloud
+
+Die einzelnen Kapitel können sich im Laufe der Zeit natürlich noch ändern. Auch werden sie nicht genau in der Reihenfolge erscheinen.
