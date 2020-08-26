@@ -6,15 +6,24 @@
     <description>Recent content in Tags on rsmuc Blog - papierloses privates Büro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 23 Aug 2020 23:59:32 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2020 21:46:27 +0200</lastBuildDate>
     
 	<atom:link href="https://rsmuc.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Linux</title>
+      <link>https://rsmuc.github.io/tags/linux/</link>
+      <pubDate>Tue, 25 Aug 2020 21:46:27 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>papierloses Büro</title>
       <link>https://rsmuc.github.io/tags/papierloses-b%C3%BCro/</link>
-      <pubDate>Sun, 23 Aug 2020 23:59:32 +0200</pubDate>
+      <pubDate>Tue, 25 Aug 2020 21:46:27 +0200</pubDate>
       
       <guid>https://rsmuc.github.io/tags/papierloses-b%C3%BCro/</guid>
       <description></description>
@@ -23,9 +32,18 @@
     <item>
       <title>Scanner</title>
       <link>https://rsmuc.github.io/tags/scanner/</link>
-      <pubDate>Sun, 23 Aug 2020 21:46:27 +0200</pubDate>
+      <pubDate>Tue, 25 Aug 2020 21:46:27 +0200</pubDate>
       
       <guid>https://rsmuc.github.io/tags/scanner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Treiber</title>
+      <link>https://rsmuc.github.io/tags/treiber/</link>
+      <pubDate>Tue, 25 Aug 2020 21:46:27 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/tags/treiber/</guid>
       <description></description>
     </item>
     

@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Schritt 1: Der richtige Scanner fürs papierlose Büro</title>
+      <link>https://rsmuc.github.io/paperless/scanner/</link>
+      <pubDate>Tue, 25 Aug 2020 21:46:27 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/paperless/scanner/</guid>
+      <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
+    </item>
+    
+    <item>
       <title>Schritt 0: Die Basics</title>
       <link>https://rsmuc.github.io/paperless/basics/</link>
       <pubDate>Sun, 23 Aug 2020 23:59:32 +0200</pubDate>
@@ -39,15 +48,6 @@
       <description>Pycharm: Grazie - Rechtschreibkorrektur Mein Lieblingseditor für Python ist die Community Edition von Pycharm. Ich nutze die Community Edition aus dem offiziellen Repository von Manjaro.
 Um diese Seite hier zu erstellen, welche ausnahmsweise auf Deutsch ist, nutze ich auch Pycharm. Dafür sprechen die Github-Integration und der Support von Markdown im Editor.
 Da jedoch natürlich auch immer mal Tippfehler und Rechtschreibfehler passieren können, ist eine Rechtschreibkorrektur hilfreich. Diese ist als Plugin verfügbar: https://plugins.</description>
-    </item>
-    
-    <item>
-      <title>Schritt 1: Der richtige Scanner fürs papierlose Büro</title>
-      <link>https://rsmuc.github.io/paperless/scanner/</link>
-      <pubDate>Sun, 23 Aug 2020 21:46:27 +0200</pubDate>
-      
-      <guid>https://rsmuc.github.io/paperless/scanner/</guid>
-      <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
     </item>
     
   </channel>
