@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on rsmuc Blog - Papierloses privates Büro mit Linux</title>
+    <link>https://rsmuc.github.io/about/</link>
+    <description>Recent content in About on rsmuc Blog - Papierloses privates Büro mit Linux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 23 Aug 2020 21:17:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://rsmuc.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
