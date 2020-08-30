@@ -56,6 +56,7 @@ Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 * OCR von PDFs unter Linux
 * Dateiformat: PDF/A
 * Die Ordnerstruktur
+* Der PDF Viewer
 * Die Suche
 * Das Backup
 * Besser als Scannen: Gleich papierlos
