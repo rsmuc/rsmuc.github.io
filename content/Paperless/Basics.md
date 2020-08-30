@@ -4,7 +4,7 @@ date: 2020-08-23T23:59:32+02:00
 draft: false
 toc: true
 tags: ["papierloses Büro"]
-featured_image: 'https://images.unsplash.com/photo-1588853326295-d49400a3d085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80'
+featured_image: 'Paperless/titlepics/step0.jpg'
 
 ---
 

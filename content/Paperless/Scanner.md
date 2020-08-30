@@ -5,7 +5,7 @@ draft: false
 toc: true
 disable_share: true
 tags: ["Scanner", "papierloses Büro", "Treiber", "Linux"]
-featured_image: 'https://images.unsplash.com/photo-1544396821-4dd40b938ad3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80'
+featured_image: 'Paperless/titlepics/step1.jpg'
 ---
 
 ### Grundlagen
