@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on rsmuc Blog - Papierloses privates Büro mit Linux</title>
+    <link>https://rsmuc.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on rsmuc Blog - Papierloses privates Büro mit Linux</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 30 Aug 2020 12:25:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://rsmuc.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog mittels Hugo und Github Pages erstellen</title>
+      <link>https://rsmuc.github.io/blog/hugo/</link>
+      <pubDate>Sun, 30 Aug 2020 12:25:08 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/blog/hugo/</guid>
+      <description>Warum Github Pages und Hugo? Da der Blog hier nur ein kleines Hobby-Projekt nebenbei ist und nie eine besonders große Reichweite erlangen wird, war ich nicht bereit hierfür Geld auszugeben. Es gibt einige Webseiten im Internet, wie https://wordpress.com oder https://blogger.com, bei denen man kostenlos Blogs führen kann. Aber da am Ende des Tages eben doch selten etwas wirklich kostenlos ist, bezahlt man dort entweder damit, dass dort Werbung eingeblendet wird oder dass massig Tracker eingebunden werden.</description>
+    </item>
+    
+  </channel>
+</rss>

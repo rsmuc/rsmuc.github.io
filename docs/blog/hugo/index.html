@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="de-de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Blog mittels Hugo und Github Pages erstellen | rsmuc Blog - Papierloses privates Büro mit Linux</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Blog mittels Hugo und Github Pages erstellen" />
+<meta property="og:description" content="Warum Github Pages und Hugo? Da der Blog hier nur ein kleines Hobby-Projekt nebenbei ist und nie eine besonders große Reichweite erlangen wird, war ich nicht bereit hierfür Geld auszugeben. Es gibt einige Webseiten im Internet, wie https://wordpress.com oder https://blogger.com, bei denen man kostenlos Blogs führen kann. Aber da am Ende des Tages eben doch selten etwas wirklich kostenlos ist, bezahlt man dort entweder damit, dass dort Werbung eingeblendet wird oder dass massig Tracker eingebunden werden." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rsmuc.github.io/blog/hugo/" />
+<meta property="article:published_time" content="2020-08-30T12:25:08+02:00" />
+<meta property="article:modified_time" content="2020-08-30T12:25:08+02:00" />
+<meta itemprop="name" content="Blog mittels Hugo und Github Pages erstellen">
+<meta itemprop="description" content="Warum Github Pages und Hugo? Da der Blog hier nur ein kleines Hobby-Projekt nebenbei ist und nie eine besonders große Reichweite erlangen wird, war ich nicht bereit hierfür Geld auszugeben. Es gibt einige Webseiten im Internet, wie https://wordpress.com oder https://blogger.com, bei denen man kostenlos Blogs führen kann. Aber da am Ende des Tages eben doch selten etwas wirklich kostenlos ist, bezahlt man dort entweder damit, dass dort Werbung eingeblendet wird oder dass massig Tracker eingebunden werden.">
+<meta itemprop="datePublished" content="2020-08-30T12:25:08+02:00" />
+<meta itemprop="dateModified" content="2020-08-30T12:25:08+02:00" />
+<meta itemprop="wordCount" content="632">
+
+
+
+<meta itemprop="keywords" content="Blog,Hugo,Github," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog mittels Hugo und Github Pages erstellen"/>
+<meta name="twitter:description" content="Warum Github Pages und Hugo? Da der Blog hier nur ein kleines Hobby-Projekt nebenbei ist und nie eine besonders große Reichweite erlangen wird, war ich nicht bereit hierfür Geld auszugeben. Es gibt einige Webseiten im Internet, wie https://wordpress.com oder https://blogger.com, bei denen man kostenlos Blogs führen kann. Aber da am Ende des Tages eben doch selten etwas wirklich kostenlos ist, bezahlt man dort entweder damit, dass dort Werbung eingeblendet wird oder dass massig Tracker eingebunden werden."/>
+
+      
+    
+	<meta name="google-site-verification" content="NP4GlVBg6DhwtFmuD8qDiZFwN8p_ZqWuLVeMNmUx-p0" />
+<meta name="description" content="papierloses privates Büro mit Linux">
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://rsmuc.github.io/Blog/titlepics/hugo.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        rsmuc Blog - Papierloses privates Büro mit Linux
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/paperless/" title="&gt;&gt;&gt; Papierloses Büro &lt;&lt;&lt; page">
+              &gt;&gt;&gt; Papierloses Büro &lt;&lt;&lt;
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+<a href="https://github.com/rsmuc/rsmuc.github.io" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+<a href="https://rsmuc.github.io/index.xml" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
+  <svg xmlns="http://www.w3.org/2000/svg" height="32px" width="32px" viewBox="0 0 24 24">
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path id="scale" d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Blog mittels Hugo und Github Pages erstellen</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        BLOG
+      </aside>
+      
+
+
+
+
+
+      <h1 class="f1 athelas mt3 mb1">Blog mittels Hugo und Github Pages erstellen</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-08-30T12:25:08+02:00">August 30, 2020</time>
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 632 words</span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="warum-github-pages-und-hugo">Warum Github Pages und Hugo?</h3>
+<p>Da der Blog hier nur ein kleines Hobby-Projekt nebenbei ist und nie eine besonders
+große Reichweite erlangen wird, war ich nicht bereit hierfür Geld auszugeben. Es gibt
+einige Webseiten im Internet, wie <a href="https://wordpress.com">https://wordpress.com</a> oder <a href="https://blogger.com">https://blogger.com</a>, bei denen man kostenlos
+Blogs führen kann. Aber da am Ende des Tages eben doch selten etwas wirklich kostenlos ist,
+bezahlt man dort entweder damit, dass dort Werbung eingeblendet wird oder dass massig
+Tracker eingebunden werden. Dies war also keine Option.</p>
+<p>Das Projekt war also bereits gescheitert, bevor ich es überhaupt begonnen hatte. Zufällig
+bin ich dann letztens über Github Pages gestolpert: <a href="https://pages.github.com/">https://pages.github.com/</a>. Dort können
+statische Webseiten gehostet werden. Also ohne Wordpress &amp; Co im Hintergrund. Und da ich
+sowieso schon Github nutze, habe ich mir das ganze angesehen.</p>
+<p>Out-of-the-box können Seiten dort bereits mit Markdown geschrieben werden. Nach etwas
+Recherche bin ich dann noch auf &ldquo;Hugo&rdquo; gestoßen: <a href="https://gohugo.io/">https://gohugo.io/</a>.
+Hugo ist ein Framework zum Generieren von statischen Webseiten. Das Ergebnis sieht man
+ja hier.</p>
+<p>Am Ende hat man also eine Seite ohne Tracker, Werbung oder Fremdquellen, wie Google Fonts, mit wenig
+Aufwand und ohne Kosten.</p>
+<h3 id="github-pages-anlegen">Github Pages anlegen</h3>
+<p>Die Quickstart-Beschreibung für &ldquo;User or organization site&rdquo; direkt auf <a href="https://pages.github.com/">https://pages.github.com/</a> erklärt alles notwendige.
+Dies werde ich hier nicht nochmal wiederholen.</p>
+<p>Hat alles funktioniert, sieht man also beim Zugriff auf die eigene Seite ein &ldquo;Hello World&rdquo;.</p>
+<p>Nun müssen wir noch ein paar Einstellungen vornehmen, damit später das Zusammenspiel mit Hugo klappt:</p>
+<ul>
+<li>Auf github.com einloggen und das Pages Repository öffnen</li>
+<li>Auf &ldquo;Settings&rdquo; gehen</li>
+<li>Dort auf der Seite ganz nach unten zu &ldquo;Github Pages scrollen&rdquo;</li>
+<li>Nun muss die &ldquo;Source&rdquo; angepasst werden. Diese sollte auf dem Master-Branch in den &ldquo;docs&rdquo;-Ordner zeigen.</li>
+</ul>
+<p><img src="/blog/github-pages.png" alt="Einstellungen füt Github Pages">
+(Achtung im Screenshot ist nicht der Master-Branch ausgewählt, sondern &ldquo;Test&rdquo;.)</p>
+<p>Damit ist schon mal alles vorbereitet und es geht erst mal mit Hugo weiter.</p>
+<h3 id="hugo">Hugo</h3>
+<p><a href="https://gohugo.io/">Hugo</a> wird lokal auf dem eigenen Rechner installiert und generiert dann die
+statischen HTML-Seiten. Die fertigen HTML-Seiten werden dann auf Github veröffentlicht.</p>
+<p>Die Installation von Hugo ist unter Manjaro wieder denkbar einfach. Es existiert im offiziellen
+Repository, kann also mittels Pamac &amp; Co installiert werden.</p>
+<p><img src="/blog/hugo-pamac.png" alt="Hugo Pamac"></p>
+<p>Auch für Hugo gibt es wieder einen guten Quickstart Guideline: <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a>.
+Diesen kann man grundsätzlich vollständig befolgen.</p>
+<p>Man sollte jedoch noch in seine config.toml folgendes aufnehmen:</p>
+<pre><code>publishdir = &quot;docs/&quot;
+</code></pre>
+<p>Dann werden die statischen HTML-Seiten direkt nach docs/ generiert und somit liegen sie gleich
+an der richtigen Stelle.</p>
+<h3 id="mit-hugo-und-github-pages-arbeiten">Mit Hugo und Github Pages arbeiten</h3>
+<p>Wie wird nun also ein neuer Blog-Artikel erstellt:</p>
+<p>Neue Seite erstellen:</p>
+<pre><code>hugo new Paperless/Test.md
+</code></pre>
+<p>Das Test.md File bearbeiten, den Artikel schreiben und den Status auf &ldquo;draft: false&rdquo; setzen</p>
+<p>Den lokalen Testserver starten, um das Ergebnis zu kontrollieren:</p>
+<pre><code>hugo server
+</code></pre>
+<p>Sind wir mit dem Ergebnis zufrieden, werden die HTML Files generiert:</p>
+<pre><code>HUGO_ENV=production hugo
+</code></pre>
+<p>Nun alle Files zu Github hinzufügen:</p>
+<pre><code>git add *
+</code></pre>
+<p>Commiten:</p>
+<pre><code>git commit -m &quot;inhalt hinzugefuegt&quot;
+</code></pre>
+<p>Und zu Github pushen:</p>
+<pre><code>git push
+</code></pre>
+<p>Nun sollte der neue Blog Artikel veröffentlicht sein.</p>
+<p>Mehr Details zur config.toml könnt ihr auch direkt im Github-Repository dieser Seite direkt live
+sehen.</p>
+<h3 id="warum-die-kombination-spaß-macht">Warum die Kombination Spaß macht</h3>
+<ul>
+<li>Sowohl die Konfiguration, der Inhalt (als Markdown Files) und das Ergebnis sind in Git(hub) versioniert</li>
+<li>Die einzelnen Artikel können schnell und einfach in Markdown geschrieben werden</li>
+<li>Das Angebot von Github ist kostenlos, Hugo ist OSS</li>
+<li>Keine versteckten Tracker</li>
+<li>Keine große, schwer zu wartende Infrastruktur und Plugins (wie z.B. bei Wordpress) notwendig</li>
+<li>Tolle fertige Themes</li>
+<li>Einfach und schnell in der Bedienung, wenn man sich mal eingearbeitet hat</li>
+</ul>
+<h3 id="stock-fotos">Stock Fotos</h3>
+<p>Ganz ohne Titel-Bilder sieht der Blog doch ein wenig trist aus. Also dürfen ein paar Stock-Fotos
+nicht fehlen. Meine Lieblingsqualle für frei verwendbare Stock Fotos ist: <a href="https://unsplash.com/">https://unsplash.com/</a>.</p>
+<p>Kann ich dort nichts finden, dann gibt es noch <a href="https://www.pexels.com">https://www.pexels.com</a>. Auch dort werden freie
+Stock-Fotos angeboten.</p>
+<p>Bei beiden Quellen können die Fotos kostenlos und frei verwendet werden. Und somit sieht der
+Blog dann doch gleich viel bunter aus.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/blog" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Blog</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/hugo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Hugo</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/github" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Github</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Content</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#warum-github-pages-und-hugo">Warum Github Pages und Hugo?</a></li>
+        <li><a href="#github-pages-anlegen">Github Pages anlegen</a></li>
+        <li><a href="#hugo">Hugo</a></li>
+        <li><a href="#mit-hugo-und-github-pages-arbeiten">Mit Hugo und Github Pages arbeiten</a></li>
+        <li><a href="#warum-die-kombination-spaß-macht">Warum die Kombination Spaß macht</a></li>
+        <li><a href="#stock-fotos">Stock Fotos</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://rsmuc.github.io" >
+    &copy;  rsmuc Blog - Papierloses privates Büro mit Linux 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+<a href="https://github.com/rsmuc/rsmuc.github.io" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+<a href="https://rsmuc.github.io/index.xml" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
+  <svg xmlns="http://www.w3.org/2000/svg" height="32px" width="32px" viewBox="0 0 24 24">
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path id="scale" d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

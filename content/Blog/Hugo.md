@@ -1,17 +1,18 @@
 ---
 title: "Blog mittels Hugo und Github Pages erstellen"
-date: 2020-08-27T22:25:08+02:00
-draft: true
+date: 2020-08-30T12:25:08+02:00
+draft: false
 toc: true
 disable_share: true
 tags: ["Blog", "Hugo", "Github"]
+featured_image: 'Blog/titlepics/hugo.jpg'
 ---
 
 ### Warum Github Pages und Hugo?
 
 Da der Blog hier nur ein kleines Hobby-Projekt nebenbei ist und nie eine besonders
 große Reichweite erlangen wird, war ich nicht bereit hierfür Geld auszugeben. Es gibt
-einige Webseiten im Internet, wie <https://wordpress.com> bei denen man kostenlos
+einige Webseiten im Internet, wie <https://wordpress.com> oder <https://blogger.com>, bei denen man kostenlos
 Blogs führen kann. Aber da am Ende des Tages eben doch selten etwas wirklich kostenlos ist,
 bezahlt man dort entweder damit, dass dort Werbung eingeblendet wird oder dass massig
 Tracker eingebunden werden. Dies war also keine Option.
@@ -26,12 +27,15 @@ Recherche bin ich dann noch auf "Hugo" gestoßen: <https://gohugo.io/>.
 Hugo ist ein Framework zum Generieren von statischen Webseiten. Das Ergebnis sieht man
 ja hier.
 
+Am Ende hat man also eine Seite ohne Tracker, Werbung oder Fremdquellen, wie Google Fonts, mit wenig 
+Aufwand und ohne Kosten.
+
 ### Github Pages anlegen
 
 Die Quickstart-Beschreibung für "User or organization site" direkt auf <https://pages.github.com/> erklärt alles notwendige.
 Dies werde ich hier nicht nochmal wiederholen.
 
-Hat alles funktioniert sieht man also beim Zugriff auf die eigene Seite ein "Hello World".
+Hat alles funktioniert, sieht man also beim Zugriff auf die eigene Seite ein "Hello World".
 
 Nun müssen wir noch ein paar Einstellungen vornehmen, damit später das Zusammenspiel mit Hugo klappt:
 
@@ -43,7 +47,7 @@ Nun müssen wir noch ein paar Einstellungen vornehmen, damit später das Zusamme
 ![Einstellungen füt Github Pages](/blog/github-pages.png)
 (Achtung im Screenshot ist nicht der Master-Branch ausgewählt, sondern "Test".)
 
-Jetzt geht es erst mal mit Hugo weiter. 
+Damit ist schon mal alles vorbereitet und es geht erst mal mit Hugo weiter. 
 
 
 ### Hugo
@@ -56,7 +60,7 @@ Repository, kann also mittels Pamac & Co installiert werden.
 
 ![Hugo Pamac](/blog/hugo-pamac.png)
 
-Auch für Hugo gibt es wieder einen guten Quickstart Guideline: <https://gohugo.io/getting-started/quick-start/>
+Auch für Hugo gibt es wieder einen guten Quickstart Guideline: <https://gohugo.io/getting-started/quick-start/>.
 Diesen kann man grundsätzlich vollständig befolgen.
 
 Man sollte jedoch noch in seine config.toml folgendes aufnehmen:
@@ -71,30 +75,32 @@ an der richtigen Stelle.
 
 Wie wird nun also ein neuer Blog-Artikel erstellt:
 
-* Neue Seite erstellen:
+Neue Seite erstellen:
 
-"hugo new Paperless/Test.md"
+    
+    hugo new Paperless/Test.md
 
-* Das Test.md File bearbeiten, den Artikel schreiben und den Status auf "draft: false" setzen
+        
+Das Test.md File bearbeiten, den Artikel schreiben und den Status auf "draft: false" setzen
 
-* Den lokalen Testserver starten, um das Ergebnis zu kontrollieren:
+Den lokalen Testserver starten, um das Ergebnis zu kontrollieren:
 
-    "hugo server"
+    hugo server
 
-* Sind wir mit dem Ergebnis zufrieden, werden die HTML Files generiert:
+Sind wir mit dem Ergebnis zufrieden, werden die HTML Files generiert:    
     
     HUGO_ENV=production hugo
 
-* Nun alle Files zu Github hinzufügen:
-    
+Nun alle Files zu Github hinzufügen:
+     
     git add *
     
-* Commiten:
-    
+Commiten:
+        
     git commit -m "inhalt hinzugefuegt"
     
-* Und zu Github pushen:
-    
+Und zu Github pushen:
+        
     git push
     
 Nun sollte der neue Blog Artikel veröffentlicht sein.
@@ -112,3 +118,15 @@ sehen.
 * Keine große, schwer zu wartende Infrastruktur und Plugins (wie z.B. bei Wordpress) notwendig
 * Tolle fertige Themes
 * Einfach und schnell in der Bedienung, wenn man sich mal eingearbeitet hat
+
+
+### Stock Fotos
+
+Ganz ohne Titel-Bilder sieht der Blog doch ein wenig trist aus. Also dürfen ein paar Stock-Fotos
+nicht fehlen. Meine Lieblingsqualle für frei verwendbare Stock Fotos ist: <https://unsplash.com/>.
+
+Kann ich dort nichts finden, dann gibt es noch <https://www.pexels.com>. Auch dort werden freie
+Stock-Fotos angeboten.
+
+Bei beiden Quellen können die Fotos kostenlos und frei verwendet werden. Und somit sieht der 
+Blog dann doch gleich viel bunter aus.
