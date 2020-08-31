@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="de-de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Schritt 2: Texterkennung (OCR) von PDFs unter Linux | rsmuc Blog - Papierloses privates Büro mit Linux</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Schritt 2: Texterkennung (OCR) von PDFs unter Linux" />
+<meta property="og:description" content="Grundlagen Im ersten Schritt haben wir uns darum gekümmert, dass wir unsere Dokumente eingescannt haben. So weit, so gut. Die Dokumente liegen nun als PDF vor. Allerdings sind diese PDFs nicht durchsuchbar. Wir können so zwar mehr Platz in unserem privaten Büro schaffen, aber viel mehr Komfort und Nutzen sind noch nicht erreicht.
+Hier kommt OCR ins Spiel. OCR steht für Optical Character Recognition, ins Deutsche meistens mit &ldquo;Texterkennung&rdquo; übersetzt. Optische Zeichenerkennung wäre jedoch die korrektere Übersetzung." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rsmuc.github.io/paperless/ocr/" />
+<meta property="article:published_time" content="2020-08-31T08:00:54+02:00" />
+<meta property="article:modified_time" content="2020-08-31T08:00:54+02:00" />
+<meta itemprop="name" content="Schritt 2: Texterkennung (OCR) von PDFs unter Linux">
+<meta itemprop="description" content="Grundlagen Im ersten Schritt haben wir uns darum gekümmert, dass wir unsere Dokumente eingescannt haben. So weit, so gut. Die Dokumente liegen nun als PDF vor. Allerdings sind diese PDFs nicht durchsuchbar. Wir können so zwar mehr Platz in unserem privaten Büro schaffen, aber viel mehr Komfort und Nutzen sind noch nicht erreicht.
+Hier kommt OCR ins Spiel. OCR steht für Optical Character Recognition, ins Deutsche meistens mit &ldquo;Texterkennung&rdquo; übersetzt. Optische Zeichenerkennung wäre jedoch die korrektere Übersetzung.">
+<meta itemprop="datePublished" content="2020-08-31T08:00:54+02:00" />
+<meta itemprop="dateModified" content="2020-08-31T08:00:54+02:00" />
+<meta itemprop="wordCount" content="1455">
+
+
+
+<meta itemprop="keywords" content="OCR,papierloses Büro,Tesseract,OCRmyPDF," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Schritt 2: Texterkennung (OCR) von PDFs unter Linux"/>
+<meta name="twitter:description" content="Grundlagen Im ersten Schritt haben wir uns darum gekümmert, dass wir unsere Dokumente eingescannt haben. So weit, so gut. Die Dokumente liegen nun als PDF vor. Allerdings sind diese PDFs nicht durchsuchbar. Wir können so zwar mehr Platz in unserem privaten Büro schaffen, aber viel mehr Komfort und Nutzen sind noch nicht erreicht.
+Hier kommt OCR ins Spiel. OCR steht für Optical Character Recognition, ins Deutsche meistens mit &ldquo;Texterkennung&rdquo; übersetzt. Optische Zeichenerkennung wäre jedoch die korrektere Übersetzung."/>
+
+      
+    
+	<meta name="google-site-verification" content="NP4GlVBg6DhwtFmuD8qDiZFwN8p_ZqWuLVeMNmUx-p0" />
+<meta name="description" content="papierloses privates Büro mit Linux">
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://rsmuc.github.io/Paperless/titlepics/step2.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        rsmuc Blog - Papierloses privates Büro mit Linux
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/paperless/" title="&gt;&gt;&gt; Papierloses Büro &lt;&lt;&lt; page">
+              &gt;&gt;&gt; Papierloses Büro &lt;&lt;&lt;
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+<a href="https://github.com/rsmuc/rsmuc.github.io" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+<a href="https://rsmuc.github.io/index.xml" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
+  <svg xmlns="http://www.w3.org/2000/svg" height="32px" width="32px" viewBox="0 0 24 24">
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path id="scale" d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Schritt 2: Texterkennung (OCR) von PDFs unter Linux</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw9 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        &gt;&gt;&gt; PAPIERLOSES BÜRO &lt;&lt;&lt;
+      </aside>
+      
+
+
+
+
+
+
+
+      <h1 class="f1 athelas mt3 mb1">Schritt 2: Texterkennung (OCR) von PDFs unter Linux</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-08-31T08:00:54+02:00">August 31, 2020</time>
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 7 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 1455 words</span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="grundlagen">Grundlagen</h2>
+<p>Im ersten Schritt haben wir uns darum gekümmert, dass wir unsere Dokumente eingescannt haben.
+So weit, so gut. Die Dokumente liegen nun als PDF vor. Allerdings sind diese PDFs nicht durchsuchbar.
+Wir können so zwar mehr Platz in unserem privaten Büro schaffen, aber viel mehr Komfort und Nutzen
+sind noch nicht erreicht.</p>
+<p>Hier kommt OCR ins Spiel. OCR steht für Optical Character Recognition, ins Deutsche meistens mit &ldquo;Texterkennung&rdquo;
+übersetzt. Optische Zeichenerkennung wäre jedoch die korrektere Übersetzung.</p>
+<p>Am Ende soll in unserem PDF also nicht nur die Rastergrafik, die durch den Scanner erstellt wurde, sein, sondern
+auch noch die Textebene mit der man das PDF durchsuchen kann. Dies bringt zwei Vorteile:</p>
+<ul>
+<li>Die Suche nach Dokumenten kann auch über deren Inhalt erfolgen (hierzu gibt es später einen eigenen Artikel).
+Es muss also nicht immer nach Dateinamen gesucht werden.</li>
+<li>Inhalte können aus dem PDF herauskopiert werden. Besonders bei IBAN-Nummern u.ä. ist dies sehr praktisch.
+(Immer ein wenig aufpassen &hellip; OCR ist nicht immer perfekt)</li>
+</ul>
+<h3 id="tesseract-geschichte">Tesseract Geschichte</h3>
+<p>Die Software Tesseract ist die am häufigsten verwendete Software bzw. Library zur Texterkennung. Tesseract
+steht unter der Apache License und ist somit Open Source. Viele kommerzielle Produkte setzen Tesseract unter
+der Haube ein.</p>
+<p><a href="https://github.com/tesseract-ocr/docs/blob/master/das_tutorial2016/1Intro-history.pdf">Entwickelt</a>
+wurde Tesseract ursprünglich ab 1985 von Hewlett-Packard als proprietäre Software.
+1994 stellte HP die Entwicklung dann ein und Tesseract verschwand zunächst komplett von der Bildfläche.</p>
+<p>2005 veröffentlichte HP den Source Code als Open Source und Google nahm sich dem Projekt 2006 an.
+Seitdem wird Tesseract aktiv weiterentwickelt und wurde der De-Facto Standard, was das Thema OCR angeht.</p>
+<p>Tesseract wird unter anderem auch bei Google Books und dem SPAM Filter von GMail eingesetzt.</p>
+<h3 id="funktionsweise-von-tesseract-und-ocr">Funktionsweise von Tesseract und OCR</h3>
+<p>Während Texterkennung Anfangs nur für speziell entwickelte Schriftarten funktionierte und später
+auf einzelne wenige Sprachen limitiert war, beherrscht Tesseract heute die Texterkennung in über 100
+Sprachen und wurde mit über 4500 Schriftarten trainiert.</p>
+<p>Eine einfache Zeichenerkennung führt bei normalen Dokumenten zu keinem zufriedenstellenden Ergebnis.
+Ein l (kleines L) und ein I (großes i), sowie O (Buchstabe) und 0 (Zahl) sehen in vielen Schriftarten nahezu identisch
+aus. Hier kann es also schnell zu Verwechslungen kommen. Tesseract arbeitete also nicht nur mit einer
+einfachen Zeichenerkennung, sondern mittels ICR (Intelligent Character Recognition). Die einzelnen
+erkannten Zeichen werden analysiert und gegen ein Wörterbuch und statistische Werte geprüft. Dies wird
+so lange gemacht, bis ein vermeintlich valides Ergebnis entsteht. Es sind also nicht nur die
+Schriftarten entscheidend, sondern immer auch die jeweilige im Dokument verwendete Sprache. Siehe auch
+<a href="https://github.com/tesseract-ocr/docs/blob/master/das_tutorial2016/2ArchitectureAndDataStructures.pdf">Link</a>.</p>
+<p>Mit Tesseract in der Version 4, welche im Jahr 2016 erschienen ist, gibt es einen großen Bruch in der Technik.
+Durch die zunehmende Rechenleistung von PCs und Fortschritte im Bereich künstliche Intelligenz, verwendet
+Tesseract nun ein neuronales Netz zur zeilenweisen Texterkennung von Dokumenten. Das neuronale Netz von
+Tesseract wurde mit Trainingsdaten in über 100 Sprachen, 4500 Schriftarten und je Sprache
+circa 500.000 Zeilen trainiert. (Mehr Infos:
+<a href="https://github.com/tesseract-ocr/docs/blob/master/das_tutorial2016/7Building%20a%20Multi-Lingual%20OCR%20Engine.pdf">Link</a>
+). Hat man selbst eine sehr außergewöhnliche Schriftart in seinen
+Dokumenten, könnte man Tesseract also selbst noch weiter trainieren, um bessere Ergebnisse zu erzielen.</p>
+<p>Ein eigenes Training dürfte aber im Normalfall nicht notwendig oder sinnvoll sein. Erzielt Tesseract
+schlechte Ergebnisse bei der Texterkennung, ist es meist sinnvoller zunächst die Eingangsdaten zu prüfen.
+Stimmt die Qualität der Scans? Stimmt die Auflösung?</p>
+<h3 id="ocrmypdf">OCRmyPDF</h3>
+<p>Die Grundlage für die OCR ist also Tesseract. Tesseract alleine reicht uns jedoch noch nicht.
+Mittels der kleinen Python Software <a href="https://github.com/jbarlow83/OCRmyPDF">OCRmyPDF</a> erhalten wir einige weitere Features:</p>
+<ul>
+<li>Verarbeitung von mehrseitigen PDFs als Input (Tesseract erwartet immer eine TIFF-Bilddatei)</li>
+<li>Ausgabe als PDF/A (hierzu wird es noch einen eigenen Artikel geben)</li>
+<li>Automatisches drehen der PDF Seiten</li>
+<li>Optimierung der Eingabedatei (Entfernung von Verzerrungen, gerade richten von Seiten, entfernen von
+Scan-Artefakten)</li>
+<li>Setzen eines Titels im PDF</li>
+</ul>
+<p>OCRmyPDF hat eine sehr ausführliche Anleitung, die unter <a href="https://ocrmypdf.readthedocs.io/en/latest/">https://ocrmypdf.readthedocs.io/en/latest/</a>
+zu finden ist.</p>
+<h2 id="anwendung">Anwendung</h2>
+<p>Dies hört sich nun alles schon sehr kompliziert an. In der Praxis kommen wir aber nur mit OCRmyPDF in
+Berührung und alles weitere erfolgt im Unterbau. Es wird also nur ein einzelnes Kommando
+benötigt.</p>
+<p>Auch für Linux gibt es mehrere Scan-Tools, welche Tesseract direkt über die GUI nach dem Scan ansteuern können.
+Ich bin jedoch der Meinung, dass man hier über die Kommandozeile effizienter unterwegs ist. Alle gewünschten
+Parameter sind eindeutig definiert und man muss nicht bei jedem Scan darauf achten, ob sich eventuell ein
+Schalter in der GUI verstellt hat.</p>
+<p>Von OCRmyPDF gibt es einen offiziellen (Docker) Container, welchen ich verwende. Ursprünglich habe ich die
+&ldquo;normale&rdquo; Installation verwendet. Eines Tages hat mir hier jedoch meine rolling-release Distribution
+Manjaro in die Suppe gespuckt und  einige Abhängigkeiten gingen kaputt. Bis dies durch
+Manjaro behoben war, dauerte es 2 Wochen und so sah
+ich mich nach einer Alternative um. Der Container bringt den Vorteil mit sich, dass alle Abhängigkeiten,
+also auch z.B. Tesseract, durch den Entwickler von OCRmyPDF getestet werden und somit kann man sicher sein,
+einen gut funktionierenden konsistenten Zustand zu haben.</p>
+<p><a href="https://www.docker.com/">Docker</a> oder <a href="https://podman.io/">Podman</a>, die zum Ausführen des Containers
+verwendet werden, sind unter den meisten
+Distributionen mittlerweile sehr schnell installiert. Bei Manjaro ist beides in den offiziellen
+Repositories enthalten. Ich selbst verwende derzeit Docker zur Ausführung.</p>
+<p>Eine ausführliche Anleitung zur Verwendung des Containers ist hier zu finden:
+<a href="https://ocrmypdf.readthedocs.io/en/latest/docker.html">https://ocrmypdf.readthedocs.io/en/latest/docker.html</a></p>
+<p>Um sich das Container Image aus dem Docker Hub zu ziehen:</p>
+<pre><code>docker pull jbarlow83/ocrmypdf
+</code></pre>
+<p>Anschließend sollte folgendes zur Ausgabe der Versionsnummer führen:</p>
+<pre><code>docker run --rm -i jbarlow83/ocrmypdf --version
+10.3.0.post3+g0287d91.d20200727
+</code></pre>
+<p>Und schon können wir OCRmyPDF verwenden:</p>
+<pre><code>find -name &quot;*.pdf&quot; | xargs -i docker run --rm -v $(pwd):/data jbarlow83/ocrmypdf /data/{} /data/{} -l deu --rotate-pages --title {} --clean --rotate-pages-threshold 5
+</code></pre>
+<p>Ups &hellip; der Aufruf sieht doch ein wenig kompliziert aus. Damit es später in der Bedienung einfacher wird,
+kann man dies einfach in ein kleines Shell-Script packen. Aber was passiert dort nun eigentlich:</p>
+<ul>
+<li>
+<p><code>find -name &quot;*.pdf&quot; | xargs</code> : Es werden alle Dateien im Verzeichnis mit der Endung *.pdf gesucht
+und die Ergebnisse an xargs zur weiteren Verarbeitung übergeben. Werden mehrere PDF-Dateien gefunden,
+wird der nachfolgende Befehl (also ocrmypdf) für jede PDF-Datei einzeln aufgerufen und jeweils der
+Dateiname übergeben.</p>
+</li>
+<li>
+<p><code>docker run --rm -v $(pwd):/data</code>: Das aktuelle Arbeitsverzeichnis wird innerhalb des Containers
+verfügbar gemacht. OCRmyPDF, das ja im Container arbeitet, kann nun also auf alle Dateien des
+aktuellen Arbeitsverzeichnisses zugreifen.</p>
+</li>
+<li>
+<p><code>jbarlow83/ocrmypdf /data/{} /data/{}</code>: Das Ausführen von OCRmyPDF - wir übergeben den Dateinamen
+des PDFs als Input- und als Ausgabename. Wir überschreiben also das ursprüngliche PDF. OCRmyPDF
+überschreibt die Datei nur, wenn es zu keinen Fehlern gekommen ist. Möchte man dies nicht, kann man
+natürlich auch einen anderen Dateinamen als Ausgabenamen übergeben. z.B. <code>/data/ocr-{}</code>. Da jedoch
+die Datei ohne Textebene nicht mehr benötigt wird, überschreibe ich diese gleich.</p>
+</li>
+<li>
+<p><code>-l deu</code>: Es wird an Tesseract übergeben, dass Deutsch als Sprache zu erwarten ist.
+Dies ist eine sehr wichtige Option, um die Qualität der Texterkennung zu steigern.</p>
+</li>
+<li>
+<p><code>--rotate-pages</code>: OCRmyPDF soll Seiten in die korrekte Richtung drehen. Also wenn diese zum Beispiel
+auf dem Kopf stehen.</p>
+</li>
+<li>
+<p><code>--title {}</code>: Der Dateiname soll als Titel im PDF gesetzt werden</p>
+</li>
+<li>
+<p><code>--clean</code>: Vor der Texterkennung mittels Tesseract, sollen mittels Unpaper vorhandene Scan-Artefakte,
+also z.B. Staubkörner etc. entfernt werden, um die Texterkennung zu verbessern. Diese optimierte
+Grafik wird jedoch nur für die Erkennung verwendet und nicht ins PDF übernommen. (Dies würde &ndash;clean-final machen.)
+Hier besteht jedoch die Gefahr, dass Inhalte gelöscht oder verändert werden. Ich habe lange Zeit &ndash;clean-final
+ohne negative Auswirkungen verwendet. Mittlerweile habe ich jedoch davon Abstand genommen. Am Original
+soll so wenig wie notwendig verändert werden.</p>
+</li>
+<li>
+<p><code>--rotate-pages-threshold 5</code>: Hier wird der Threshold für das Rotieren der Seiten etwas herab gesetzt.
+<code>5</code> hat sich bei mir als guter Wert etabliert.</p>
+</li>
+</ul>
+<p>Optional bietet sich noch die Option <code>--deskew</code> an. Ist der Scan leicht schief, weil das Papier
+schief eingezogen wurde, kann dieser mittels der &ndash;deskew Option gerade gerückt werden. Das Ergebnis
+wird ins abschließende PDF übernommen. Dies kann zu schöneren PDFs und auch zu einer besseren Texterkennung
+führen. Ich persönlich nutze diese Option jedoch nicht, da dies bei mir deutlich größere Dateigrößen
+zur Folge hat. Zudem funktioniert der automatische Einzug beim Brother Scanner sehr zuverlässig und
+es kommt nur selten zu einer Schiefstellung.</p>
+<p>Als Beispiel ein 54-seitiges PDF:</p>
+<ul>
+<li>Ohne OCR: 5,8 MB</li>
+<li>Mit OCR: 7,7 MB</li>
+<li>Mit OCR und deskew: 13 MB</li>
+</ul>
+<p>Führt man das genannte Kommando nun aus, hat man nach kurzer Zeit also nur noch PDFs inkl. Text-Layer
+im Arbeitsverzeichnis. (Ein Backup aller Dateien im Arbeitsverzeichnis, kann vor dem ersten Ausführen
+nicht schaden.)</p>
+<p>Das Ergebnis kontrolliert man am einfachsten, wenn man nun das PDF mit einem PDF-Viewer öffnet, alles markiert
+und in einen Texteditor kopiert. Nun kann man den erkannten Text mit dem Original vergleichen.
+Alternativ kann man auch die &ndash;sidecar Option von OCRmyPDF verwenden. Dann wird der erkannte Text,
+zusätzlich nicht nur ins PDF geschrieben, sondern auch in eine Textdatei. Mir hat bis jetzt die Variante
+mit dem PDF-Viewer immer ausgereicht.</p>
+<p>Nun haben wir also sauber gescannte PDFs mit Textebene, Titel und korrekt rotierten Seiten.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/ocr" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">OCR</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/papierloses-b%C3%BCro" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">papierloses Büro</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/tesseract" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Tesseract</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ocrmypdf" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">OCRmyPDF</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Content</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#grundlagen">Grundlagen</a>
+      <ul>
+        <li><a href="#tesseract-geschichte">Tesseract Geschichte</a></li>
+        <li><a href="#funktionsweise-von-tesseract-und-ocr">Funktionsweise von Tesseract und OCR</a></li>
+        <li><a href="#ocrmypdf">OCRmyPDF</a></li>
+      </ul>
+    </li>
+    <li><a href="#anwendung">Anwendung</a></li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/paperless/scanner2/">Schritt 1.1: Fortsetzung - Der richtige Scanner fürs papierlose Büro</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/paperless/scanner/">Schritt 1: Der richtige Scanner fürs papierlose Büro</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/paperless/basics/">Schritt 0: Die Basics / Übersicht</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://rsmuc.github.io" >
+    &copy;  rsmuc Blog - Papierloses privates Büro mit Linux 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+<a href="https://github.com/rsmuc/rsmuc.github.io" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+<a href="https://rsmuc.github.io/index.xml" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
+  <svg xmlns="http://www.w3.org/2000/svg" height="32px" width="32px" viewBox="0 0 24 24">
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path id="scale" d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

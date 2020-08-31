@@ -1,6 +1,6 @@
 ---
 title: "Schritt 2: Texterkennung (OCR) von PDFs unter Linux"
-date: 2020-08-31T09:47:54+02:00
+date: 2020-08-31T08:00:54+02:00
 draft: false
 featured_image: 'Paperless/titlepics/step2.jpg'
 tags: ["OCR", "papierloses Büro", "Tesseract", "OCRmyPDF"]
@@ -15,7 +15,7 @@ Wir können so zwar mehr Platz in unserem privaten Büro schaffen, aber viel meh
 sind noch nicht erreicht.
 
 Hier kommt OCR ins Spiel. OCR steht für Optical Character Recognition, ins Deutsche meistens mit "Texterkennung"
-übersetzt. Optische Zeichenerkennung wäre die korrektere Übersetzung. 
+übersetzt. Optische Zeichenerkennung wäre jedoch die korrektere Übersetzung. 
 
 Am Ende soll in unserem PDF also nicht nur die Rastergrafik, die durch den Scanner erstellt wurde, sein, sondern
 auch noch die Textebene mit der man das PDF durchsuchen kann. Dies bringt zwei Vorteile:
@@ -52,7 +52,7 @@ aus. Hier kann es also schnell zu Verwechslungen kommen. Tesseract arbeitete als
 einfachen Zeichenerkennung, sondern mittels ICR (Intelligent Character Recognition). Die einzelnen
 erkannten Zeichen werden analysiert und gegen ein Wörterbuch und statistische Werte geprüft. Dies wird
 so lange gemacht, bis ein vermeintlich valides Ergebnis entsteht. Es sind also nicht nur die
-Schriftarten entscheidend, sondern auch die jeweilige im Dokument verwendete Sprache. Siehe auch
+Schriftarten entscheidend, sondern immer auch die jeweilige im Dokument verwendete Sprache. Siehe auch
 [Link](https://github.com/tesseract-ocr/docs/blob/master/das_tutorial2016/2ArchitectureAndDataStructures.pdf).
 
 Mit Tesseract in der Version 4, welche im Jahr 2016 erschienen ist, gibt es einen großen Bruch in der Technik.
@@ -73,7 +73,7 @@ Stimmt die Qualität der Scans? Stimmt die Auflösung?
 Die Grundlage für die OCR ist also Tesseract. Tesseract alleine reicht uns jedoch noch nicht.
 Mittels der kleinen Python Software [OCRmyPDF](https://github.com/jbarlow83/OCRmyPDF) erhalten wir einige weitere Features:
 
-* Verarbeitung von mehrseitigen PDFs als Input (Tesseract erwartet eine Bilddatei)
+* Verarbeitung von mehrseitigen PDFs als Input (Tesseract erwartet immer eine TIFF-Bilddatei)
 * Ausgabe als PDF/A (hierzu wird es noch einen eigenen Artikel geben)
 * Automatisches drehen der PDF Seiten
 * Optimierung der Eingabedatei (Entfernung von Verzerrungen, gerade richten von Seiten, entfernen von 
@@ -89,7 +89,7 @@ Dies hört sich nun alles schon sehr kompliziert an. In der Praxis kommen wir ab
 Berührung und alles weitere erfolgt im Unterbau. Es wird also nur ein einzelnes Kommando
 benötigt.
 
-Auch für Linux gibt es mehrere Scan-Tools, welche Tesseract direkt über die GUI nach dem Scan ansteuern.
+Auch für Linux gibt es mehrere Scan-Tools, welche Tesseract direkt über die GUI nach dem Scan ansteuern können.
 Ich bin jedoch der Meinung, dass man hier über die Kommandozeile effizienter unterwegs ist. Alle gewünschten
 Parameter sind eindeutig definiert und man muss nicht bei jedem Scan darauf achten, ob sich eventuell ein
 Schalter in der GUI verstellt hat.
@@ -145,7 +145,8 @@ die Datei ohne Textebene nicht mehr benötigt wird, überschreibe ich diese glei
 * `-l deu`: Es wird an Tesseract übergeben, dass Deutsch als Sprache zu erwarten ist.
 Dies ist eine sehr wichtige Option, um die Qualität der Texterkennung zu steigern. 
 
-* `--rotate-pages`: OCRmyPDF soll Seiten in die korrekte Richtung drehen. Also z.B. um 90°.
+* `--rotate-pages`: OCRmyPDF soll Seiten in die korrekte Richtung drehen. Also wenn diese zum Beispiel
+auf dem Kopf stehen.
 
 * `--title {}`: Der Dateiname soll als Titel im PDF gesetzt werden
 
@@ -153,13 +154,13 @@ Dies ist eine sehr wichtige Option, um die Qualität der Texterkennung zu steige
 also z.B. Staubkörner etc. entfernt werden, um die Texterkennung zu verbessern. Diese optimierte
 Grafik wird jedoch nur für die Erkennung verwendet und nicht ins PDF übernommen. (Dies würde --clean-final machen.)
 Hier besteht jedoch die Gefahr, dass Inhalte gelöscht oder verändert werden. Ich habe lange Zeit --clean-final
-ohne negative Auswirkungen verwendet. Mittlerweile habe ich jedoch davon abstand genommen. Am Original
+ohne negative Auswirkungen verwendet. Mittlerweile habe ich jedoch davon Abstand genommen. Am Original
 soll so wenig wie notwendig verändert werden.
 
 * `--rotate-pages-threshold 5`: Hier wird der Threshold für das Rotieren der Seiten etwas herab gesetzt.
 `5` hat sich bei mir als guter Wert etabliert.
 
-Optional biete sich noch die Option `--deskew` an. Ist der Scan leicht schief, weil das Papier
+Optional bietet sich noch die Option `--deskew` an. Ist der Scan leicht schief, weil das Papier
 schief eingezogen wurde, kann dieser mittels der --deskew Option gerade gerückt werden. Das Ergebnis
 wird ins abschließende PDF übernommen. Dies kann zu schöneren PDFs und auch zu einer besseren Texterkennung
 führen. Ich persönlich nutze diese Option jedoch nicht, da dies bei mir deutlich größere Dateigrößen

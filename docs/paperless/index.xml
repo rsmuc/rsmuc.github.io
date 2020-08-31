@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Schritt 2: Texterkennung (OCR) von PDFs unter Linux</title>
+      <link>https://rsmuc.github.io/paperless/ocr/</link>
+      <pubDate>Mon, 31 Aug 2020 08:00:54 +0200</pubDate>
+      
+      <guid>https://rsmuc.github.io/paperless/ocr/</guid>
+      <description>Grundlagen Im ersten Schritt haben wir uns darum gekümmert, dass wir unsere Dokumente eingescannt haben. So weit, so gut. Die Dokumente liegen nun als PDF vor. Allerdings sind diese PDFs nicht durchsuchbar. Wir können so zwar mehr Platz in unserem privaten Büro schaffen, aber viel mehr Komfort und Nutzen sind noch nicht erreicht.
+Hier kommt OCR ins Spiel. OCR steht für Optical Character Recognition, ins Deutsche meistens mit &amp;ldquo;Texterkennung&amp;rdquo; übersetzt. Optische Zeichenerkennung wäre jedoch die korrektere Übersetzung.</description>
+    </item>
+    
+    <item>
       <title>Schritt 1.1: Fortsetzung - Der richtige Scanner fürs papierlose Büro</title>
       <link>https://rsmuc.github.io/paperless/scanner2/</link>
       <pubDate>Fri, 28 Aug 2020 18:47:54 +0200</pubDate>
