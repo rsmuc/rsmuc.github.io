@@ -11,10 +11,8 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
 googleAnalytics = ""
 enableRobotsTXT = true
 
-disqusShortname = "rsmuc"
-
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "daily"
   priority = 0.5
   filename = "sitemap.xml"
 
