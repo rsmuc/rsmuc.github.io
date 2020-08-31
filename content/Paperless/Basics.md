@@ -52,15 +52,17 @@ es nicht bereut.
 Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 
 * Der Scanner
-* Der Aktenvernichter & die Aufbewahrungspflicht
-* OCR von PDFs unter Linux
-* Dateiformat: PDF/A
+* Texterkennung (OCR) von PDFs unter Linux
+* Dateiformat: PDF/A & Verifikation
 * Die Ordnerstruktur
 * Der PDF Viewer
 * Die Suche
 * Das Backup
+* Leerseiten entfernen
+* Der Aktenvernichter & die Aufbewahrungspflicht
 * Besser als Scannen: Gleich papierlos
 * Organize - Dokumente automatisch sortieren
+* Der Workflow im Überblick
 * Bugfix: HypoVereinsbank
 * Foto-Digitalisierung
 * Die Cloud
