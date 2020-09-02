@@ -43,6 +43,7 @@ Hat man sich durch diese Punkte durchgekämpft, wird man gleich mehrfach belohnt
 * Schnelles Auffinden von Dokumenten (spätestens bei der Steuererklärung jedes Jahr...)
 * Sicherheit der Dokumente
 * Weniger Arbeit & Chaos
+* Kein Verblassen von Kassenzetteln (Thermopapier), Fotos und anderen Dokumenten (Tinte von Tintenstrahldrucker)
 
 ### Die Schritte
 
@@ -62,6 +63,7 @@ Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 * Der Aktenvernichter & die Aufbewahrungspflicht
 * Besser als Scannen: Gleich papierlos
 * Organize - Dokumente automatisch sortieren
+* Beschädigte PDFs finden und reparieren
 * Der Workflow im Überblick
 * Bugfix: HypoVereinsbank
 * Foto-Digitalisierung

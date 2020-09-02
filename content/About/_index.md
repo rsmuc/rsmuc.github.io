@@ -13,6 +13,10 @@ Bei Bedarf könnt ihr mich gerne per Mail kontaktieren: <rsmuc@sec-dev.de>. Wenn
 
 Es handelt sich hier um eine rein private Webseite ohne kommerzielles Interesse, redaktionelle Inhalte und dient nicht zur Meinungsbildung.
 
+### Artikel
+
+Einzelne Artikel werden von mir immer wieder aktualisiert und erweitert.
+
 ### Danke sagen
 
 Wenn euch die Infos hier weitergeholfen haben, hinterlasst gerne einen Stern auf Github. 
