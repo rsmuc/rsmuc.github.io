@@ -130,3 +130,9 @@ Stock-Fotos angeboten.
 
 Bei beiden Quellen können die Fotos kostenlos und frei verwendet werden. Und somit sieht der 
 Blog dann doch gleich viel bunter aus.
+
+
+### Eigene Domain
+
+Für github pages lässt sich auch sehr einfach eine eigene Domain verwenden. Wie dies
+funktioniert, ist hier zu lesen: [Link](https://nitratine.net/blog/post/how-to-add-a-custom-domain-to-a-github-pages-site/)

@@ -1,5 +1,5 @@
 ---
-title: "rsmuc.github.io"
+title: "sec-dev.de"
 featured_image: 'documents.jpg'
 description: "Papierloses privates Büro mit Linux"
 ---

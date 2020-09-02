@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on rsmuc - paperless</title>
-    <link>https://rsmuc.github.io/blog/</link>
-    <description>Recent content in Blog on rsmuc - paperless</description>
+    <title>Blog on sec-dev.de - paperless</title>
+    <link>https://sec-dev.de/blog/</link>
+    <description>Recent content in Blog on sec-dev.de - paperless</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sun, 23 Aug 2020 22:25:04 +0200</lastBuildDate>
     
-	<atom:link href="https://rsmuc.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sec-dev.de/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog mittels Hugo und Github Pages erstellen</title>
-      <link>https://rsmuc.github.io/blog/hugo/</link>
+      <link>https://sec-dev.de/blog/hugo/</link>
       <pubDate>Sun, 30 Aug 2020 12:25:08 +0200</pubDate>
       
-      <guid>https://rsmuc.github.io/blog/hugo/</guid>
+      <guid>https://sec-dev.de/blog/hugo/</guid>
       <description>Warum Github Pages und Hugo? Da der Blog hier nur ein kleines Hobby-Projekt nebenbei ist und nie eine besonders große Reichweite erlangen wird, war ich nicht bereit hierfür Geld auszugeben. Es gibt einige Webseiten im Internet, wie https://wordpress.com oder https://blogger.com, bei denen man kostenlos Blogs führen kann. Aber da am Ende des Tages eben doch selten etwas wirklich kostenlos ist, bezahlt man dort entweder damit, dass dort Werbung eingeblendet wird oder dass massig Tracker eingebunden werden.</description>
     </item>
     
     <item>
       <title>Los geht&#39;s</title>
-      <link>https://rsmuc.github.io/blog/losgehts/</link>
+      <link>https://sec-dev.de/blog/losgehts/</link>
       <pubDate>Wed, 26 Aug 2020 16:27:59 +0200</pubDate>
       
-      <guid>https://rsmuc.github.io/blog/losgehts/</guid>
+      <guid>https://sec-dev.de/blog/losgehts/</guid>
       <description>So, es hat zwar niemand drauf gewartet und es wird niemals jemanden interessieren, aber losgeht es mit dem Blog. Hugo, die Software zur Erzeugung des Blogs funktioniert, die ersten beiden Kapitel sind geschrieben &amp;hellip; Also viel Spaß hier.
 Über Feedback freue ich mich natürlich.</description>
     </item>
     
     <item>
       <title>Grazie</title>
-      <link>https://rsmuc.github.io/blog/grazie/</link>
+      <link>https://sec-dev.de/blog/grazie/</link>
       <pubDate>Sun, 23 Aug 2020 22:29:46 +0200</pubDate>
       
-      <guid>https://rsmuc.github.io/blog/grazie/</guid>
+      <guid>https://sec-dev.de/blog/grazie/</guid>
       <description>Pycharm: Grazie - Rechtschreibkorrektur Mein Lieblingseditor für Python ist die Community Edition von Pycharm. Ich nutze die Community Edition aus dem offiziellen Repository von Manjaro.
 Um diese Seite hier zu erstellen, welche ausnahmsweise auf Deutsch ist, nutze ich auch Pycharm. Dafür sprechen die Github-Integration und der Support von Markdown im Editor.
 Da jedoch natürlich auch immer mal Tippfehler und Rechtschreibfehler passieren können, ist eine Rechtschreibkorrektur hilfreich. Diese ist als Plugin verfügbar: https://plugins.</description>

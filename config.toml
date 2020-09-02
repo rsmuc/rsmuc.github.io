@@ -1,5 +1,5 @@
-title = "rsmuc - paperless"
-baseURL = "https://rsmuc.github.io"
+title = "sec-dev.de - paperless"
+baseURL = "https://sec-dev.de"
 languageCode = "de-de"
 theme = "ananke"
 publishdir = "docs/"

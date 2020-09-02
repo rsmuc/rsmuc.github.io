@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DjVu on rsmuc - paperless</title>
-    <link>https://rsmuc.github.io/tags/djvu/</link>
-    <description>Recent content in DjVu on rsmuc - paperless</description>
+    <title>DjVu on sec-dev.de - paperless</title>
+    <link>https://sec-dev.de/tags/djvu/</link>
+    <description>Recent content in DjVu on sec-dev.de - paperless</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 02 Sep 2020 21:30:54 +0200</lastBuildDate>
     
-	<atom:link href="https://rsmuc.github.io/tags/djvu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sec-dev.de/tags/djvu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Schritt 3: das richtige Dateiformat: PDF/A</title>
-      <link>https://rsmuc.github.io/paperless/pdf/</link>
+      <link>https://sec-dev.de/paperless/pdf/</link>
       <pubDate>Wed, 02 Sep 2020 21:30:54 +0200</pubDate>
       
-      <guid>https://rsmuc.github.io/paperless/pdf/</guid>
+      <guid>https://sec-dev.de/paperless/pdf/</guid>
       <description>Wir haben nun schon einige wichtige Schritte des Wegs zum papierlosen privaten Büro hinter uns. Ich habe in den vorherigen Kapiteln bereits das Dateiformat PDF verwendet - zum Teil auch PDF/A - ohne näher darauf einzugehen, weshalb überhaupt das Dateiformat PDF/A.
 Anforderungen Die Anforderungen sind leicht zusammengetragen. Was soll das Dateiformat können, mit dem wir unsere Dokumente in Zukunft speichern:
   Langzeit verfügbar: Ein großes Risiko beim digitalen Speichern ist, dass die Daten in einigen Jahren nicht mehr gelesen werden können.</description>

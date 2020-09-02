@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on rsmuc - paperless</title>
-    <link>https://rsmuc.github.io/tags/linux/</link>
-    <description>Recent content in Linux on rsmuc - paperless</description>
+    <title>Linux on sec-dev.de - paperless</title>
+    <link>https://sec-dev.de/tags/linux/</link>
+    <description>Recent content in Linux on sec-dev.de - paperless</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Tue, 25 Aug 2020 21:46:27 +0200</lastBuildDate>
     
-	<atom:link href="https://rsmuc.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sec-dev.de/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Schritt 1: Der richtige Scanner fürs papierlose Büro</title>
-      <link>https://rsmuc.github.io/paperless/scanner/</link>
+      <link>https://sec-dev.de/paperless/scanner/</link>
       <pubDate>Tue, 25 Aug 2020 21:46:27 +0200</pubDate>
       
-      <guid>https://rsmuc.github.io/paperless/scanner/</guid>
+      <guid>https://sec-dev.de/paperless/scanner/</guid>
       <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
     </item>
     
