@@ -1,0 +1,7 @@
+@startuml
+(*) --> "Scan der Dokumente"
+--> "OCR der PDFs & Umwandlung in PDF/A"
+--> "Verifikation des PDF/A Standards"
+--> "Backup"
+"Backup" --> (*)
+@enduml

@@ -3,6 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rsmuc.github.io/tags/djvu/</loc>
+    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rsmuc.github.io/tags/papierloses-b%C3%BCro/</loc>
+    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rsmuc.github.io/tags/pdf/</loc>
+    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rsmuc.github.io/</loc>
+    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rsmuc.github.io/paperless/pdf/</loc>
+    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rsmuc.github.io/tags/</loc>
+    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rsmuc.github.io/tags/verapdf/</loc>
+    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://rsmuc.github.io/tags/ocr/</loc>
     <lastmod>2020-08-31T08:00:54+02:00</lastmod>
     <changefreq>daily</changefreq>
@@ -17,28 +66,7 @@
   </url>
   
   <url>
-    <loc>https://rsmuc.github.io/tags/papierloses-b%C3%BCro/</loc>
-    <lastmod>2020-08-31T08:00:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rsmuc.github.io/</loc>
-    <lastmod>2020-08-31T08:00:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://rsmuc.github.io/paperless/ocr/</loc>
-    <lastmod>2020-08-31T08:00:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rsmuc.github.io/tags/</loc>
     <lastmod>2020-08-31T08:00:54+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -158,6 +186,12 @@
   
   <url>
     <loc>https://rsmuc.github.io/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rsmuc.github.io/tags/pdf/a/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -18,7 +18,7 @@ Hier kommt OCR ins Spiel. OCR steht für Optical Character Recognition, ins Deut
 übersetzt. Optische Zeichenerkennung wäre jedoch die korrektere Übersetzung. 
 
 Am Ende soll in unserem PDF also nicht nur die Rastergrafik, die durch den Scanner erstellt wurde, sein, sondern
-auch noch die Textebene mit der man das PDF durchsuchen kann. Dies bringt zwei Vorteile:
+auch noch die Textebene, mit der man das PDF durchsuchen kann. Dies bringt zwei Vorteile:
 
 * Die Suche nach Dokumenten kann auch über deren Inhalt erfolgen (hierzu gibt es später einen eigenen Artikel).
 Es muss also nicht immer nach Dateinamen gesucht werden.
@@ -36,18 +36,18 @@ wurde Tesseract ursprünglich ab 1985 von Hewlett-Packard als proprietäre Softw
 1994 stellte HP die Entwicklung dann ein und Tesseract verschwand zunächst komplett von der Bildfläche.
 
 2005 veröffentlichte HP den Source Code als Open Source und Google nahm sich dem Projekt 2006 an.
-Seitdem wird Tesseract aktiv weiterentwickelt und wurde der De-Facto Standard, was das Thema OCR angeht.
+Seitdem wird Tesseract aktiv weiterentwickelt und wurde der de facto Standard, was das Thema OCR angeht.
 
 Tesseract wird unter anderem auch bei Google Books und dem SPAM Filter von GMail eingesetzt.
 
 ### Funktionsweise von Tesseract und OCR
 
-Während Texterkennung Anfangs nur für speziell entwickelte Schriftarten funktionierte und später
+Während Texterkennung anfangs nur für speziell entwickelte Schriftarten funktionierte und später
 auf einzelne wenige Sprachen limitiert war, beherrscht Tesseract heute die Texterkennung in über 100
 Sprachen und wurde mit über 4500 Schriftarten trainiert.
 
 Eine einfache Zeichenerkennung führt bei normalen Dokumenten zu keinem zufriedenstellenden Ergebnis.
-Ein l (kleines L) und ein I (großes i), sowie O (Buchstabe) und 0 (Zahl) sehen in vielen Schriftarten nahezu identisch
+Ein l (kleines L) und ein I (großes i) sowie O (Buchstabe) und 0 (Zahl) sehen in vielen Schriftarten nahezu identisch
 aus. Hier kann es also schnell zu Verwechslungen kommen. Tesseract arbeitete also nicht nur mit einer
 einfachen Zeichenerkennung, sondern mittels ICR (Intelligent Character Recognition). Die einzelnen
 erkannten Zeichen werden analysiert und gegen ein Wörterbuch und statistische Werte geprüft. Dies wird
@@ -56,7 +56,7 @@ Schriftarten entscheidend, sondern immer auch die jeweilige im Dokument verwende
 [Link](https://github.com/tesseract-ocr/docs/blob/master/das_tutorial2016/2ArchitectureAndDataStructures.pdf).
 
 Mit Tesseract in der Version 4, welche im Jahr 2016 erschienen ist, gibt es einen großen Bruch in der Technik.
-Durch die zunehmende Rechenleistung von PCs und Fortschritte im Bereich künstliche Intelligenz, verwendet
+Durch die zunehmende Rechenleistung von PCs und Fortschritte im Bereich künstliche Intelligenz verwendet
 Tesseract nun ein neuronales Netz zur zeilenweisen Texterkennung von Dokumenten. Das neuronale Netz von 
 Tesseract wurde mit Trainingsdaten in über 100 Sprachen, 4500 Schriftarten und je Sprache
 circa 500.000 Zeilen trainiert. (Mehr Infos: 
@@ -65,7 +65,7 @@ circa 500.000 Zeilen trainiert. (Mehr Infos:
 Dokumenten, könnte man Tesseract also selbst noch weiter trainieren, um bessere Ergebnisse zu erzielen.
 
 Ein eigenes Training dürfte aber im Normalfall nicht notwendig oder sinnvoll sein. Erzielt Tesseract
-schlechte Ergebnisse bei der Texterkennung, ist es meist sinnvoller zunächst die Eingangsdaten zu prüfen.
+schlechte Ergebnisse bei der Texterkennung, ist es meist sinnvoller, zunächst die Eingangsdaten zu prüfen.
 Stimmt die Qualität der Scans? Stimmt die Auflösung?
 
 ### OCRmyPDF
@@ -75,10 +75,10 @@ Mittels der kleinen Python Software [OCRmyPDF](https://github.com/jbarlow83/OCRm
 
 * Verarbeitung von mehrseitigen PDFs als Input (Tesseract erwartet immer eine TIFF-Bilddatei)
 * Ausgabe als PDF/A (hierzu wird es noch einen eigenen Artikel geben)
-* Automatisches drehen der PDF Seiten
+* Automatisches drehen der PDF-Seiten
 * Optimierung der Eingabedatei (Entfernung von Verzerrungen, gerade richten von Seiten, entfernen von 
 Scan-Artefakten)
-* Setzen eines Titels im PDF 
+* Setzen eines Titels im PDF
 
 OCRmyPDF hat eine sehr ausführliche Anleitung, die unter <https://ocrmypdf.readthedocs.io/en/latest/>
 zu finden ist.
@@ -86,7 +86,7 @@ zu finden ist.
 ## Anwendung
 
 Dies hört sich nun alles schon sehr kompliziert an. In der Praxis kommen wir aber nur mit OCRmyPDF in
-Berührung und alles weitere erfolgt im Unterbau. Es wird also nur ein einzelnes Kommando
+Berührung und alles Weitere erfolgt im Unterbau. Es wird also nur ein einzelnes Kommando
 benötigt.
 
 Auch für Linux gibt es mehrere Scan-Tools, welche Tesseract direkt über die GUI nach dem Scan ansteuern können.
@@ -96,11 +96,11 @@ Schalter in der GUI verstellt hat.
 
 Von OCRmyPDF gibt es einen offiziellen (Docker) Container, welchen ich verwende. Ursprünglich habe ich die
 "normale" Installation verwendet. Eines Tages hat mir hier jedoch meine rolling-release Distribution 
-Manjaro in die Suppe gespuckt und  einige Abhängigkeiten gingen kaputt. Bis dies durch 
+Manjaro in die Suppe gespuckt und einige Abhängigkeiten gingen kaputt. Bis dies durch 
 Manjaro behoben war, dauerte es 2 Wochen und so sah
 ich mich nach einer Alternative um. Der Container bringt den Vorteil mit sich, dass alle Abhängigkeiten,
-also auch z.B. Tesseract, durch den Entwickler von OCRmyPDF getestet werden und somit kann man sicher sein,
-einen gut funktionierenden konsistenten Zustand zu haben.
+also auch z. B. Tesseract, durch den Entwickler von OCRmyPDF getestet werden und somit kann man sicher sein,
+einen gut funktionierenden, konsistenten Zustand zu haben.
 
 [Docker](https://www.docker.com/) oder [Podman](https://podman.io/), die zum Ausführen des Containers 
 verwendet werden, sind unter den meisten 
@@ -139,7 +139,7 @@ aktuellen Arbeitsverzeichnisses zugreifen.
 * `jbarlow83/ocrmypdf /data/{} /data/{}`: Das Ausführen von OCRmyPDF - wir übergeben den Dateinamen
 des PDFs als Input- und als Ausgabename. Wir überschreiben also das ursprüngliche PDF. OCRmyPDF
 überschreibt die Datei nur, wenn es zu keinen Fehlern gekommen ist. Möchte man dies nicht, kann man
-natürlich auch einen anderen Dateinamen als Ausgabenamen übergeben. z.B. `/data/ocr-{}`. Da jedoch
+natürlich auch einen anderen Dateinamen als Ausgabenamen übergeben. z. B. `/data/ocr-{}`. Da jedoch
 die Datei ohne Textebene nicht mehr benötigt wird, überschreibe ich diese gleich.
 
 * `-l deu`: Es wird an Tesseract übergeben, dass Deutsch als Sprache zu erwarten ist.
@@ -148,16 +148,16 @@ Dies ist eine sehr wichtige Option, um die Qualität der Texterkennung zu steige
 * `--rotate-pages`: OCRmyPDF soll Seiten in die korrekte Richtung drehen. Also wenn diese zum Beispiel
 auf dem Kopf stehen.
 
-* `--title {}`: Der Dateiname soll als Titel im PDF gesetzt werden
+* `--title {}`: Der Dateiname soll als Titel im PDF gesetzt werden.
 
 * `--clean`: Vor der Texterkennung mittels Tesseract, sollen mittels Unpaper vorhandene Scan-Artefakte,
-also z.B. Staubkörner etc. entfernt werden, um die Texterkennung zu verbessern. Diese optimierte
+also z. B. Staubkörner etc. entfernt werden, um die Texterkennung zu verbessern. Diese optimierte
 Grafik wird jedoch nur für die Erkennung verwendet und nicht ins PDF übernommen. (Dies würde --clean-final machen.)
 Hier besteht jedoch die Gefahr, dass Inhalte gelöscht oder verändert werden. Ich habe lange Zeit --clean-final
 ohne negative Auswirkungen verwendet. Mittlerweile habe ich jedoch davon Abstand genommen. Am Original
 soll so wenig wie notwendig verändert werden.
 
-* `--rotate-pages-threshold 5`: Hier wird der Threshold für das Rotieren der Seiten etwas herab gesetzt.
+* `--rotate-pages-threshold 5`: Hier wird der Threshold für das Rotieren der Seiten etwas herabgesetzt.
 `5` hat sich bei mir als guter Wert etabliert.
 
 Optional bietet sich noch die Option `--deskew` an. Ist der Scan leicht schief, weil das Papier
@@ -174,12 +174,12 @@ Als Beispiel ein 54-seitiges PDF:
 * Mit OCR und deskew: 13 MB
 
 Führt man das genannte Kommando nun aus, hat man nach kurzer Zeit also nur noch PDFs inkl. Text-Layer
-im Arbeitsverzeichnis. (Ein Backup aller Dateien im Arbeitsverzeichnis, kann vor dem ersten Ausführen
+im Arbeitsverzeichnis. (Ein Backup aller Dateien im Arbeitsverzeichnis kann vor dem ersten Ausführen
 nicht schaden.)
 
 Das Ergebnis kontrolliert man am einfachsten, wenn man nun das PDF mit einem PDF-Viewer öffnet, alles markiert
 und in einen Texteditor kopiert. Nun kann man den erkannten Text mit dem Original vergleichen.
-Alternativ kann man auch die --sidecar Option von OCRmyPDF verwenden. Dann wird der erkannte Text,
+Alternativ kann man auch die --sidecar Option von OCRmyPDF verwenden. Dann wird der erkannte Text
 zusätzlich nicht nur ins PDF geschrieben, sondern auch in eine Textdatei. Mir hat bis jetzt die Variante
 mit dem PDF-Viewer immer ausgereicht.
 

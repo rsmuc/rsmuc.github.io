@@ -1,7 +1,7 @@
 ---
 title: "Schritt 3: das richtige Dateiformat: PDF/A"
-date: 2020-08-31T09:47:54+02:00
-draft: true
+date: 2020-09-02T21:30:54+02:00
+draft: false
 featured_image: 'Paperless/titlepics/step3.jpg'
 tags: ["PDF", "papierloses Büro", "DjVu", "PDF/A", "VeraPDF"]
 toc: true
@@ -22,7 +22,7 @@ noch geöffnet werden ... Aber sieht diese genauso aus wie zum Zeitpunkt der Ers
 ist es notwendig, dass es sich um einen offenen normierten Standard handelt, der ausreichen dokumentiert ist.
 
 * ***Unabhängigkeit:*** Das Dateiformat sollte unabhängig vom Betriebssystem oder einzelnen Applikationen
-sein.
+und Firmen sein.
 
 * ***Weite Verbreitung:*** Das Dateiformat sollte weit verbreitet sein. Ich möchte eine Datei
 nicht jedes Mal konvertieren müssen, wenn ich diese zu meinem Steuerberater, meinem Arbeitgeber
@@ -51,7 +51,7 @@ DjVu existiert seit 1998 und wurde von AT&T entwickelt.
 
 DjVu bietet ermöglicht kleinere Dateigrößen als PDF. Allerdings fristet DjVu eher ein Nischendasein.
 Während zwar viele Dokumentenbetrachter unter Linux DjVu darstellen können, ist dies unter Windows
-die Ausnahme. Tools (wie OCRmyPDF) sind eher spärlich gesät.
+die Ausnahme. Auch Tools (wie OCRmyPDF) sind eher spärlich gesät.
 
 Da ein entscheidender Punkt jedoch auch der Austausch von Dokumenten mit anderen Personen ist, ist
 DjVu ungeeignet. Selbst wenn es technisch unproblematisch wäre, würde eine unbekannte Dateiendung
@@ -62,7 +62,8 @@ dazu, dass eine Technologie früher obsolet wird.
 
 PDF steht für Portable Document Format und wurde  1993 von Adobe als proprietäres Format veröffentlicht.
 PDF/A ist eine spezielle Variante des PDFs zur Langzeitarchivierung
-und wurde 2005 in der Version PDF/A-1 als ISO-Norm ISO 19005-1 standardisiert. Somit ist PDF/A ein offener Standard.
+und wurde 2005 in der Version PDF/A-1 als ISO-Norm ISO 19005-1 standardisiert. Somit ist PDF/A ein offener Standard
+und wird durch die PDF Association gepflegt und weiterentwickelt.
 2012 wurde der aktuelle PDF/A-3 Standard in der ISO 19005-3 veröffentlicht. Wobei PDF/A-3 nicht PDF/A-1 ablöst,
 sondern nur erweitert. PDF/A-1 ist also nicht obsolet.
 
@@ -202,4 +203,6 @@ Das Ergebnis sieht nun so aus:
 
 
 So können wir nun also auf einen Blick sehen, dass bei einem Dokument wohl etwas schiefgelaufen ist
-und wir dieses noch einmal näher betrachten müssen. (Im oben genannten Beispiel: Es ist ein PDF und kein PDF/A)
+und wir dieses noch einmal näher betrachten müssen. (Im oben genannten Beispiel: Es ist ein PDF und kein PDF/A.)
+
+Somit haben wir eine weitere wichtige Grundlage geschaffen.

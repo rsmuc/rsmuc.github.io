@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="de-de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Schritt 3: das richtige Dateiformat: PDF/A | rsmuc - paperless</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Schritt 3: das richtige Dateiformat: PDF/A" />
+<meta property="og:description" content="Wir haben nun schon einige wichtige Schritte des Wegs zum papierlosen privaten Büro hinter uns. Ich habe in den vorherigen Kapiteln bereits das Dateiformat PDF verwendet - zum Teil auch PDF/A - ohne näher darauf einzugehen, weshalb überhaupt das Dateiformat PDF/A.
+Anforderungen Die Anforderungen sind leicht zusammengetragen. Was soll das Dateiformat können, mit dem wir unsere Dokumente in Zukunft speichern:
+  Langzeit verfügbar: Ein großes Risiko beim digitalen Speichern ist, dass die Daten in einigen Jahren nicht mehr gelesen werden können." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rsmuc.github.io/paperless/pdf/" />
+<meta property="article:published_time" content="2020-09-02T21:30:54+02:00" />
+<meta property="article:modified_time" content="2020-09-02T21:30:54+02:00" />
+<meta itemprop="name" content="Schritt 3: das richtige Dateiformat: PDF/A">
+<meta itemprop="description" content="Wir haben nun schon einige wichtige Schritte des Wegs zum papierlosen privaten Büro hinter uns. Ich habe in den vorherigen Kapiteln bereits das Dateiformat PDF verwendet - zum Teil auch PDF/A - ohne näher darauf einzugehen, weshalb überhaupt das Dateiformat PDF/A.
+Anforderungen Die Anforderungen sind leicht zusammengetragen. Was soll das Dateiformat können, mit dem wir unsere Dokumente in Zukunft speichern:
+  Langzeit verfügbar: Ein großes Risiko beim digitalen Speichern ist, dass die Daten in einigen Jahren nicht mehr gelesen werden können.">
+<meta itemprop="datePublished" content="2020-09-02T21:30:54+02:00" />
+<meta itemprop="dateModified" content="2020-09-02T21:30:54+02:00" />
+<meta itemprop="wordCount" content="1311">
+
+
+
+<meta itemprop="keywords" content="PDF,papierloses Büro,DjVu,PDF/A,VeraPDF," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Schritt 3: das richtige Dateiformat: PDF/A"/>
+<meta name="twitter:description" content="Wir haben nun schon einige wichtige Schritte des Wegs zum papierlosen privaten Büro hinter uns. Ich habe in den vorherigen Kapiteln bereits das Dateiformat PDF verwendet - zum Teil auch PDF/A - ohne näher darauf einzugehen, weshalb überhaupt das Dateiformat PDF/A.
+Anforderungen Die Anforderungen sind leicht zusammengetragen. Was soll das Dateiformat können, mit dem wir unsere Dokumente in Zukunft speichern:
+  Langzeit verfügbar: Ein großes Risiko beim digitalen Speichern ist, dass die Daten in einigen Jahren nicht mehr gelesen werden können."/>
+
+      
+    
+	<meta name="google-site-verification" content="NP4GlVBg6DhwtFmuD8qDiZFwN8p_ZqWuLVeMNmUx-p0" />
+<meta name="yandex-verification" content="9b4124619f71a5c0" />
+<meta name="msvalidate.01" content="1E85BC6FB316C87F6C51BE53686B2C8F" />
+<meta name="description" content="papierloses privates Büro mit Linux">
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://rsmuc.github.io/Paperless/titlepics/step3.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        rsmuc - paperless
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/paperless/" title="&gt;&gt;&gt; Papierloses Büro &lt;&lt;&lt; page">
+              &gt;&gt;&gt; Papierloses Büro &lt;&lt;&lt;
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+<a href="https://github.com/rsmuc/rsmuc.github.io" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://mastodon.bayern/@muc" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+<a href="https://rsmuc.github.io/index.xml" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
+  <svg xmlns="http://www.w3.org/2000/svg" height="32px" width="32px" viewBox="0 0 24 24">
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path id="scale" d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Schritt 3: das richtige Dateiformat: PDF/A</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw9 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        &gt;&gt;&gt; PAPIERLOSES BÜRO &lt;&lt;&lt;
+      </aside>
+      
+
+
+
+
+
+
+
+      <h2 class="f1 athelas mt3 mb1">Schritt 3: das richtige Dateiformat: PDF/A</h2>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-09-02T21:30:54+02:00">September 2, 2020</time>
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 7 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 1311 words</span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Wir haben nun schon einige wichtige Schritte des Wegs zum papierlosen privaten Büro hinter uns.
+Ich habe in den vorherigen Kapiteln bereits das Dateiformat PDF verwendet - zum Teil auch PDF/A -
+ohne näher darauf einzugehen, weshalb überhaupt das Dateiformat PDF/A.</p>
+<h2 id="anforderungen">Anforderungen</h2>
+<p>Die Anforderungen sind leicht zusammengetragen. Was soll das Dateiformat können, mit dem wir unsere
+Dokumente in Zukunft speichern:</p>
+<ul>
+<li>
+<p><em><strong>Langzeit verfügbar:</strong></em> Ein großes Risiko beim digitalen Speichern ist, dass die Daten in einigen Jahren
+nicht mehr gelesen werden können. Eine Word-Datei, die mit Word 95 erstellt wurde, kann zwar vielleicht
+noch geöffnet werden &hellip; Aber sieht diese genauso aus wie zum Zeitpunkt der Erstellung? Hierzu
+ist es notwendig, dass es sich um einen offenen normierten Standard handelt, der ausreichen dokumentiert ist.</p>
+</li>
+<li>
+<p><em><strong>Unabhängigkeit:</strong></em> Das Dateiformat sollte unabhängig vom Betriebssystem oder einzelnen Applikationen
+und Firmen sein.</p>
+</li>
+<li>
+<p><em><strong>Weite Verbreitung:</strong></em> Das Dateiformat sollte weit verbreitet sein. Ich möchte eine Datei
+nicht jedes Mal konvertieren müssen, wenn ich diese zu meinem Steuerberater, meinem Arbeitgeber
+oder meiner Hausverwaltung schicke. Zudem erhöht eine hohe Verbreitung die Wahrscheinlichkeit, dass
+das Format auch noch in mehren Jahren lesbar sein wird.</p>
+</li>
+<li>
+<p><em><strong>Mehrseitige Dokumente:</strong></em> Es soll möglich sein, dass wir mehrseitige Dokumente in einer
+einzigen Datei speichern.</p>
+</li>
+<li>
+<p><em><strong>Textebene:</strong></em> Es soll nicht nur die Rastergrafik, die unser Scanner erstellt, in der Datei
+hinterlegt sein, sondern auch eine Textebene (oder Textelemente) (Stichwort: OCR).</p>
+</li>
+<li>
+<p><em><strong>Keine externen Abhängigkeiten:</strong></em> Öffnet man mit LibreOffice eine Word-Datei unter Linux, funktioniert
+dies mittlerweile relativ gut. Kritisch wird es aber spätestens, wenn eine Schriftart verwendet wird,
+die unter Linux (oder auch auf einem anderen Windows Rechner) nicht verfügbar ist. Das Dateiformat sollte
+also keine externen Abhängigkeiten z. B. zu Schriftarten haben.</p>
+</li>
+</ul>
+<h2 id="die-formate">Die Formate</h2>
+<p>Infrage kommen somit eigentlich nur zwei Dokumentenformate. PDF/A und DjVu.</p>
+<h3 id="djvu">DjVu</h3>
+<p><a href="http://www.djvu.org/">DjVu</a> ist ein von Anfang an offenes Dokumentenformat zur Dokumentenarchivierung.
+DjVu existiert seit 1998 und wurde von AT&amp;T entwickelt.</p>
+<p>DjVu bietet ermöglicht kleinere Dateigrößen als PDF. Allerdings fristet DjVu eher ein Nischendasein.
+Während zwar viele Dokumentenbetrachter unter Linux DjVu darstellen können, ist dies unter Windows
+die Ausnahme. Auch Tools (wie OCRmyPDF) sind eher spärlich gesät.</p>
+<p>Da ein entscheidender Punkt jedoch auch der Austausch von Dokumenten mit anderen Personen ist, ist
+DjVu ungeeignet. Selbst wenn es technisch unproblematisch wäre, würde eine unbekannte Dateiendung
+mindestens Fragezeichen beim Gegenüber hervorrufen. Zudem führt eine geringe Verbreitung unweigerlich
+dazu, dass eine Technologie früher obsolet wird.</p>
+<h3 id="pdfa">PDF/A</h3>
+<p>PDF steht für Portable Document Format und wurde  1993 von Adobe als proprietäres Format veröffentlicht.
+PDF/A ist eine spezielle Variante des PDFs zur Langzeitarchivierung
+und wurde 2005 in der Version PDF/A-1 als ISO-Norm ISO 19005-1 standardisiert. Somit ist PDF/A ein offener Standard
+und wird durch die PDF Association gepflegt und weiterentwickelt.
+2012 wurde der aktuelle PDF/A-3 Standard in der ISO 19005-3 veröffentlicht. Wobei PDF/A-3 nicht PDF/A-1 ablöst,
+sondern nur erweitert. PDF/A-1 ist also nicht obsolet.</p>
+<p>PDF/A schreibt einzelne Elemente vor und verbietet andere Elemente. So ist beispielsweise Javascript,
+wie es häufig in PDFs mit Formularen verwendet wird, nicht zugelassen. Auch transparente Elemente
+oder eine dokumenteninterne Verschlüsselung sind in PDF/A-Dateien nicht erlaubt. Dies alles soll sicherstellen,
+dass die Dateien auch noch nach vielen Jahren lesbar sind.</p>
+<p>Alle PDF-Standards haben immer die Dateiendung .pdf. Es ist also auf den ersten Blick nicht zu erkennen,
+ob es sich um ein &ldquo;normales&rdquo; PDF oder ein PDF/A handelt.</p>
+<p>PDF/A-Dateien erfüllen alle genannten Anforderungen:</p>
+<ul>
+<li>PDF/A ist explizit zur Langzeitarchivierung gedacht.</li>
+<li>PDFs können unter allen Betriebssystemen mit vielen unterschiedlichen proprietären und freien Viewern betrachtet
+und erstellt werden. PDF wird nicht mehr alleine von Adobe entwickelt, sondern von der &lsquo;PDF Association&rsquo; und ist
+ISO-standardisiert und somit ein offner Standard.</li>
+<li>PDF ist der Standard zum Dokumentenaustausch, ist in vielen Webbrowsern integriert und ist jedem Laien ein Begriff.</li>
+<li>PDF/A-Dateien können mehrseitig sein und eine Textebene haben.</li>
+<li>PDF/A (nicht PDF im Allgemeinen) stellt sicher, dass es keine externen Abhängigkeiten oder Funktionen
+gibt, die in wenigen Jahren nicht mehr vorhanden oder kompatibel sind.</li>
+</ul>
+<hr>
+<p><em>Randnotiz:</em> Auch PDFs sollte man aus unbekannten Quellen nicht öffnen. PDFs können diverse Elemente enthalten und
+ggf. Schadcode transportieren.</p>
+<hr>
+<hr>
+<p><em>Randnotiz 2:</em> In PDFs ist der Text keine eigene Ebene, sondern wird in unsichtbaren Text-Elementen untergebracht.</p>
+<hr>
+<p>Mehr Details zum Thema Langzeitarchivierung kann man hier finden: <a href="https://www.forschungsdaten.info/themen/veroeffentlichen-und-archivieren/formate-erhalten/">Link</a>.
+Unter anderem sind dort auch mehrere Studien zu Dateiformaten und deren Verbreitung und Langlebigkeit enthalten.</p>
+<h3 id="fazit">Fazit</h3>
+<p>PDF/A ist für die genannten Zwecke das ideale Dateiformat. Die Wahrscheinlichkeit, dass die Dateien noch in 10 oder 20
+Jahren gelesen werden können, ist durch die Standardisierung und die hohe Verbreitung am größten. Sollte PDF/A
+sich irgendwann dem Ende seines Lebenszyklus näheren, kann man zudem ziemlich sicher sein, dass es
+Möglichkeiten zur Konvertierung geben wird.</p>
+<p>Auch die &ldquo;alten&rdquo; PDF/A Versionen haben heute noch Gültigkeit. Alle neuen PDF/A-Versionen sind nur Erweiterungen.
+Auch in Zukunft ist also nicht zu erwarten, dass sich hier schnell etwas ändert.</p>
+<p>Alle Empfehlungen, die ich finden konnte, sprechen sich für PDF/A zur Langzeitarchivierung aus.</p>
+<h2 id="pdfa-im-workflow">PDF/A im Workflow</h2>
+<p>Wie wird PDF/A nun beim bereits beschriebenen <a href="/papoerless/scanner">Schritt 1</a> und <a href="papierless/ocr">Schritt 2</a> verwendet?</p>
+<p>Das verwendete SimpleScan / Document Scanner speichert die Dateien als einfaches PDF. Aktuell nach dem Standard &ldquo;PDF v. 1.3&rdquo;.
+Dies lässt sich einfach herausfinden, wenn man im Dokumentenbetrachter Okular auf &ldquo;File &ndash;&gt; Properties&rdquo; geht.</p>
+<p><img src="/Paperless/pictures/okular-pdf.png" alt="PDF Type"></p>
+<p>Wir wollen aber ja nun ein PDF/A haben. Netterweise übernimmt dies OCRmyPDF für uns.
+Per Default speichert OCRmyPDF die Ergebnisdatei als PDF/A-2B. Es muss also nichts weiter unternommen
+werden, sondern wir haben bereits ein PDF/A erzeugt.</p>
+<p>Aber schaut man die Dateiproperties nun mit Okular an, wird &ldquo;PDF v. 1.6&rdquo; erkannt. Also eventuell doch
+kein valides PDF/A Dokument?</p>
+<h2 id="verifikation-mittels-verapdf">Verifikation mittels VeraPDF</h2>
+<p>Es muss also noch eine Möglichkeit her zu verifizieren, dass wir ein valides PDF/A haben. Dieses Thema ist
+technisch gar nicht so einfach, da der PDF/A-Standard sehr komplex ist und nicht alle Implementierungen
+vollständig sind. Die Wahrscheinlichkeit, dass beim Generieren etwas schief gelaufen ist, ist also gar nicht
+so gering.</p>
+<p>Hier kommt <a href="https://verapdf.org">VeraPDF</a> ins Spiel. VeraPDF ist eine Open Source (GPLv3+) Software, welche
+von der Europäischen Kommission finanziert und durch das veraPDF Konsortium entwickelt wurde.
+Mittels der Software können PDF/A-Dokumente validiert werden, ob diese wirklich
+allen Anforderungen der ISO 19005 entsprechen. Die Version 1.0 von VeraPDF ist
+<a href="https://www.heise.de/ix/meldung/Open-Source-PDF-Validator-veraPDF-ein-Meilenstein-fuer-die-PDF-Industrie-3594460.html">2017</a>
+erschienen und wird auf <a href="https://github.com/verapdf">github</a> gepflegt.</p>
+<p>VeraPDF ist in Java entwickelt und ist für Windows, Linux und Mac verfügbar. Der Download kann direkt
+bei VeraPDF erfolgen: <a href="https://verapdf.org/software/">Link</a> oder im Falle von Manjaro ist VeraPDF auch
+über das AUR verfügbar und kann dort einfach installiert werden.</p>
+<p>VeraPDF besteht aus zwei Teilen. Es gibt eine GUI-Applikation und eine CLI-Applikation.</p>
+<p>Machen wir zunächst einen Test über die GUI. Mittels</p>
+<pre><code>verapdf-gui 
+</code></pre>
+<p>oder auch über das Startmenü kann die GUI gestartet werden. In der GUI selektiert man nun nur das
+jeweilige PDF und geht auf &lsquo;Execute&rsquo;. Das Ergebnis ist sofort zu sehen.</p>
+<p><img src="/Paperless/pictures/verapdf-gui.png" alt="VeraPDF GUI"></p>
+<p>Jedes einzelne PDF, das durch OCRmyPDF erzeugt wurde nun händisch über die GUI zu prüfen, passt gar nicht gut
+in den Workflow. Zum Glück gibt es auch das CLI:</p>
+<pre><code>verapdf MeineDatei.pdf
+</code></pre>
+<p>Als Ergebnis bekommt man ein ziemlich ausführliches XML angezeigt. Die entscheidende Information für uns:</p>
+<pre><code> &lt;validationReports compliant=&quot;1&quot; nonCompliant=&quot;0&quot; failedJobs=&quot;0&quot;&gt;1&lt;/validationReports&gt;
+</code></pre>
+<p>Das PDF ist also compliant nach einem PDF/A-Standard. Man kann natürlich auch auf eine spezielle
+PDF/A-Version prüfen. Dies ist mir jedoch nicht wichtig.</p>
+<p>Nun ist das Ganze aber noch immer ein wenig unhandlich. So wie ich mit einem einzelnen Befehl
+alle PDF-Dateien im Arbeitsverzeichnis mittels OCRmyPDF mit einer Textebene versehen konnte und
+zum PDF/A umwandeln konnte, möchte ich nun auch alle Dateien auf einen Schlag überprüfen. Zudem möchte
+ich eine Liste mit allen nonCompliant Dateien haben.</p>
+<p>Hierfür habe ich mir ein kleines Python Script &ldquo;verify.py&rdquo; geschrieben, welches ihr unter <a href="https://github.com/rsmuc/paperless">https://github.com/rsmuc/paperless</a>
+herunterladen könnt.</p>
+<p>Das Ergebnis sieht nun so aus:</p>
+<pre><code>python3 verify.py 
+Verifiy:./bak/kaputt.pdf
+DOCUMENT BROKEN
+Verifiy:./bak/ok.pdf
+OK
+################################
+################################
+################################
+ 
+ 
+ 
+COMPLIANT DOCUMENTS: 1
+NONCOMPLIANT DOCUMENTS: 1
+ 
+ 
+ 
+NON COMPLIANT FILES: 
+./bak/kaputt.pdf
+</code></pre>
+<p>So können wir nun also auf einen Blick sehen, dass bei einem Dokument wohl etwas schiefgelaufen ist
+und wir dieses noch einmal näher betrachten müssen. (Im oben genannten Beispiel: Es ist ein PDF und kein PDF/A.)</p>
+<p>Somit haben wir eine weitere wichtige Grundlage geschaffen.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/pdf" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">PDF</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/papierloses-b%C3%BCro" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">papierloses Büro</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/djvu" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">DjVu</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/pdf/a" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">PDF/A</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/verapdf" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">VeraPDF</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Content</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#anforderungen">Anforderungen</a></li>
+    <li><a href="#die-formate">Die Formate</a>
+      <ul>
+        <li><a href="#djvu">DjVu</a></li>
+        <li><a href="#pdfa">PDF/A</a></li>
+        <li><a href="#fazit">Fazit</a></li>
+      </ul>
+    </li>
+    <li><a href="#pdfa-im-workflow">PDF/A im Workflow</a></li>
+    <li><a href="#verifikation-mittels-verapdf">Verifikation mittels VeraPDF</a></li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/paperless/ocr/">Schritt 2: Texterkennung (OCR) von PDFs unter Linux</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/paperless/scanner2/">Schritt 1.1: Fortsetzung - Der richtige Scanner fürs papierlose Büro</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/paperless/scanner/">Schritt 1: Der richtige Scanner fürs papierlose Büro</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/paperless/basics/">Schritt 0: Die Basics / Übersicht</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://rsmuc.github.io" >
+    &copy;  rsmuc - paperless 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+<a href="https://github.com/rsmuc/rsmuc.github.io" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://mastodon.bayern/@muc" target="_blank" class="link-transition mastodon link dib z-999 pt3 pt0-l mr1" title="Mastodon link" rel="noopener" aria-label="follow on Mastodon——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 230 230;" version="1.1" viewBox="0 0 230 230" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M211.80683 139.0875c-3.1825 16.36625-28.4925 34.2775-57.5625 37.74875-15.16 1.80875-30.0825 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125 0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.3925 27.9425 21.115.7225 39.91625-5.20625 39.91625-5.20625l.86875 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23183 213.82 1.40558 165.31125.20808 116.09125c-.36375-14.61375-.14-28.39375-.14-39.91875 0-50.33 32.97625-65.0825 32.97625-65.0825C49.67058 3.45375 78.20308.2425 107.86433 0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09 0 0 32.97625 14.7525 32.97625 65.0825 0 0 .4125 37.13375-4.6 62.915" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+<path d="M65.68743 96.45938c0 9.01375-7.3075 16.32125-16.3225 16.32125-9.01375 0-16.32-7.3075-16.32-16.32125 0-9.01375 7.30625-16.3225 16.32-16.3225 9.015 0 16.3225 7.30875 16.3225 16.3225M124.52893 96.45938c0 9.01375-7.30875 16.32125-16.3225 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.3225 7.30875 16.3225 16.3225M183.36933 96.45938c0 9.01375-7.3075 16.32125-16.32125 16.32125-9.01375 0-16.32125-7.3075-16.32125-16.32125 0-9.01375 7.3075-16.3225 16.32125-16.3225 9.01375 0 16.32125 7.30875 16.32125 16.3225" fill="#fff"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+<a href="https://rsmuc.github.io/index.xml" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link" rel="noopener" aria-label="RSS——Opens in a new window">
+  <svg xmlns="http://www.w3.org/2000/svg" height="32px" width="32px" viewBox="0 0 24 24">
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path id="scale" d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
