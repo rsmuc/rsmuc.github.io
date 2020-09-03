@@ -49,7 +49,7 @@ Infrage kommen somit eigentlich nur zwei Dokumentenformate. PDF/A und DjVu.
 [DjVu](http://www.djvu.org/) ist ein von Anfang an offenes Dokumentenformat zur Dokumentenarchivierung.
 DjVu existiert seit 1998 und wurde von AT&T entwickelt.
 
-DjVu bietet ermöglicht kleinere Dateigrößen als PDF. Allerdings fristet DjVu eher ein Nischendasein.
+DjVu ermöglicht kleinere Dateigrößen als PDF. Allerdings fristet DjVu eher ein Nischendasein.
 Während zwar viele Dokumentenbetrachter unter Linux DjVu darstellen können, ist dies unter Windows
 die Ausnahme. Auch Tools (wie OCRmyPDF) sind eher spärlich gesät.
 

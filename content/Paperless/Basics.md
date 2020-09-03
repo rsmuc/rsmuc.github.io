@@ -52,14 +52,15 @@ es nicht bereut.
 
 Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 
-* Der Scanner
-* Texterkennung (OCR) von PDFs unter Linux
-* Dateiformat: PDF/A & Verifikation
-* Die Ordnerstruktur
+* Der Scanner: [Schritt 1](/papoerless/scanner) und [Schritt 1.1](papierless/scanner2) 
+* Texterkennung (OCR) von PDFs unter Linux: [Schritt 2](papierless/ocr)
+* Dateiformat: PDF/A & Verifikation: [Schritt 3](papierless/pdf)
+* Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur
 * Der PDF Viewer
 * Die Suche
-* Das Backup
+* Das Backup & Versionierung
 * Leerseiten entfernen
+* PDF zu PDF/A konvertieren
 * Der Aktenvernichter & die Aufbewahrungspflicht
 * Besser als Scannen: Gleich papierlos
 * Organize - Dokumente automatisch sortieren

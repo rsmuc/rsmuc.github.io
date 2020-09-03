@@ -2,3 +2,7 @@
 <meta name="yandex-verification" content="9b4124619f71a5c0" />
 <meta name="msvalidate.01" content="1E85BC6FB316C87F6C51BE53686B2C8F" />
 <meta name="description" content="papierloses privates Büro mit Linux">
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+<script data-goatcounter="https://sec-dec.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<noscript><img src="https://sec-dec.goatcounter.com/count?p=/test-img"></noscript>
+{{ end }}
