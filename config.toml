@@ -39,3 +39,4 @@ enableRobotsTXT = true
   show_reading_time = true
   mainSections = ["Blog", "Paperless"]
   section = "paperless"
+  commentoEnable = true
