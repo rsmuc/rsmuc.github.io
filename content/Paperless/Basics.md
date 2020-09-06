@@ -57,7 +57,7 @@ Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 * Dateiformat: PDF/A & Verifikation: [Schritt 3](papierless/pdf)
 * Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur
 * Der PDF Viewer
-* Die Suche
+* Die Suche mit Recoll und find
 * Das Backup & Versionierung
 * Leerseiten entfernen
 * PDF zu PDF/A konvertieren
