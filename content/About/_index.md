@@ -17,9 +17,11 @@ Es handelt sich hier um eine rein private Webseite ohne kommerzielles Interesse,
 
 Einzelne Artikel werden von mir immer wieder aktualisiert und erweitert.
 
+
 ### Danke sagen
 
 Wenn euch die Infos hier weitergeholfen haben, hinterlasst gerne einen Stern auf Github. 
+<!--
 Ansonsten könnt ihr mir auch gerne einen Kaffee spendieren:
 
 ##### Bitcoin: 
@@ -33,3 +35,4 @@ Ansonsten könnt ihr mir auch gerne einen Kaffee spendieren:
 
 ##### Flattr:
 <https://flattr.com/@rsmuc>
+-->
