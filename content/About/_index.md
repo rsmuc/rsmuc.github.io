@@ -31,8 +31,5 @@ Ansonsten könnt ihr mir auch gerne einen Kaffee spendieren:
 ##### Litecoin:
  LPBjAyY6VvJuA2nHJWsWTLMiY5r9h8rnXP
 
-##### Monero:
-4A7QB4UEbTSG5eiLetCCstYWm2i4oBQwVGA33dnZiKTdUq68m2wMiQ9V6TeGmdshjvL6TE1EX65e61cQEVmbwDDAUd6WYpk
-
 ##### Flattr:
 <https://flattr.com/@rsmuc>

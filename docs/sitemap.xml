@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sec-dev.de/datenschutzerkl%C3%A4rung/</loc>
+    <lastmod>2020-09-07T09:11:05+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sec-dev.de/</loc>
+    <lastmod>2020-09-07T09:11:05+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://sec-dev.de/tags/djvu/</loc>
     <lastmod>2020-09-02T21:30:54+02:00</lastmod>
     <changefreq>daily</changefreq>
@@ -25,13 +39,6 @@
   
   <url>
     <loc>https://sec-dev.de/paperless/pdf/</loc>
-    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/</loc>
     <lastmod>2020-09-02T21:30:54+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
