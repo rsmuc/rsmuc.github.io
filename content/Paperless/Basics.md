@@ -1,7 +1,7 @@
 ---
 title: "Schritt 0: Die Basics / Übersicht"
 date: 2020-08-23T23:59:32+02:00
-draft: false
+draft: true
 toc: true
 tags: ["papierloses Büro"]
 featured_image: 'Paperless/titlepics/step0.jpg'

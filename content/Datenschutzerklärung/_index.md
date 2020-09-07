@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 date: 2020-09-07T09:11:05+02:00
-draft: false
+draft: true
 ---
 
 ## Datenschutzerklärung

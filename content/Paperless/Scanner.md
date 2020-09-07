@@ -1,7 +1,7 @@
 ---
 title: "Schritt 1: Der richtige Scanner fürs papierlose Büro"
 date: 2020-08-25T21:46:27+02:00
-draft: false
+draft: true
 toc: true
 disable_share: true
 tags: ["Scanner", "papierloses Büro", "Treiber", "Linux"]

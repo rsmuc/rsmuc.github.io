@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2020-08-23T21:17:44+02:00
-draft: false
+draft: true
 ---
 ###
 

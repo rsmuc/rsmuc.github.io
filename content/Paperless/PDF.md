@@ -1,7 +1,7 @@
 ---
 title: "Schritt 3: das richtige Dateiformat: PDF/A"
 date: 2020-09-02T21:30:54+02:00
-draft: false
+draft: true
 featured_image: 'Paperless/titlepics/step3.jpg'
 tags: ["PDF", "papierloses Büro", "DjVu", "PDF/A", "VeraPDF"]
 toc: true

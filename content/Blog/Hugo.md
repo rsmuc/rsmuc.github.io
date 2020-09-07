@@ -1,7 +1,7 @@
 ---
 title: "Blog mittels Hugo und Github Pages erstellen"
 date: 2020-08-30T12:25:08+02:00
-draft: false
+draft: true
 toc: true
 disable_share: true
 tags: ["Blog", "Hugo", "Github"]

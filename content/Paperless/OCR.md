@@ -1,7 +1,7 @@
 ---
 title: "Schritt 2: Texterkennung (OCR) von PDFs unter Linux"
 date: 2020-08-31T08:00:54+02:00
-draft: false
+draft: true
 featured_image: 'Paperless/titlepics/step2.jpg'
 tags: ["OCR", "papierloses Büro", "Tesseract", "OCRmyPDF"]
 toc: true

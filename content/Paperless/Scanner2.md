@@ -1,7 +1,7 @@
 ---
 title: "Schritt 1.1: Fortsetzung - Der richtige Scanner fürs papierlose Büro"
 date: 2020-08-28T18:47:54+02:00
-draft: false
+draft: true
 featured_image: 'Paperless/titlepics/step1-1.jpg'
 tags: ["Scanner", "papierloses Büro"]
 toc: true

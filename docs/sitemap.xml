@@ -3,175 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sec-dev.de/datenschutzerkl%C3%A4rung/</loc>
-    <lastmod>2020-09-07T09:11:05+02:00</lastmod>
+    <loc>https://sec-dev.de/blog/</loc>
+    <lastmod>2020-08-23T22:25:04+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://sec-dev.de/</loc>
-    <lastmod>2020-09-07T09:11:05+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/djvu/</loc>
-    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/papierloses-b%C3%BCro/</loc>
-    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/pdf/</loc>
-    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/paperless/pdf/</loc>
-    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/</loc>
-    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/verapdf/</loc>
-    <lastmod>2020-09-02T21:30:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/ocr/</loc>
-    <lastmod>2020-08-31T08:00:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/ocrmypdf/</loc>
-    <lastmod>2020-08-31T08:00:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/paperless/ocr/</loc>
-    <lastmod>2020-08-31T08:00:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/tesseract/</loc>
-    <lastmod>2020-08-31T08:00:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/blog/</loc>
-    <lastmod>2020-08-30T12:25:08+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/blog/hugo/</loc>
-    <lastmod>2020-08-30T12:25:08+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/github/</loc>
-    <lastmod>2020-08-30T12:25:08+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/hugo/</loc>
-    <lastmod>2020-08-30T12:25:08+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/scanner/</loc>
-    <lastmod>2020-08-28T18:47:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/paperless/scanner2/</loc>
-    <lastmod>2020-08-28T18:47:54+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/blog/losgehts/</loc>
-    <lastmod>2020-08-26T16:27:59+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/linux/</loc>
-    <lastmod>2020-08-25T21:46:27+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/paperless/scanner/</loc>
-    <lastmod>2020-08-25T21:46:27+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/tags/treiber/</loc>
-    <lastmod>2020-08-25T21:46:27+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/paperless/basics/</loc>
-    <lastmod>2020-08-23T23:59:32+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/blog/grazie/</loc>
-    <lastmod>2020-08-23T22:29:46+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sec-dev.de/blog/</loc>
     <lastmod>2020-08-23T22:25:04+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -185,20 +24,13 @@
   </url>
   
   <url>
-    <loc>https://sec-dev.de/about/</loc>
-    <lastmod>2020-08-23T21:17:44+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://sec-dev.de/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sec-dev.de/tags/pdf/a/</loc>
+    <loc>https://sec-dev.de/tags/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

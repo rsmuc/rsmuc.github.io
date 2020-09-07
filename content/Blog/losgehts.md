@@ -1,7 +1,7 @@
 ---
 title: "Los geht's"
 date: 2020-08-26T16:27:59+02:00
-draft: false
+draft: true
 featured_image: 'Blog/titlepics/losgehts.jpg'
 ---
 
