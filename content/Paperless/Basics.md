@@ -48,7 +48,7 @@ Hat man sich durch diese Punkte durchgekämpft, wird man gleich mehrfach belohnt
 ### Die Schritte
 
 Das papierlose private Büro ist bei mir nun seit circa 2 Jahren Realität und ich habe
-es nicht bereut.
+es nicht bereut.secdev
 
 Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 
