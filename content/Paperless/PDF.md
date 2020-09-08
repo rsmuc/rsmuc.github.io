@@ -116,12 +116,12 @@ Alle Empfehlungen, die ich finden konnte, sprechen sich für PDF/A zur Langzeita
 
 ## PDF/A im Workflow
 
-Wie wird PDF/A nun beim bereits beschriebenen [Schritt 1](/papoerless/scanner) und [Schritt 2](papierless/ocr) verwendet? 
+Wie wird PDF/A nun beim bereits beschriebenen [Schritt 1](schritt-1-der-richtige-scanner-fürs-papierlose-büro) und [Schritt 2](schritt-2-texterkennung-ocr-von-pd-fs-unter-linux) verwendet? 
 
 Das verwendete SimpleScan / Document Scanner speichert die Dateien als einfaches PDF. Aktuell nach dem Standard "PDF v. 1.3".
 Dies lässt sich einfach herausfinden, wenn man im Dokumentenbetrachter Okular auf "File --> Properties" geht.
 
-![PDF Type](/Paperless/pictures/okular-pdf.png)
+![Step 3 - Okular](2429) 
 
 Wir wollen aber ja nun ein PDF/A haben. Netterweise übernimmt dies OCRmyPDF für uns. 
 Per Default speichert OCRmyPDF die Ergebnisdatei als PDF/A-2B. Es muss also nichts weiter unternommen
@@ -157,7 +157,7 @@ Machen wir zunächst einen Test über die GUI. Mittels
 oder auch über das Startmenü kann die GUI gestartet werden. In der GUI selektiert man nun nur das
 jeweilige PDF und geht auf 'Execute'. Das Ergebnis ist sofort zu sehen.
 
-![VeraPDF GUI](/Paperless/pictures/verapdf-gui.png)
+ ![Step 3 - veraPDF](2430) 
 
 Jedes einzelne PDF, das durch OCRmyPDF erzeugt wurde nun händisch über die GUI zu prüfen, passt gar nicht gut
 in den Workflow. Zum Glück gibt es auch das CLI:
