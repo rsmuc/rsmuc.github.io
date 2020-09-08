@@ -118,6 +118,10 @@ Auch wenn ich die Grundidee von Tagspaces gut finde, besonders weil die Daten lo
 in irgendeiner Datenbank verschwinden, konnte ich mich an die Bedienung von Tagspaces
 nicht wirklich gewöhnen.
 
+## Paperwork
+
+Linux-Maagzin 2017-06
+
 ## Flache Ablage
 
 Im [Blog von Dr. Joachim Schlosser](https://www.schlosser.info/buero-papierlos-scanner-scanscap/)

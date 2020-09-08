@@ -207,11 +207,11 @@ und wir dieses noch einmal näher betrachten müssen. (Im oben genannten Beispie
 
 Somit haben wir eine weitere wichtige Grundlage geschaffen.
 
----
+----
 
 ## Feedback
 
 Kommentare und Feedback gerne in den [Github issues](https://github.com/rsmuc/rsmuc.github.io/issues) 
-oder über Mastodon [@sevdev.mastodon.bayern](https://mastodon.bayern/@secdev) mit dem Hashtag #PDFA
+oder über Mastodon [@muc.mastodon.bayern](https://mastodon.bayern/@muc) mit dem Hashtag #PDFA
 
 ---
