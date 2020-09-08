@@ -6,18 +6,19 @@
     <description>Recent content in Treiber on sec-dev.de - paperless</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 25 Aug 2020 21:46:27 +0200</lastBuildDate>
     
 	<atom:link href="https://sec-dev.de/tags/treiber/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Schritt 1: Der richtige Scanner fürs papierlose Büro</title>
-      <link>https://sec-dev.de/paperless/scanner/</link>
-      <pubDate>Tue, 25 Aug 2020 21:46:27 +0200</pubDate>
+      <title>papierloses privates Büro</title>
+      <link>https://sec-dev.de/</link>
+      <pubDate>Sun, 23 Aug 2020 22:25:04 +0200</pubDate>
       
-      <guid>https://sec-dev.de/paperless/scanner/</guid>
-      <description>Grundlagen Damit alle Dokumente digitalisiert werden konnten, brauchte ich natürlich einen Scanner. Theoretisch geht es auch per Smartphone, dies ist jedoch viel zu zeitintensiv, unzuverlässig und umständlich. Mein alter 10 Jahre alter HP Flachbettscanner im Kombigerät wäre die nächste Option gewesen. Aber auch hier sind die Scan-Ergebnisse eher bescheiden und das Gerät ist viel zu langsam. Abgesehen vom dauernden aufklappen, Papier einlegen, scannen, wieder aufklappen, Papier wieder raus; Nein, auch das ist definitiv der falsche Weg.</description>
+      <guid>https://sec-dev.de/</guid>
+      <description>Diese Seite leitet zum Plume Blog, welcher sich mit den Themen papierloses privates Büro mit Linux befasst.
+Unter anderem mit folgenden Kapiteln:
+ Der Scanner Texterkennung (OCR) von PDFs unter Linux Dateiformat: PDF/A &amp;amp; Verifikation Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur Der PDF Viewer Die Suche mit Recoll und find Das Backup &amp;amp; Versionierung Leerseiten entfernen PDF zu PDF/A konvertieren Der Aktenvernichter &amp;amp; die Aufbewahrungspflicht Besser als Scannen: Gleich papierlos Organize - Dokumente automatisch sortieren Beschädigte PDFs finden und reparieren Der Workflow im Überblick Bugfix: HypoVereinsbank Foto-Digitalisierung Die Cloud  </description>
     </item>
     
   </channel>

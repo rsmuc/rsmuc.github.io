@@ -6,7 +6,6 @@ featured_image: 'Paperless/titlepics/step2.jpg'
 tags: ["OCR", "papierloses Büro", "Tesseract", "OCRmyPDF"]
 toc: true
 ---
-
 ## Grundlagen
 
 Im ersten Schritt haben wir uns darum gekümmert, dass wir unsere Dokumente eingescannt haben.
@@ -114,7 +113,7 @@ Um sich das Container Image aus dem Docker Hub zu ziehen:
 
     docker pull jbarlow83/ocrmypdf
     
-Anschließend sollte folgendes zur Ausgabe der Versionsnummer führen:
+Anschließend sollte Folgendes zur Ausgabe der Versionsnummer führen:
 
     docker run --rm -i jbarlow83/ocrmypdf --version
     10.3.0.post3+g0287d91.d20200727

@@ -20,12 +20,11 @@ papierlose private Büro genannt. Wozu einen Scanner, wenn man das auch alles
 mit dem Smartphone machen kann?
 
 Das ist meiner Meinung nach Quatsch. Apps wie Scanbot sind gut, wenn man Mal ein 
-einzelnes Dokument erfassen und weitersenden muss. Aber hier geht es ja durchaus 
-darum eine größere Menge an Dokumenten zu verarbeiten. Mit dem Smartphone 
+einzelnes Dokument erfassen und weitersenden muss. Aber hier geht es ja durchaus darum eine größere Menge an Dokumenten zu verarbeiten. Mit dem Smartphone 
 ist man nicht nur langsam, auch die Qualität stimmt nicht. Man hat trotz der 
 vielfältigen Software-Filter und Tools Probleme mit Schattenwurf, 
 ungleichmäßiger Belichtung, verzerrten Aufnahmen und abgeschnittenen Rändern.
-Meine Empfehlung: Finger weg von Smartphone Apps.
+Meine Empfehlung: Finger weg von Smartphoneapps.
 
 
 ### Dienstleister
@@ -39,7 +38,7 @@ vermutlich im Schnitt je 3 Seiten (gezählt habe ich diese noch nicht). Also ~ 8
 Dies wären dann 840 €. 
 
 Unter anderem auch die Deutsche Post selbst bietet für 25 € pro Monat an alle Briefsendungen
-zu scannen. Die originale werden gesammelt und dann gebündelt zugestellt. Für ein Jahr
+zu scannen. Die Originale werden gesammelt und dann gebündelt zugestellt. Für ein Jahr
 sind dies dann aber eben doch 300 €.
 
 Die Kosten sind das eine. Das ausschlaggebende Argument für mich war aber: 
@@ -54,12 +53,13 @@ Für mich war hier die Antwort: Meine Dokumente gebe ich nicht aus der Hand!
 Den Flachbettscanner, der in vielen Multifunktionsdruckern enthalten ist, hatte ich bereits
 kurz erwähnt. Vom Scan-Ergebnis ist dieser sicher meist absolut ausreichend. 
 Aber es wird hier natürlich sehr mühsam. Wenn man nur wenige Dokumente hat, mag dies
-eine Option sein. 2 - 3 Briefe pro Woche damit scannen ... kein Problem.
+eine Option sein. 2 - 3 Briefe pro Woche damit scannen ... Kein Problem.
 Aber bei mir standen bereits massig Aktenordner im Schrank. Das hätte Monate gedauert.
+
 
 ### Dokumentenscanner ohne Duplex-Scan
 
-Die Vorteile einen Scanners mit automatischem Dokumenteneinzug sind klar. Nicht jede Seite
+Die Vorteile eines Scanners mit automatischem Dokumenteneinzug sind klar. Nicht jede Seite
 muss einzeln eingelegt werden. Dies ist schon mal eine erhebliche Erleichterung. Nicht
 vergessen sollte man: Viele Dokumente sind doppelseitig bedruckt. Ohne Duplex-Einheit
 (entweder durch automatisches Drehen des Papiers oder durch zwei Scan-Einheiten) muss

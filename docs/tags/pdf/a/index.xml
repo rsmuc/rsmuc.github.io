@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PDF/A on sec-dev.de - paperless</title>
+    <title>PDF/A&#34; on sec-dev.de - paperless</title>
     <link>https://sec-dev.de/tags/pdf/a/</link>
-    <description>Recent content in PDF/A on sec-dev.de - paperless</description>
+    <description>Recent content in PDF/A&#34; on sec-dev.de - paperless</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     
@@ -11,14 +11,14 @@
     
     
     <item>
-      <title>Schritt 3: das richtige Dateiformat: PDF/A</title>
-      <link>https://sec-dev.de/paperless/pdf/</link>
-      <pubDate>Wed, 02 Sep 2020 21:30:54 +0200</pubDate>
+      <title>papierloses privates Büro</title>
+      <link>https://sec-dev.de/</link>
+      <pubDate>Sun, 23 Aug 2020 22:25:04 +0200</pubDate>
       
-      <guid>https://sec-dev.de/paperless/pdf/</guid>
-      <description>Wir haben nun schon einige wichtige Schritte des Wegs zum papierlosen privaten Büro hinter uns. Ich habe in den vorherigen Kapiteln bereits das Dateiformat PDF verwendet - zum Teil auch PDF/A - ohne näher darauf einzugehen, weshalb überhaupt das Dateiformat PDF/A.
-Anforderungen Die Anforderungen sind leicht zusammengetragen. Was soll das Dateiformat können, mit dem wir unsere Dokumente in Zukunft speichern:
-  Langzeit verfügbar: Ein großes Risiko beim digitalen Speichern ist, dass die Daten in einigen Jahren nicht mehr gelesen werden können.</description>
+      <guid>https://sec-dev.de/</guid>
+      <description>Diese Seite leitet zum Plume Blog, welcher sich mit den Themen papierloses privates Büro mit Linux befasst.
+Unter anderem mit folgenden Kapiteln:
+ Der Scanner Texterkennung (OCR) von PDFs unter Linux Dateiformat: PDF/A &amp;amp; Verifikation Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur Der PDF Viewer Die Suche mit Recoll und find Das Backup &amp;amp; Versionierung Leerseiten entfernen PDF zu PDF/A konvertieren Der Aktenvernichter &amp;amp; die Aufbewahrungspflicht Besser als Scannen: Gleich papierlos Organize - Dokumente automatisch sortieren Beschädigte PDFs finden und reparieren Der Workflow im Überblick Bugfix: HypoVereinsbank Foto-Digitalisierung Die Cloud  </description>
     </item>
     
   </channel>
