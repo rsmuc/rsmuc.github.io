@@ -62,12 +62,13 @@ Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 * Der PDF Viewer
 * Automatisierung: Leerseiten entfernen
 * Automatisierung: Dokumentename mit Datum versehen
-* Automatisierung: * Organize - Dokumente automatisch sortieren
-* PDF zu PDF/A konvertieren
+* Automatisierung: Organize - Dokumente automatisch sortieren
 * Besser als Scannen: Gleich papierlos
+* PDF zu PDF/A konvertieren
 * Beschädigte PDFs finden und reparieren
 * Der Workflow im Überblick
 * Bugfix: HypoVereinsbank
+* Alle Seiten zählen
 * Foto-Digitalisierung
 * Die Cloud
 

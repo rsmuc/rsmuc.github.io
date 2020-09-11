@@ -13,11 +13,11 @@
     
     <item>
       <title></title>
-      <link>https://sec-dev.de/paperless/aktenvernichter/</link>
+      <link>https://sec-dev.de/paperless/pdftopdfa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sec-dev.de/paperless/aktenvernichter/</guid>
-      <description>https://digitaler-minimalismus.de/papierloses-buero-so-gehts-552a85590532?gi=b7cd217fbfdc</description>
+      <guid>https://sec-dev.de/paperless/pdftopdfa/</guid>
+      <description>https://ocrmypdf.readthedocs.io/en/latest/cookbook.html#don-t-actually-ocr-my-pdf</description>
     </item>
     
   </channel>
