@@ -52,23 +52,24 @@ es nicht bereut.secdev
 
 Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 
-* Der Scanner: [Schritt 1](Paperless/scanner) und [Schritt 1.1](Paperless/scanner2) 
-* Texterkennung (OCR) von PDFs unter Linux: [Schritt 2](Paperless/ocr)
-* Dateiformat: PDF/A & Verifikation: [Schritt 3](Paperless/pdf)
-* Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur: [Schritt 4](Paperless/schritt-4-organisation-und-strukturierung-der-digitalen-dokumente)
-* Das Backup & Versionierung [Schritt 5](Paperless/schritt-5-das-backup)
-* Der Aktenvernichter & die Aufbewahrungspflicht
-* Die Suche mit Recoll und find
-* Der PDF Viewer
-* Automatisierung: Leerseiten entfernen
-* Automatisierung: Dokumentename mit Datum versehen
-* Automatisierung: Organize - Dokumente automatisch sortieren
-* Besser als Scannen: Gleich papierlos
-* PDF zu PDF/A konvertieren
-* Beschädigte PDFs finden und reparieren
-* Der Workflow im Überblick
-* Bugfix: HypoVereinsbank
-* Alle Seiten zählen
+* Der Scanner: [Schritt 1](schritt-1-der-richtige-scanner-fürs-papierlose-büro) und [Schritt 1.1](schritt-1.1-fortsetzung-der-richtige-scanner-fürs-papierlose-büro) 
+* Texterkennung (OCR) von PDFs unter Linux: [Schritt 2](schritt-2-texterkennung-ocr-von-pd-fs-unter-linux)
+* Dateiformat: PDF/A & Verifikation: [Schritt 3](schritt-3-das-richtige-dateiformat-pdf-a)
+* Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur: [Schritt 4](schritt-4-organisation-und-strukturierung-der-digitalen-dokumente)
+* Das Backup & Versionierung: [Schritt 5](schritt-5-das-backup)
+* Der Aktenvernichter & die Aufbewahrungspflicht : [Schritt 6](schritt-6-vernichten)
+* Tools - 1 -: PDF Seiten zählen
+* Tools - 2 -: Die Suche mit Recoll und find
+* Tools - 3 -: Der PDF Viewer
+* Tools - 4 -: PDF zu PDF/A konvertieren
+* Tools - 5 -: Beschädigte PDFs finden und reparieren
+* Tools - 6 -: PDFs mit defekter Textebene
+* Automatisierung - 1 -: Leerseiten entfernen
+* Automatisierung - 2 -: Dokumentename mit Datum versehen
+* Automatisierung - 3 -: Organize - Dokumente automatisch sortieren
+* Workflow - 1 -: Der Workflow im Überblick
+* Workflow - 2 -: Besser als Scannen - Gleich papierlos
+* Workflow - 3 -: Rechnungen per E-Mail
 * Foto-Digitalisierung
 * Die Cloud
 

@@ -4,7 +4,7 @@ sub: "Aufbewahrungsfristen und Aktenvernichter"
 date: 2020-09-08T17:24:41+02:00
 draft: true
 featured_image: 'Paperless/titlepics/step6.png'
-tags: ["papierloses Büro", "Aufbewahrungsfirsten", "Aktenvernichter"]
+tags: ["papierloses Büro", "Aufbewahrungsfristen", "Aktenvernichter"]
 toc: true
 ---
 
@@ -31,7 +31,7 @@ Für Privatpersonen gibt es so gut wie keine Aufbewahrungspflichten:
 
 Nur Handwerkerrechnungen müssen mindestens 3 Jahre lang im Original aufgehoben werden. Ob das Scannen des Dokuments und das Vernichten des Originals hier in Ordnung ist, dazu lassen sich mehrere unterschiedliche Aussagen im Internet finden. Meine Empfehlung: Einfach aufheben.
 
-Wichtige Dokumente wie Geburtsurkunden, Zeugnisse, Arbeitsverträge und Versicherungsverträge, Notarurkunden ... All dies wird im Original aufgehoben.
+Wichtige Dokumente wie Geburtsurkunden, Zeugnisse, Arbeitsverträge und Versicherungsverträge, Notarurkunden ... All dies wird digitalisiert, aber im Original aufgehoben.
 
 Rechnungen, Steuerunterlagen (wenn die Einspruchsfrist abgelaufen ist), Quittungen, Kontoauszüge und sämtliche andere Briefkommunikation wird bei mir digitalisiert und das Original vernichtet.
 
@@ -60,4 +60,4 @@ Ein Qualitätskriterium beim Aktenvernichter: Wie lang kann er am Stück arbeite
 
 Alternativ kann man die Akten auch durch einen Dienstleister vernichten lassen. Als preisliche Größenordnung: Bei Selbstanlieferung kostet dies pro PKW-Ladung mit 75 Ordnern circa 50 €.
 
-Ich habe bei mir immer Schritt für Schritt alle paar Tage einen Ordner digitalisiert und mit dem eigenen Aktenvernichter geschreddert. Heute habe ich insgesamt noch 4 Ordner, welche allerdings alle nur zu einem Bruchteil gefüllt sind. Habe also mein Ziel des papierlosen Büros erreicht.
+Ich habe bei mir immer Schritt für Schritt alle paar Tage einen Ordner digitalisiert und mit dem eigenen Aktenvernichter geschreddert. Heute habe ich insgesamt noch 4 Ordner, welche allerdings alle nur zu einem Bruchteil gefüllt sind. Mein Ziel des  papierlosen Büros habe ich also erreicht.
