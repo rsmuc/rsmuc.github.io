@@ -57,19 +57,17 @@ Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 * Dateiformat: PDF/A & Verifikation: [Schritt 3](schritt-3-das-richtige-dateiformat-pdf-a)
 * Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur: [Schritt 4](schritt-4-organisation-und-strukturierung-der-digitalen-dokumente)
 * Das Backup & Versionierung: [Schritt 5](schritt-5-das-backup)
-* Der Aktenvernichter & die Aufbewahrungspflicht : [Schritt 6](schritt-6-vernichten)
+* Der Aktenvernichter & die Aufbewahrungspflicht: [Schritt 6](schritt-6-vernichten)
+* Papierloses Büro ohne Scanner: [Schritt 7](schritt-7-papierloses-büro-ohne-scanner)
 * [Tools - 1 -](tools-1-pdf-seiten-zählen): PDF Seiten zählen
 * Tools - 2 -: Die Suche mit Recoll und find
 * Tools - 3 -: Der PDF Viewer
-* Tools - 4 -: PDF zu PDF/A konvertieren
-* Tools - 5 -: Beschädigte PDFs finden und reparieren
-* Tools - 6 -: PDFs mit defekter Textebene
-* Automatisierung - 1 -: Leerseiten entfernen
-* Automatisierung - 2 -: Dokumentename mit Datum versehen
-* Automatisierung - 3 -: Organize - Dokumente automatisch sortieren
+* Tools - 4 -: Beschädigte PDFs finden und reparieren
+* Tools - 5 -: Leerseiten entfernen
+* Tools - 6 -: Dokumentenname mit Datum versehen
+* Tools - 7 -: Organize - Dokumente automatisch sortieren
 * Workflow - 1 -: Der Workflow im Überblick
-* Workflow - 2 -: Besser als Scannen - Gleich papierlos
-* Workflow - 3 -: Rechnungen per E-Mail
+* Workflow - 2 -: Rechnungen per E-Mail
 * Foto-Digitalisierung
 * Die Cloud
 

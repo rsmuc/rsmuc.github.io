@@ -1,0 +1,77 @@
+---
+title: "Schritt 7: Papierloses Büro ohne Scanner"
+sub: "Was digital kommt, muss nicht digitalisiert werden & PDF in PDF/A umwandeln und reparieren"
+date: 2020-09-08T17:24:41+02:00
+draft: true
+featured_image: 'Paperless/titlepics/digital.png'
+tags: ["papierloses Büro", "PDF", "PDFA", "Werbung"]
+toc: true
+---
+
+## Umstellung auf Digital
+
+Eigentlich logisch: Alles, was wir schon als PDF erhalten, müssen wir nicht einscannen. Digitale Dokumente machen immer noch genug Arbeit, da wir diese ja trotzdem sichten und sortieren müssen, aber immerhin fällt der lästige Schritt des Scannens und Vernichtens weg. Weitere Vorteile: Weniger Müll und Schutz der Umwelt.
+
+Mittlerweile bieten fast alle Dienstleister, Banken & Co. an, dass Rechnungen und sonstige Dokumente direkt als PDF zugestellt werden bzw. dass diese in einem Online-Postfach heruntergeladen werden können. Nicht immer ist dies auf den ersten Blick möglich - manchmal muss persönlich nachgefragt werden. Aber meist geht dies. Also einfach bei jedem Brief, den wir erhalten, prüfen, ob dies nicht auch digital möglich gewesen wäre.
+
+## PDF zu PDF/A wandeln
+
+Hört sich ja erst mal super an. Einen Nachteil hat dies jedoch. Viele PDF-Generatoren, die zur Erstellung von Rechnungen, Kontoauszügen & Co verwendet werden, erstellen keine PDF/A-Dokumente. Viele der PDFs sind sogar in einem eher fraglichen Zustand. Einzig die Dokumente der comdirect Bank haben einer Prüfung mittels veraPDF standgehalten.
+
+Für eine Langzeitarchivierung sind beschädigte Dokumente bzw. Dokumente, die keinerlei Standard folgen eher ungeeignet. Nur weil unser PDF-Reader diese aktuell lesen kann, heißt es nicht, dass diese auch in 5 oder 10 Jahren noch gelesen werden können.
+
+Was also tun?
+
+Wir wandeln die Dokumente einfach in ein valides PDF/A. Man sollte hier immer einen Vorher-Nachher-Vergleich des Dokuments machen. Da in PDF/A nicht alle Elemente unterstützt werden, könnte es passieren, dass uns Informationen verloren gehen. Dies wäre natürlich fatal!
+
+OCRmyPDF hilft uns hier wieder. Wir können damit nämlich auch einfach PDF zu PDF/A Dokumenten wandeln: [Link zur Dokumentation](https://ocrmypdf.readthedocs.io/en/latest/cookbook.html#don-t-actually-ocr-my-pdf)
+
+	--tesseract-timeout=0 --skip-text
+
+Mit dieser Option wird einfach kein OCR durchgeführt.
+
+Nun haben wir jedoch auch PDF-Dateien, die dem PDF/A-Standard folgen. Diese möchten wir nicht unnötig bearbeiten. Jede Datei händisch mit veraPDF zu prüfen, ist zu aufwändig.
+
+Gut, dass veraPDF einen sauberen Return-Wert liefert. PDF ist OK: 0; PDF ist nicht OK: 1. Also schnell ein kleines Shell-Script schreiben:
+
+	find . -type f -name '*.pdf' -not -path '*Alte*' -print0 | 			while IFS= read -r -d '' file;
+	do
+	echo "$file"
+	
+	if verapdf "$file" > /dev/null; then
+	    echo PDF is valid
+	else
+	    echo PDF is not valid
+	    echo Fix with OCRmyPDF
+	    docker run --rm -v $(pwd):/data -i jbarlow83/ocrmypdf --tesseract-timeout=0 --skip-text "/data/$file" "/data/$file"
+	fi
+	done
+
+Es wird also jedes PDF im Verzeichnis geprüft und wenn es Defekt ist, wird durch OCRmyPDF in ein PDF/A umgewandelt.
+
+Das Script gibt es auch hier zum Download: <https://raw.githubusercontent.com/rsmuc/paperless/master/repairPDF.sh>
+
+---
+***Warnung:***
+
+Nochmal die Warnung: PDFs vorher und hinterher bitte händisch prüfen. Durch die Konvertierung können Informationen verloren gehen.
+
+---
+
+## Defekte Textebene reparieren
+
+Nun gibt es leider auch immer wieder PDFs, die nicht nur nicht als PDF/A geliefert werden, sondern auch immer wieder PDFs, die auch eine defekte Textebene haben. Dies ist vor allem ein Problem, da wir somit bei einer Suche nach dem Inhalt nicht fündig werden. Zudem lassen sich Informationen (z.B. IBANs) nicht aus dem Dokument heraus kopieren.
+
+Besonders die HypoVereinsbank hat seit Anfang 2020 ein ziemliches Problem mit ihrem PDF-Generator. Sämtliche Kontoauszüge kommen mit einer kaputten Textebene und beim Versuch Inhalte zu kopieren, kommt nur Kauderwelsch heraus.
+
+Aber auch hier Hilft und OCRmyPDF wieder:
+
+	-l deu --force-ocr
+
+Normalerweise überspringt OCRmyPDF alle PDFs, welche bereits einen Text haben. Aber mittels des "--force-ocr"-Parameters wird eine Texterkennung erneut erzwungen.
+
+Hinterher haben wir also ein PDF/A mit ordentlichem Text. Dies ist natürlich nicht perfekt. Aber besser als nichts.
+
+## Werbung und unnötige Dokumente abbestellen
+
+Als letzte Optimierung, um das allgemeine Papieraufkommen zu reduzieren, können wir noch Werbung und Dokumente die wir überhaupt nicht benötigen abbestellen. Dies klappt meiner Erfahrung nach sehr zuverlässig. Eine kurze Mail reicht hier üblicherweise aus.
