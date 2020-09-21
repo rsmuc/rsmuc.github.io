@@ -60,16 +60,16 @@ Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 * Der Aktenvernichter & die Aufbewahrungspflicht: [Schritt 6](schritt-6-vernichten)
 * Papierloses Büro ohne Scanner: [Schritt 7](schritt-7-papierloses-büro-ohne-scanner)
 * [Tools - 1 -](tools-1-pdf-seiten-zählen): PDF Seiten zählen
-* Tools - 2 -: Die Suche mit Recoll und find
-* Tools - 3 -: Der PDF Viewer
-* Tools - 4 -: Beschädigte PDFs finden und reparieren
-* Tools - 5 -: Leerseiten entfernen
-* Tools - 6 -: Dokumentenname mit Datum versehen
-* Tools - 7 -: Organize - Dokumente automatisch sortieren
-* Workflow - 1 -: Der Workflow im Überblick
-* Workflow - 2 -: Rechnungen per E-Mail
+* [Tools - 2 -](tools-2-dokumente-finden-mit-recoll): Die Suche mit Recoll und find
+* [Tools - 3 -](tools-3-leerseiten-entfernen): Leerseiten entfernen
+* [Tools - 4 -](tools-4-dateiname-automatisch-mit-datum-versehen): Dateiname automatisch mit Datum versehen
+* Tools - 5 -: Organize - Dokumente automatisch sortieren
+<!--* Tools - 6 -: Beschädigte PDFs finden und reparieren
+* Tools - 7 -: Der PDF Viewer-->
+* Workflow: Der Workflow im Überblick
+<!--* Workflow - 2 -: Rechnungen per E-Mail
 * Foto-Digitalisierung
-* Die Cloud
+* Die Cloud-->
 
 Die einzelnen Kapitel können sich im Laufe der Zeit natürlich noch ändern. 
 Auch werden sie nicht genau in dieser Reihenfolge erscheinen.

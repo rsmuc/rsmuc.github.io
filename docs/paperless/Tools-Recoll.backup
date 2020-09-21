@@ -4,7 +4,7 @@ sub: "Wer suchet der findet..."
 date: 2020-09-08T17:24:41+02:00
 draft: true
 featured_image: 'Paperless/titlepics/digital.png'
-tags: ["papierloses Büro", "Suche", "Recoll", "Finden", "PDF"]
+tags: ["papierloses Büro", "Suche", "Recoll", "Finden", "PDF", "Tools"]
 toc: true
 ---
 
@@ -14,9 +14,44 @@ Alles digitalisiert ... Schön ... Endlich Platz ... Aber ... wie finden wir nun
 
 Ich muss sagen, dass ich zu 95 % meine Dokumente nicht suchen muss. Durch die einfache Ordnerstruktur und Dateibenennung ist meistens einfach klar, wo ein Dokument zu finden ist. Ich navigierte dort also einfach mit einem beliebigen Dateimanager (bei mir ist es Nemo) hin und fertig.
 
-Manchmal ist es aber nicht ganz so einfach. Entweder weil die Zuordnung nicht eindeutig ist. Wo liegt jetzt nochmal die Jahressteuerbescheinigung? Im Ordner "Sonstiges"? 
+Manchmal ist es aber nicht ganz so einfach. Entweder weil die Zuordnung nicht eindeutig ist. Wo liegt jetzt noch mal die Jahressteuerbescheinigung? Im Ordner "Sonstiges"? 
 
-Oder wir haben eine Abbuchung auf unserem Konto die wir nicht zuordnen können... Jetzt wäre es ja praktisch, wenn man einfach nach der abbuchenden IBAN in allen Dokumenten suchen könnte.
+Oder wir haben eine Abbuchung auf unserem Konto, die wir nicht zuordnen können ... Jetzt wäre es ja praktisch, wenn man einfach nach der abbuchenden IBAN in allen Dokumenten suchen könnte.
 
 ## Inhalte durchsuchen mit Recoll
 
+### Grundlagen
+
+Mit [Recoll](https://www.lesbonscomptes.com/recoll/) können wir genau dies erreichen. Recoll indexiert alle Dokumente, und zwar nicht nur die Namen, sondern auch die Inhalte. 
+
+Der Vorteil der Indexierung: Die Suche geht sehr schnell. Innerhalb eines Bruchteils einer Sekunde haben wir die Ergebnisse. 
+
+Der Nachteil der Indexierung: Der Index benötigt Platz auf unserer Festplatte. Bei mir immerhin knapp 1 GB.
+
+Auch Recoll ist in den Repositories aller Distributionen enthalten. Einfach installieren und fertig. Recoll selbst kann auch über die Commandline bedient werden. Allerdings bevorzuge ich hier die GUI.
+
+Nach dem Start sollte man unter "Preferences" --> "Index Configuration" festlegen, welche Verzeichnisse indexiert werden sollen. Ich habe hier nur das Verzeichnis mit meinen Dokumenten angegeben.
+
+ ![Recoll Index Settings](2814) 
+ 
+Mehr sollte nicht notwendig sein. Über "File" --> "Update Index" kann die Indexierung manuell gestartet werden. Beim ersten Durchlauf wird dies ein wenig dauern. In Zukunft wird der Index dann immer im Hintergrund aktualisiert. 
+
+### Richtig suchen
+
+Die Suche mit Recoll ist tatsächlich sehr einfach. 
+
+ ![Recoll Suche](2816) 
+  
+ Im einfachsten Fall reihen wir nur unsere Schlagworte, die in einem Dokument vorkommen sollen, aneinander. Also z. B. `Auto 2020`.
+ 
+ Zudem unterstützt Recoll die üblichen Wildcards. Die Suche oben wir nur Ergebnisse liefern, wenn das Schlagwort Auto und 2020 alleine stehen. Kommt im Dokument Automobil vor oder 01.01.2020, wird Recoll kein Ergebnis liefern. Hier muss die Suche also `Auto* *2020` heißen.
+ 
+ Möchten wir nun noch einschränken, dass nur PDF-Dokumente angezeigt werden, können wir noch den Dateityp übergeben: `mime:application/pdf`
+ 
+ Möchten wir noch einzelne Ergebnisse ausschließen, können wir dies mittels einem "-" machen. Also z. B. `-automatisch`.
+ 
+Der gesamte Term ist also in diesem Beispiel `Auto* *2020 -automatisch -autorisier* mime:application/pdf`
+
+Dies sollte absolut ausreichend sein, damit wir unsere Dokumente finden. Wer noch mehr Suchparameter benötigt, wird in der [Dokumentation](https://www.lesbonscomptes.com/recoll/usermanual/webhelp/docs/RCL.INTRODUCTION.html) von Recoll fündig.
+
+Das Schöne an Recoll ist zudem, dass wir im Suchfenster auch eine Vorschau des PDF-Inhaltes sehen. So lässt sich relativ schnell beurteilen, ob wir das richtige Dokument gefunden haben, ohne dass es geöffnet werden muss.

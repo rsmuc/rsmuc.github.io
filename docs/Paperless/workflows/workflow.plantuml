@@ -1,7 +1,22 @@
 @startuml
-(*) --> "Scan der Dokumente"
---> "OCR der PDFs & Umwandlung in PDF/A"
---> "Verifikation des PDF/A Standards"
+(*) --> "Download der Dokumente in 'Inbox'"
+--> "Umwandeln des PDFs in PDF/A (repair.py)"
+
+if "erfolgreich" then
+--> [ja] "Automatisches Datum im Dateinamen setzen mittels setdate.py"
+
+else
+--> [nein] "Reparieren mittels redoOCR.py"
+--> "Automatisches Datum im Dateinamen setzen mittels setdate.py"
+
+(*) --> "Scan der Dokumente mittels Simple Scan"
+--> "Entfernen von leeren Seiten mittels blank3.py"
+--> "OCR der PDFs & Umwandlung in PDF/A mittels OCRmyPDF"
+--> "Verifikation des PDF/A Standards mittels veraPDF (verify.py)"
+--> "Automatisches Datum im Dateinamen setzen mittels setdate.py"
+--> "Automatisches Sortieren in die Ordnerstruktur mittels organize"
+--> "Dokumente die nicht automatisch sortiert werden konnten, händisch verschieben"
+--> "Commit in Git"
 --> "Backup"
 "Backup" --> (*)
 @enduml
