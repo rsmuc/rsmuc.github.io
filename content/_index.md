@@ -2,6 +2,7 @@
 title: "papierloses privates Büro"
 featured_image: 'documents.jpg'
 description: "Papierloses privates Büro mit Linux"
+draft: true
 tags: ["Scanner", "papierloses Büro", "Treiber", "Linux", "PDF", PDF/A", "OCR", "papierloses Büro", "Tesseract", "OCRmyPDF", "DjVu", "VeraPDF"]
 ---
 

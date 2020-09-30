@@ -3,28 +3,28 @@ title: "Tools - 5 -: Dateien automatisch sortieren mit Organize"
 sub: "Kann das nicht jemand anders tun? --> ja"
 date: 2020-09-08T17:24:41+02:00
 draft: true
-featured_image: 'Paperless/titlepics/toos5-organize.png'
+featured_image: 'Paperless/titlepics/tools5-organize.png'
 tags: ["papierloses Büro", "Automatisierung", "PDF", "Tools", "sortieren", "organize", "Linux", "Python"]
 toc: true
 ---
 
-Sein wir mal ehrlich. Das Thema papierloses Büro ist schon ein wenig lästig. Ist eben doch Papierkram. Ob dieser nun digital bei uns aufschlägt oder analog ... Das ganze muss mindestens überflogen und sortiert werden.
+Sein wir mal ehrlich. Das Thema papierloses Büro ist schon ein wenig lästig. Ist eben doch Papierkram. Ob dieser nun digital bei uns aufschlägt oder analog ... Das Ganze muss mindestens überflogen und sortiert werden.
 
-Das einsortieren in die Ordnerstruktur ist zwar praktisch, wenn es um das Wiederfinden geht, aber einer der aufwändigsten Schritte. Allerdings lässt sich dies automatisieren.
+Das einsortieren in die Ordnerstruktur ist zwar praktisch, wenn es um das Wiederfinden geht, aber einer der aufwändigsten Schritte. Allerdings können wir dies auch dies automatisieren. So müssen wir dann gar nichts mehr machen.
 
-Mein erster Ansatz war: Anhand des Dateinamens verschiebe ich die Dokumente in den richtigen Ordner. Dies setzt voraus, dass die Dateinamen eindeutig sind, funktioniert aber erst mal ganz gut...
+Mein erster Ansatz war: Anhand des Dateinamens verschiebe ich die Dokumente in den richtigen Ordner. Dies setzt voraus, dass die Dateinamen eindeutig sind, funktioniert aber erst mal ganz gut ...
 
 	mv "*kontoauszug*.pdf" /home/ich/Dokumente/01_Bank/HVB/2020/Kontoauszüge/
 	
 	...
 
-Nun gibt es aber immer wieder Dokumente die nicht ganz so einfach zu identifizieren sind. Was wenn wir nicht nur Kontoauszüge von der HVB haben, sondern auch noch von der comdirect Bank oder der Deutschen Bank und die Dateien dort sehr ähnlich heißen? Oder wir haben mehrere Konten bei einer einzelnen Bank? 
+Nun gibt es aber immer wieder Dokumente, die nicht ganz so einfach zu identifizieren sind. Was, wenn wir nicht nur Kontoauszüge von der HVB haben, sondern auch noch von der comdirect Bank oder der Deutschen Bank und die Dateien dort sehr ähnlich heißen? Oder wir haben mehrere Konten bei einer einzelnen Bank? 
 
 Dann hilft uns der Dateiname nicht mehr weiter.
 
-Nun haben wir noch die Dateiinhalte anhand derer wir sortieren können. Die Idee ist einfach. Kommt das Schlagwort IBAN 12345678957445 und Kontoauszug im Dokument vor, dann wird es wohl ein Kontoauszug von unserem Konto mit der Nummer 12345678957445 sein.
+Nun hätten wir noch die Dateiinhalte, anhand derer wir sortieren können. Die Idee ist einfach. Kommt das Schlagwort IBAN 12345678957445 und Kontoauszug im Dokument vor, dann wird es wohl ein Kontoauszug von unserem Konto mit der Nummer 12345678957445 sein. Aber mit einem Shell-Script kommen wir nicht einfach an die Inhalte des PDFs ran.
 
-Ich hatte schon begonnen mir wieder mittels Python ein Script zu schreiben, welches die Aufgabe übernimmt, da bin ich auf Organize gestoßen: <https://github.com/tfeldmann/organize>
+Ich hatte nun schon begonnen, mir wieder mittels Python ein Script zu schreiben, welches die Aufgabe übernimmt, da bin ich auf Organize gestoßen: <https://github.com/tfeldmann/organize>
 
 ## Organize
 
@@ -32,7 +32,7 @@ Organize kann anhand unterschiedlichster Kriterien Dateien sortieren. Dies kann 
 
 ### Installation
 
-Die Installation ist schnell erledigt. Entweder es ist in den Repositories oder AUR der Distribution enthalten oder man kann es mittels pip nachinstallieren:
+Die Installation ist schnell erledigt. Entweder es ist in den Repositorys oder AUR der Distribution enthalten oder man kann es mittels pip nachinstallieren:
 
 	pip install organize-tool
 
@@ -52,7 +52,7 @@ Zum Testen:
 
 Eine ausführliche Dokumentation ist hier zu finden: <https://organize.readthedocs.io>
 
-Alle Aktionen die Organize durchführen soll, werden über eine einzelne Konfigurationsdatei festgelegt.
+Alle Aktionen, die Organize durchführen soll, werden über eine einzelne Konfigurationsdatei festgelegt.
 
 Wo diese Datei liegt, können wir uns so anzeigen lassen:
 
@@ -64,7 +64,7 @@ Mittels `organize config` wird Konfigurationsdatei direkt im Standardeditor geö
 
 Wie schon an der Dateiendung zu erkennen, handelt es sich um eine YAML-Datei, welche einen sehr einfachen Aufbau hat.
 
-Es werden einfach die einzelnen Regeln nacheinander aufgelistet. Also z.B.:
+Es werden einfach die einzelnen Regeln nacheinander aufgelistet. Also z. B.:
 
 	rules:
 	
@@ -92,7 +92,7 @@ Anschließen einfach nur `organize run` ausführen und schon sollte organize die
 
 #### Kommentare einfügen
 
-Damit man die Übersicht behält, kann man im YAML-File auch Kommentare einfügen. Alles was mit einem `#` beginnt, wird ignoriert.
+Damit man die Übersicht behält, kann man im YAML-File auch Kommentare einfügen. Alles, was mit einem `#` beginnt, wird ignoriert.
 
 #### Arbeitsverzeichnisse definieren:
 
@@ -133,7 +133,7 @@ Es lassen sich natürlich auch mehrere Filter miteinander kombinieren:
 
 #### Actions
 
-Es gibt mehrere "Actions" zur Auswahl. Das vermutlich am häufigsten verwendete: move
+Es gibt mehrere "Actions" zur Auswahl. Das vermutlich am häufigsten Verwendete: move
 
 Man sollte bei der Move Action immer drauf achten, dass man das abschließende / nicht vergisst.
 
@@ -163,6 +163,6 @@ Und auch bei den Actions können mehrere miteinander in einer Regel kombiniert a
 
 ## Fazit
 
-Hat man sich einmal seinen Regelsatz aufgebaut, hat man mit dem Sortieren der Dokumente keine Arbeit mehr. Der größte Teil der Dokumente, sind immer wiederkehrend. Somit lohnt es sich, die Regeln einmalig anzulegen und ggf. immer mal wieder zu erweitern.
+Hat man sich einmal seinen Regelsatz aufgebaut, hat man mit dem Sortieren der Dokumente keine Arbeit mehr. Der größte Teil der Dokumente ist immer wiederkehrend. Somit lohnt es sich, die Regeln einmalig anzulegen und ggf. immer mal wieder zu erweitern.
 
 Organize ist wirklich eine große Erleichterung fürs papierlose private Büro.

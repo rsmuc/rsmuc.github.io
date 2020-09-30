@@ -52,21 +52,21 @@ es nicht bereut.secdev
 
 Folgende Einzelschritte werde ich hier Stück für Stück beschreiben:
 
-* Der Scanner: [Schritt 1](schritt-1-der-richtige-scanner-fürs-papierlose-büro) und [Schritt 1.1](schritt-1.1-fortsetzung-der-richtige-scanner-fürs-papierlose-büro) 
-* Texterkennung (OCR) von PDFs unter Linux: [Schritt 2](schritt-2-texterkennung-ocr-von-pd-fs-unter-linux)
-* Dateiformat: PDF/A & Verifikation: [Schritt 3](schritt-3-das-richtige-dateiformat-pdf-a)
-* Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur: [Schritt 4](schritt-4-organisation-und-strukturierung-der-digitalen-dokumente)
-* Das Backup & Versionierung: [Schritt 5](schritt-5-das-backup)
-* Der Aktenvernichter & die Aufbewahrungspflicht: [Schritt 6](schritt-6-vernichten)
-* Papierloses Büro ohne Scanner: [Schritt 7](schritt-7-papierloses-büro-ohne-scanner)
+* [Schritt 1](schritt-1-der-richtige-scanner-fürs-papierlose-büro) und [Schritt 1.1](schritt-1.1-fortsetzung-der-richtige-scanner-fürs-papierlose-büro) : Der Scanner
+* [Schritt 2](schritt-2-texterkennung-ocr-von-pd-fs-unter-linux):  Texterkennung (OCR) von PDFs unter Linux
+* [Schritt 3](schritt-3-das-richtige-dateiformat-pdf-a): Dateiformat: PDF/A & Verifikation
+* [Schritt 4](schritt-4-organisation-und-strukturierung-der-digitalen-dokumente): Dokumentenverwaltung: Die Dateistruktur, Dokumentenmanagementsysteme und die Ordnerstruktur
+* [Schritt 5](schritt-5-das-backup): Das Backup & Versionierung
+* [Schritt 6](schritt-6-vernichten): Der Aktenvernichter & die Aufbewahrungspflicht
+* [Schritt 7](schritt-7-papierloses-büro-ohne-scanner): Papierloses Büro ohne Scanner:
 * [Tools - 1 -](tools-1-pdf-seiten-zählen): PDF Seiten zählen
 * [Tools - 2 -](tools-2-dokumente-finden-mit-recoll): Die Suche mit Recoll und find
 * [Tools - 3 -](tools-3-leerseiten-entfernen): Leerseiten entfernen
 * [Tools - 4 -](tools-4-dateiname-automatisch-mit-datum-versehen): Dateiname automatisch mit Datum versehen
 * Tools - 5 -: Organize - Dokumente automatisch sortieren
+* Workflow: Der Workflow im Überblick
 <!--* Tools - 6 -: Beschädigte PDFs finden und reparieren
 * Tools - 7 -: Der PDF Viewer-->
-* Workflow: Der Workflow im Überblick
 <!--* Workflow - 2 -: Rechnungen per E-Mail
 * Foto-Digitalisierung
 * Die Cloud-->
