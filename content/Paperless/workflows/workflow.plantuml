@@ -1,22 +1,29 @@
 @startuml
 (*) --> "Download der Dokumente in 'Inbox'"
---> "Umwandeln des PDFs in PDF/A (repair.py)"
+--> "Datum automatisch setzen (setdate.py)"
+--> "Prüfen und umwandeln des PDFs in PDF/A (repair.py)"
 
 if "erfolgreich" then
---> [ja] "Automatisches Datum im Dateinamen setzen mittels setdate.py"
+--> [ja] "Automatisches Sortieren in die Ordnerstruktur mittels organize"
 
 else
---> [nein] "Reparieren mittels redoOCR.py"
---> "Automatisches Datum im Dateinamen setzen mittels setdate.py"
+--> [nein] "Reparieren mittels ocrmypdf --force-ocr"
+--> "Händische Prüfung des Dokuments"
+--> "Automatisches Sortieren in die Ordnerstruktur mittels organize"
 
 (*) --> "Scan der Dokumente mittels Simple Scan"
 --> "Entfernen von leeren Seiten mittels blank3.py"
 --> "OCR der PDFs & Umwandlung in PDF/A mittels OCRmyPDF"
 --> "Verifikation des PDF/A Standards mittels veraPDF (verify.py)"
 --> "Automatisches Datum im Dateinamen setzen mittels setdate.py"
+
+
+
 --> "Automatisches Sortieren in die Ordnerstruktur mittels organize"
---> "Dokumente die nicht automatisch sortiert werden konnten, händisch verschieben"
---> "Commit in Git"
---> "Backup"
+--> "Dokumente die nicht automatisch sortiert werden konnten, händisch verschieben oder Regeln anpassen"
+--> "Git: 'git add *'"
+--> "Git: mittels 'git status' prüfen welche Änderungen passiert sind"
+--> "Git: git commit -m 'Dokumente' "
+--> "Backup auf DVD"
 "Backup" --> (*)
 @enduml

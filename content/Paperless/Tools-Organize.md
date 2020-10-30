@@ -28,7 +28,7 @@ Ich hatte nun schon begonnen, mir wieder mittels Python ein Script zu schreiben,
 
 ## Organize
 
-Organize kann anhand unterschiedlichster Kriterien Dateien sortieren. Dies kann anhand des Dateinamens, Inhalts der Meta-Daten, Größe usw. geschehen. Für uns ist vor allem der Dateiname und der Inhalt interessant.
+Organize kann mittels unterschiedlichster Kriterien Dateien sortieren. Dies kann der Dateinamen, der Inhalt, die Meta-Daten, die Größe und einiges mehr sein. Für uns ist vor allem der Dateiname und der Inhalt interessant. Anhand dieser Kriterien können dann Dateien weiterverarbeitet werden, also z. B. umbenannt, verschoben oder kopiert. Genau das was wir brauchen, um uns das Leben in Zukunft einfach zu machen.
 
 ### Installation
 
@@ -36,15 +36,16 @@ Die Installation ist schnell erledigt. Entweder es ist in den Repositorys oder A
 
 	pip install organize-tool
 
+
 ---
 
-*** Randnotiz: ***
+***Randnotiz:***
 
 Verwendet man Firejail auf seinem System, sollte man ggf. das Profil für pdftotext unter /etc/firejail/pdftotext.profile anpassen bzw. mittels einer pdftotext.local erweitern. pdftotext darf ansonsten nur im "Downloads"- und "Documents"-Ordner arbeiten.
 
 ---
 
-Zum Testen:
+Ob die Installation erfolgreich war, können wir so testen:
 
 	organize --help	
 
@@ -84,22 +85,30 @@ Es werden einfach die einzelnen Regeln nacheinander aufgelistet. Also z. B.:
 	    actions:
 	      - move: "/home/ich/Dokumente/2 Linux/"	      
 
-Anschließen einfach nur `organize run` ausführen und schon sollte organize die Regeln abarbeiten. Werden keine relevanten Dateien gefunden, sieht es so aus:
+Hat man alle Regeln definiert und die Datei gespeichert, einfach nur `organize run` ausführen und schon sollte organize die Regeln abarbeiten. Werden nun keine Dateien gefunden, welche ein Filter passt, sieht es so aus:
 
 	$ organize run
 	Nothing to do.
 
+Trifft ein Filter zu, werden die definierten Aktionen ausgeführt:
+
+	$organize run
+	Folder /home/ich/Dokumente/Inbox/:
+		File 2020-09-21 Rechnung Nutzerwechselgebühren [Steuer2020].pdf:
+    			- [Copy] Copy to "/home/ich/Dokumente/4 Steuer/Einkommensteuer 2020/2020-09-21 Rechnung Nutzerwechselgebühren [Steuer2020].pdf.pdf"
+    			- [Move] Move to "/home/ich/Dokumente/8 Wohnung/2020-09-21 Rechnung Nutzerwechselgebühren [Steuer2020].pdf [Steuer2020].pdf"
+
 
 #### Kommentare einfügen
 
-Damit man die Übersicht behält, kann man im YAML-File auch Kommentare einfügen. Alles, was mit einem `#` beginnt, wird ignoriert.
+Damit man die Übersicht in der Konfiguration behält, kann man im YAML-File auch Kommentare einfügen. Alles, was mit einem `#` beginnt, wird ignoriert.
 
 #### Arbeitsverzeichnisse definieren:
 
 Möchte man nun, dass eine Regeln nicht für einen einzelnen Ordner gilt, sondern für mehrere, lässt sich folgendes Konstrukt anwenden:
 
 	document_folders: &docs
-	  - ~/Dokumente/ocrit
+	  - ~/Dokumente/Inbox
 	  - ~/Downloads/Inbox
 	
 	rules:
@@ -112,6 +121,8 @@ Möchte man nun, dass eine Regeln nicht für einen einzelnen Ordner gilt, sonder
 	    actions:
 	      - move: "/home/ich/Dokumente/2 Linux/"	 
 
+
+Die Regel wird also auf alle definierten Verzeichnisse angewendet.
 
 #### Filter kombinieren
 
@@ -133,9 +144,9 @@ Es lassen sich natürlich auch mehrere Filter miteinander kombinieren:
 
 #### Actions
 
-Es gibt mehrere "Actions" zur Auswahl. Das vermutlich am häufigsten Verwendete: move
+Organize hat diverse "Actions" zur Auswahl. Das vermutlich am häufigsten Verwendete: move
 
-Man sollte bei der Move Action immer drauf achten, dass man das abschließende / nicht vergisst.
+Man sollte bei der Move Action immer drauf achten, dass man das abschließende `/` nicht vergisst.
 
 Richtig:
 
@@ -154,15 +165,15 @@ Es ist aber noch mehr möglich, so können Dateien mittels der "rename"-Action u
 
       - rename: "{path.stem}.pdf"
 
-Oder es können auch Aktionen auf der Shell ausgeführt werden:
+Oder es können auch Aktionen auf der Shell ausgeführt werden. z. B.:
 
       - shell: 'docker run --rm -v {basedir}:/data -i jbarlow83/ocrmypdf "/data/{path.name}" "/data/{path.name}" -l deu --force-ocr'
       
 
-Und auch bei den Actions können mehrere miteinander in einer Regel kombiniert angewendet werden.
+Und auch Actions können mehrere miteinander in einer Regel kombiniert angewendet werden.
 
 ## Fazit
 
 Hat man sich einmal seinen Regelsatz aufgebaut, hat man mit dem Sortieren der Dokumente keine Arbeit mehr. Der größte Teil der Dokumente ist immer wiederkehrend. Somit lohnt es sich, die Regeln einmalig anzulegen und ggf. immer mal wieder zu erweitern.
 
-Organize ist wirklich eine große Erleichterung fürs papierlose private Büro.
+Für das papierlose private Büro ist Organize eine erhebliche Erleichterung.

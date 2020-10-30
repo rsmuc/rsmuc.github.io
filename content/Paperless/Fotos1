@@ -1,0 +1,79 @@
+---
+title: "Fotos unter Linux digitalisieren"
+sub: "Scannen und automatisch zuschneiden (crop, trim)"
+date: 2020-09-08T17:24:41+02:00
+draft: true
+featured_image: 'Paperless/titlepics/fotos1.jpg'
+tags: ["papierloses Büro", "JPEG", "Fotos", "Digitalisierung"]
+toc: true
+---
+
+## Fotos digitalisieren
+
+In nicht allzuferner Vergangenheit hat man bekanntermaßen noch analog fotografiert. In meinem Fall trifft dies auf alle Fotos vor 2003 zu. Nun haben entwickelte Fotos die Angewohnheit, dass sie mit der Zeit ausbleichen, zerkratzen und knicken, sich Beschichtungen auflösen oder auch gerne einfach mal verloren gehen. Also ist es auch hier sinnvoll zu digitalisieren.
+
+Es gibt spezielle Fotoscanner, welche jedoch nicht ganz günstig sind. Zudem ist dies, anders als beim Scannen von Dokumenten, nur eine Einmalaktion. Die Anschaffung eines eigenen Scanners hierfür ist also nicht sinnvoll. 
+
+Auch Dienstleister, welche Fotos digitalisieren, sind eine Option. Mit 20 - 50 Cent pro Foto ist aber auch dies bei einer größeren Sammlung kein Schnäppchen.
+
+Also warum nicht einfach den Dokumentenscanner verwenden, den wir bereits haben? Dank dem automatische Dokumenteneinzug hält sich der Zeitaufwand für das Scannen in Grenzen und die Auflösung von alten Fotos ist meist sowieso nicht besonders hoch. Hierfür reicht auch ein Dokumentenscanner.
+
+Die Voraussetzung jedoch: Die Fotos sind nicht in einem Album eingeklebt.
+
+### Das Scannen
+
+Zum Scannen setzen wir wieder auf den Gnome Document Scanner (aka. Simple Scan). Als Auflösung behalten wir die voreingestellten 600 DPI für Fotos bei. Anders als bei den Dokumenten brauchen wir allerdings nur die Vorderseite. In den Einstellungen aktivieren wir also bei "Scan Sides" nur "Front".
+
+Zum eigentlichen Scannen wählen wir in Document Scanner nun aus, dass Fotos gescannt werden und wir alle Dokumente auf dem "Feeder" erfassen wollen.
+
+ ![Document Scanner Settings](5537) 
+ 
+Vor dem Scannen und auch nach jedem Durchgang sollte man immer wieder die Scaneinheit von Staub und sonstigen Rückständen befreien. Kleine Scan-Artefakte mögen bei Dokumenten nicht stören, bei Fotos sind sie aber äußerst unschön und schon kleine Verschmutzungen hinterlassen einen durchgehenden Streifen auf dem Scan. Zum Reinigen hat sich bei mir ein Brillenputztuch und ein wenig Glasreiniger (Frosch) bewährt.
+
+
+Schon nach dem ersten Durchgang ist ein großer Nachteil zu erkennen: Die Papiergröße des Fotos wird nicht automatisch erkannt. Wir haben also große leere Flächen im JPEG.
+
+![Document Scanner Rand](5538)
+
+
+Leider kann "Document Scanner" dies nicht ausgleichen und auch die anderen bekannten Programme zum Scannen haben keine Funktion, dass die Fotos automatisch zugeschnitten werden (auto-cropping). Mit Windows oder Mac hätten wir es hier etwas einfacher.
+
+Aber dies ignorieren wir nun erst mal und kümmern uns im nächsten Kapitel um das Problem. Zunächst speichern wir die Fotos als JPEG ab. Bei einem PDF erzeugt "Document Scanner" ein mehrseitiges PDF. Bekanntermaßen ist dies bei JPEGs nicht möglich ... und auch nicht sinnvoll. "Document Scanner" nummeriert also die Fotos beim Speichern einfach durch. Geben wir also z.B. `1995-Berlin.jpg` als Dateinamen an, macht "Document Scanner" daraus: `1995-Berlin-1.jpg, 1995-Berlin-2.jpg, 1995-Berlin-3.jpg`.
+
+### Fotos zuschneiden (Crop / Trim)
+
+Nun aber zu dem unschönen Problem, dass wir große weiße Flächen haben. Wir könnten nun jedes Foto einzeln zuschneiden, dies ist jedoch ein enormer Aufwand. Einige Hundert bis Tausend Fotos händisch bearbeiten ... Nein, danke. 
+
+Da alle Fotos gleich groß sind, könnten wie nun auch mittels imagemagick diese auf die gleiche Größe zuschneiden:
+
+	convert foto1.jpg -crop 300x260+3070+2065 cropped-foto1.jpg
+
+Aber sind wirklich alle Fotos gleich groß? Leider nein. Wir haben schließlich immer mal wieder andere Formate. Für jedes Format, die Werte einzeln ermitteln, ist machbar, aber mühsam. 
+
+Aber "convert" hat zum Glück auch eine "-trim" Option. Es ermittelt also selbst wo das Foto aufhört und schneidet dieses zurecht.
+
+	convert foto1.jpg -trim +repage cropped-foto1.jpg
+
+Leider wird nun noch immer nicht alles Unnötige weggeschnitten. Wir müssen also einen Schwellwert angeben. Dies geht mit der Option "-fuzz":
+
+	convert foto1.jpg -fuzz 35% -trim cropped-foto1.jpg
+
+Je nach Scanner muss man ein wenig mit dem Wert von "-fuzz" experimentieren. Bei meinen Fotos hatte ich mit 35% sehr gute Ergebnisse. Es wurde nicht zu viel und nicht zu wenig weggeschnitten. Ab und zu passiert es mal, dass ein grauer Himmel oder ähnliches abgeschnitten wird.
+
+Kippen wir dies nun noch in ein kleine Shell-Script und schon können wir mit einem einzigen Aufruf alle eingescannten Fotos automatisch zuschneiden:
+
+	find . -type f -name '*.jpg' -not -path '*cropped*' -print0 | 	while IFS= read -r -d '' file;
+	do
+	echo "$file"
+	
+	mkdir -p "cropped" && convert $file  -fuzz 35% -trim  +repage cropped/$file
+	
+	echo Done
+	done
+
+
+Und schon haben wir beinahe perfekt zugeschnittene Fotos.
+
+![Fotos ohne Rand](5539)
+
+
