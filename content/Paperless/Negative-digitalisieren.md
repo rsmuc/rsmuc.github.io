@@ -1,6 +1,6 @@
 ---
 title: "Fotos: Negative digitalisieren"
-sub: "lada"
+sub: "Und mit Digikam unter Linux nachbearbeiten"
 date: 2020-09-08T17:24:41+02:00
 draft: true
 featured_image: 'Paperless/titlepics/fotos1.jpg'
@@ -25,6 +25,16 @@ Die Fotos beim Negativ-Scanner werden auf einer SD-Karte oder dem internen Speic
 Zum eigentlichen Scannen schiebt man einfach das Negativ durch den passenden beiliegenden Adapter, richtet das Negativ aus und drückt den Scan-Knopf. Anschließend das Negativ um ein Foto weiter schieben und wieder den Scan-Knopf drücken. Damit lässt sich ein Film relativ schnell digitalisieren. Pro Foto braucht man nur wenige Sekunden und ist somit auch nicht langsamer als bei Fotos mit dem Dokumentenscanner.
 
 Problematisch ist allerdings Staub und sonstige Verschmutzungen. Man sollte drauf achten, dass die Negative von Anfang an möglichst staubfrei sind. Ansonsten hat man auf dem Foto hinterher die entsprechenden Artefakte. Noch unangenehmer: Der Staub setzt sich auch im Gerät fest und entsprechend hat man dann die Artefakte auf jedem Foto. Man sollte also immer wieder prüfen, dass keine Verschmutzungen auf den Fotos sind und das Gerät regelmäßig reinigen. Die beigelegte Reinigungsbürste halte ich für ziemlich ungeeignet. Etwas besser hat es mit einem Brillenputztuch, welches ich um einen dünnen Stift gewickelt habe, funktioniert. Richtig schön ist dies jedoch nicht. Schade, dass man das Gerät zum Reinigen nicht einfach öffnen kann.
+
+### Weitere Einstellungen
+
+Neben dem Scan-Modus, gibt es noch weitere Modi und Einstellungen für den Scanner. Diese erreicht man mittels der Pfeiltasten. So kann man die erfassten Fotos im Betrachtungsmodus ansehen oder, wie bereits beschrieben, im USB-Modus vom Scanner direkt auf einen Rechner kopieren. Auch ein direktes Spiegeln oder Rotieren des erfassten Bildes ist möglich. Dies mache ich jedoch nicht auf dem Gerät, sondern später in Digikam.
+
+Im Menü "Film", kann man die Art des Films auswählen. Also ob man ein Negativ erfassen will oder ein Dia. Zudem kann dort das Format des jeweiligen Films (z.B. 135mm) angegeben werden.
+
+Im Menü "Resolution", kann die Auflösung eingestellt werden: 14 oder 22 Megapixel. Da der Scanner allerdings nur einen 14 Megapixel Sensor hat, wird bei 22 Megapixel interpoliert. Dies führt also zu keiner besseren Bildqualität, sondern nur zu einer größeren Datei. Die Angaben bei dem ein oder anderen großen Internethändler sind hier etwas schwammig. Mal ist von 22 Megapixeln, mal von 16 und dann wieder von 14 Megapixeln die Rede. Hier also bei der Bestellung aufpassen, dass man keine böse Überraschung erlebt.
+
+
 
 ### Nacharbeit
 

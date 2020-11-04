@@ -1,0 +1,250 @@
+---
+title: "Fotos: Eingeklebte Fotos digitalisieren"
+sub: "Ein Vergleich zwischen Google Fotoscanner, Photomyne, CamScanner und einer Spiegelreflex"
+date: 2020-09-08T17:24:41+02:00
+draft: true
+featured_image: 'Paperless/titlepics/fotoalbum.jpg'
+tags: ["papierloses Büro", "JPEG", "Fotos", "Digitalisierung", "Fotoscanner", "Photomyne", "Digikam", "CamScanner"]
+toc: true
+---
+
+## Eingeklebte Fotos digitalisieren
+
+Lose Fotos bzw. Fotos die aus einem Album entnommen werden können und Negative waren der einfache Teil. Danke Dokumentenscanner und Film-/Negativ-Scanner kommt man durch die Fotoalben relativ schnell durch und hat eine brauchbare Qualität.
+
+Nun aber zum unschönen Teil: Fotos die in ein Album fest eingeklebt sind, sich also nicht entnehmen lassen und bei denen es auch keine Negative mehr gibt. Glücklicherweise sind die meisten Fotos in meiner Sammlung entnehmbar. Aber es gibt auch 4 - 5 Alben bei denen dies nicht der Fall ist. Was also tun?
+
+Das naheliegendste wäre wohl zunächst einen Flachbettscanner zu verwenden. Allerdings habe ich hier zwei Probleme: Erstens habe ich  keinen Flachbettscanner. Nun könnte ich auf ein Multifunktionsgerät im Büro zurückgreifen. Aber das zweite Problem: Die meisten Fotoalben sind so dick, dass die Krümmung in der Mitte so stark ist, dass ein Einscannen mit dem Flachbettscanner unmöglich ist.
+
+Was bleibt also übrig: Abfotografieren mit einem Smartphone, für das es spezielle Foto-Scanner Apps gibt oder mit einer Spiegelreflexkamera (oder ähnliches).
+
+### Smartphone: Google Fotoscanner App
+
+Die Android-App welche man am häufigsten für diesen Anwendungszweck findet, ist die [Google Fotoscanner App](https://www.google.com/intl/de/photos/scan/).
+
+#### Datenschutz
+
+Grundsätzlich bin ich Google Apps gegenüber etwas skeptisch, was das Thema Datenschutz angeht. Aber die Fotoscanner App hat laut "Exodus Privacy" keinen einzigen Tracker integriert: (Stand 08.10.2020) [Link zum Exodus Report](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.photos.scanner/latest/) 
+
+
+Zudem erfolgt die Verarbeitung lokal auf dem eigenen Smartphone und auch die Ergebnisse werden lokal gespeichert. Also keine Cloud im Spiel.
+
+
+#### Preis
+
+Den Google Fotoscanner gibt es kostenlos. Ohne InApp-Käufe, Abomodell oder ähnliches. 
+
+#### Betriebssysteme
+
+Die App ist sowohl für iOS (iPhones) als auch für Android verfügbar.
+
+
+#### Workflow
+
+Der Bedienung der App ist sehr intuitiv, da es nicht viele Einstellmöglichkeiten gibt. Es gibt zwei Optionen:
+
+	* Smartphone Licht: aktivieren / deaktivieren (Blitz Symbol)
+	* Spiegelungen entfernen aktivieren: / deaktivieren (Zauberstab)
+
+
+Mit aktiver "Zauberstab-Funktion" fokusiert man nun das Foto im angezeigten Rahmen und drückt auf den Auslöser. Nun werden vier weiße große Punkte angezeigt, welche man nun jeweils nacheinander fokusieren muss. Hat man dies erledigt, dann versucht die App alle Spiegelungen auf dem Foto zu entfernen.
+
+<img src="https://write.tchncs.de/static/media/A270079D-82A6-3791-91CA-90BC8AE191EF.png" alt="Fotoscanner Verwendung" width="300"/> (Zauberstab-Funktion)
+
+Deaktiviert man die "Zauberstab-Funktion", kann man einfach Foto für Foto abfotografieren. Spiegelungen werden dann jedoch nicht entfernt.
+
+Der Zeitunterschied ist immens: Mit Zauberstab braucht man circa 10 - 15 Sekunden pro Foto. Ohne Zauberstab ist das ganze in einer Sekunde erledigt. Allerdings dann eben auch ohne Korrektur der Spiegelungen.
+
+Die zweite Option, die Verwendung des Kameralichtes ist zwar in den offiziellen Dokumentation der App empfohlen, ich kann diese Empfehlung jedoch nicht teilen. Aktiviere ich das Licht, sieht man bei vielen Fotos die Körnung des Fotoabzugs. Dies kann die App auch nicht herausrechnen. Also besser: Smartphone-Licht deaktivieren und für eine gute Belichtung im Raum sorgen. Dies verhindert auch Spiegelungen, so dass man auch die "Zauberstab-Funktion" deaktivieren kann.
+
+Nach dem Abfotografieren kann man unten rechts in die Galerie gehen und sich das Ergebnis betrachten. Neben dem reinen betrachten gibt es dort auch die Option das Foto korrekt zu rotieren und ggf. die Ecken anzupassen. Die App versucht immer die Ränder eines Fotos korrekt zu erkennen und somit nur das eigentliche Foto darzustellen. Meiner Erfahrung nach funktioniert dies sehr gut. Sollte es mal nicht klappen, kann man über die "Ecken korrigieren"-Funktion nachhelfen.
+
+
+#### Ergebnis
+
+Sehen wir uns das Ergebnis an. Links ist das Referenzfoto das mit dem Dokumentenscanner Brother ADS-1200 gescannt wurde und sehr nahe an das Original herankommt:
+
+![Dokumentenscanner vs Fotoscanner](6247)
+
+Das Ergebnis weicht farblich deutlich vom Original ab. Auch sind einige Farbdetails gar nicht wahrzunehmen, wie beispielsweise das rote Halsband des Kamels. Details sind teilweise gar nicht zu erkennen. z.B. die Finger des Reiters.
+
+* Dateigröße: 1,5 MB
+* Auflösung: 2000 x 1333 px
+
+
+### Smartphone: Photomyne
+
+Bei meiner Rechereche bin ich dann noch über die App "Photomyne" für Android gestolpert.
+
+#### Datenschutz
+
+Schauen wir uns das Thema Datenschutz an. Laut Exodus Privacy integriert die App insgesamt 8 Tracker und benötigt 13 Berechtigungen. Unter anderem das Aufnehmen von Audio und das Deaktivieren des Ruhemodus:
+
+[Link zum Exodus Report](https://reports.exodus-privacy.eu.org/en/reports/com.photomyne/latest/) 
+
+Es gibt keine Option die Tracker zu deaktivieren.
+
+Zur Verwendung der App benötigt man einen kostenpflichtigen Account. Hat man sich diesen angelegt werden alle Fotos, die man mit der App erfasst als Backup und zum Datenaustausch mit dem PC in den Cloud Dienst von Photmyne hochgeladen. Diese Funktion lässt sich auch nicht deaktivieren.
+
+Zudem gibt es auch keine Option einen Account selbst zu löschen. 
+
+Aus Sicht des Datenschutz: Durchgefallen mit Note 6.
+
+
+
+#### Preis
+
+Die App ist kostenpflichtig. Was erst mal kein Problem ist. Es gibt unterschiedliche Modelle:
+
+* Monatliche Zahlung für je 9,99 €
+* Jährliche Zahlung für 38,99 €
+* Einmalige Zahlung für 42,99 € 
+
+Aber Achtung: Bei der angeblichen einmaligen Zahlung gilt das Abo nur für 5 Jahre und für bis zu 20.000 Fotos.
+
+Die kostenpflichtige Version kann 3 Tage kostenlos getestet werden. (Achtung: Kündigung nicht vergessen!)
+
+#### Workflow
+
+Der Workflow unterscheidet sich leicht von der Fotoscanner App. Photmyne kann selbst Alben verwalten. Man hat also alles sauber sortiert.
+
+Zum Fotografieren der Bilder geht man ähnlich vor. Der Blitz/Smartphone-Licht wird bei der App nie verwendet. Auch sonst gibt es erst mal keine weiteren Optionen.
+
+Praktisch an der App: Man kann eine komplette Seite eines Albums mit mehreren Fotos gleichzeitig fotografieren. Die App erkennt die unterschiedlichen Fotos und schneidet diese entsprechend zurecht. Allerdings sinkt dadurch natürlich auch die Auflösung pro Foto.
+
+Bei jedem Foto erfolgt automatisch eine Nachbearbeitung und Korrektur der Aufnahme durch die App.
+
+Anschließend können die Fotos auf das Smartphone exportiert werden oder über die Cloud von Photomyne abgerufen werden.
+
+<img src="
+https://write.tchncs.de/static/media/3C9E76CC-9ED9-7817-F94F-C07570B15E3B.png" alt="Photomyne Verwendung" width="300"/>
+
+### Ergebnisse
+
+Auch hier ein Vergleichsfoto:
+
+![Photomyne Ergebnis](6240) 
+
+
+* Dateigröße: 1,1 MB
+* Auflösung: 3400 x 2300 px
+
+### CamScanner
+
+Als dritte Android-App, kommt noch Camscanner in Frage.
+
+#### Datenschutz
+
+CamScanner glänzt mit insgesamt 12 Trackern in der App. Alles was Rang und Namen ist mit an Board:
+
+[Link zum Exodus Report](https://reports.exodus-privacy.eu.org/en/reports/com.intsig.camscanner/latest/) 
+
+
+Es gibt auch hier keine Option die Tracker zu deaktivieren. Dafür gibt es immerhin keinen ungewollten Cloud-Upload, sondern die Fotos bleiben erst mal lokal gespeichert.
+
+Trotzdem nicht unbedenklich.
+
+#### Preis
+
+CamScanner ist eine Lösung die deutlich mehr kann als nur Fotos "scannen". CamScanner hat auch eine OCR-Funktion und vieles weiteres mit dabei.
+
+Zum einfachen digitalisieren von Fotos reicht die kostenlose Version. Soll es dann etwas mehr sein bzw. wird die höchte Auflösung gebraucht, wird die Premium-Version für 49,99 € pro Jahr fällig.
+
+#### Workflow
+
+Der Workflow ist sehr ähnlich zu den anderen beiden Apps. CamScanner sortiert die Fotos nach dem Aufnehmen in automatisch gennerierte interne Alben.
+Nachdem man ein Foto abfotografiert hat, erscheint sofort die Kantenkorrektur, welche man im Normalfall nur bestätigen muss.
+
+
+<img src="
+https://write.tchncs.de/static/media/37299C64-31F9-3916-6D3B-5EC2D2AE8482.png" alt="Kantenkorrektur CamScanner" width="300"/>
+
+
+Möchte man nun in der kostenlosen Version die Fotos exportieren, selektiert man einfach alle Fotos und wählt "Teilen" und "in JPG-Format teilen" aus. Anschließend kann man auswählen wo die Fotos auf dem Smartphone gespeichert werden sollen.
+
+#### Ergebnisse
+
+* Dateigröße: 1,0 MB
+* Auflösung: 3400 x 2400 px
+
+### Abfotografieren mit der Spiegelreflex
+
+Als letzte Option bleibt noch das Abfotografieren der Fotos mit der Spiegelreflex Kamera und das Nachbearbeiten am PC mit ScannedImageExtractor.
+
+#### Datenschutz und Preis
+
+ScannedImageExtractor ist OpenSource Software und unterliegt der GPLv3. Was das Thema Datenschutz und Preis angeht, sind wir hier also auf der sicheren Seite.
+
+
+### Workflow
+
+Der grundlegende Workflow ist einfach:
+
+1.) Foto(s) abfotografieren (ohne Blitz).
+
+2.) Auf den PC übertragen
+
+3.) scannedImageExtractor starten
+
+4.) Bild laden, speichern, fertig
+
+Damit ich die Fotos meiner Spiegelreflex laden konnte, musste ich bei mir allerdings die Bilder von YYY.JPG zu YYY.jpg umbenennen.
+
+Die Erkennung des Fotos erfolgt je nach Hintergrund ähnlich zuverlässig wie bei den Smartphone Apps. Auch hier können wie bei Photomyne mehrere Fotos auf einmal erfasst werden. Allerdings reduziert sich auch dann natürlich wieder die Qualität.
+
+Der Workflow dauert nicht viel länger als bei den Smartphone Apps, da das Fotografieren mit der Spiegelreflex schnell geht und man in scannedImageExtractor über die Pfeil-Buttons von einem Foto zum nächsten springen kann.
+
+![scannedImageExtracor](6241) 
+
+Je nach Ergebnis kann es auch noch sinnvoll sein die Farben in Digikam korrigieren zu lassen.
+
+---
+***Hinweis:***
+
+Die Installation von scannedImageExtractor war bei mir unter Manjaro ein wenig hakelig. Es ist zwar im AUR verfügbar, allerdings scheiterte der Download. Ich haben dann den Download-Pfad im Build-Script angepasst und konnte es so erfolgreich installieren.
+
+Die letzte Entwicklung an der Software ist 2015 passiert.
+
+---
+
+
+### Ergebnisse
+
+![scannedImageExtractor Ergebnis](6242)
+(vor der Digikam Autokorrektur)
+
+![Autocorrect Digikam](6243) 
+(nach der Digikam Autokorrektur)
+
+Dateigröße: 2,4 MB
+Auflösung: 3500 x 2300 px
+
+### Fazit
+
+Wer hätte schon gedacht, dass Google die datenschutzfreundlichste Android-App ins Rennen schickt? 
+
+
+Sehen wir uns die Ergebnisse an. Als Referenz dient auf der linken Seite immer das mit dem Dokumentenscanner Brother ADS-1200 eingescannte Original. Dieses kommt am nähesten an das Original Foto heran.
+
+#### Google Fotoscanner App
+
+#### Photomyne App
+
+#### CamScanner
+
+#### Spiegelreflex
+
+Hier noch die Links zu allen Originalfotos:
+
+[Link zum Referenzfoto des Dokumentenscanners]()
+[Link zum Foto mit Google Fotoscanner]()
+...
+...
+
+Am komfortabelsten wäre sicherlich Photomyne. Aber dies kommt aus Datenschutzgründen nicht in Frage.
+
+Die farblich besten Ergebnisse konnte ich mit der Spiegelreflex-Kamera, scannedImageExtract und Digikam erreichen.
+
+Das beste Verhältnis zwischen Ergebnis und Aufwand stellt die Google Fotoscanner App dar.
+
+
