@@ -72,15 +72,19 @@ Das Ergebnis weicht farblich deutlich vom Original ab. Auch sind einige Farbdeta
 * Auflösung: 2000 x 1333 px
 
 
+
+* [Link zum Referenzfoto](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Refrenzfoto.jpg)
+* [Link zum Resultat von Google Fotoscanner](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Fotoscanner-Ergebnis.jpg)
+* [Link zur direkten Gegenüberstellung](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Dokumentenscanner%20vs%20Google%20Fotoscanner.png)
+
+
 ### Smartphone: Photomyne
 
-Bei meiner Rechereche bin ich dann noch über die App "Photomyne" für Android gestolpert.
+Bei meiner Rechereche im Google Play Store bin ich dann noch über die App "Photomyne" für Android gestolpert.
 
 #### Datenschutz
 
-Schauen wir uns das Thema Datenschutz an. Laut Exodus Privacy integriert die App insgesamt 8 Tracker und benötigt 13 Berechtigungen. Unter anderem das Aufnehmen von Audio und das Deaktivieren des Ruhemodus:
-
-[Link zum Exodus Report](https://reports.exodus-privacy.eu.org/en/reports/com.photomyne/latest/) 
+Schauen wir uns das Thema Datenschutz an. Laut Exodus Privacy integriert die App insgesamt 8 Tracker und benötigt 13 Berechtigungen. Unter anderem das Aufnehmen von Audio und das Deaktivieren des Ruhemodus: [Link zum Exodus Report](https://reports.exodus-privacy.eu.org/en/reports/com.photomyne/latest/) 
 
 Es gibt keine Option die Tracker zu deaktivieren.
 
@@ -106,7 +110,7 @@ Die kostenpflichtige Version kann 3 Tage kostenlos getestet werden. (Achtung: K�
 
 #### Workflow
 
-Der Workflow unterscheidet sich leicht von der Fotoscanner App. Photmyne kann selbst Alben verwalten. Man hat also alles sauber sortiert.
+Der Workflow unterscheidet sich leicht von der Fotoscanner App. Photomyne kann selbst Alben verwalten. Man hat also alles sauber sortiert.
 
 Zum Fotografieren der Bilder geht man ähnlich vor. Der Blitz/Smartphone-Licht wird bei der App nie verwendet. Auch sonst gibt es erst mal keine weiteren Optionen.
 
@@ -121,13 +125,22 @@ https://write.tchncs.de/static/media/3C9E76CC-9ED9-7817-F94F-C07570B15E3B.png" a
 
 ### Ergebnisse
 
-Auch hier ein Vergleichsfoto:
+Auch hier ein Vergleich mit dem Referenzfoto:
 
-![Photomyne Ergebnis](6240) 
+![Dokumentenscanner vs Photomyne](6251)
+ 
 
+Die Ergebnisse sind ähnlich zum Google Fotoscanner. Deutliche Farbabweichungen und wenig Details.
 
 * Dateigröße: 1,1 MB
 * Auflösung: 3400 x 2300 px
+
+
+
+* [Link zum Referenzfoto](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Refrenzfoto.jpg)
+* [Link zum Resultat von Photomyne](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Photomyne%20Ergebnis.png)
+* [Link zur direkten Gegenüberstellung](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Dokumentenscanner%20vs%20Photomyne.png)
+
 
 ### CamScanner
 
@@ -162,10 +175,21 @@ https://write.tchncs.de/static/media/37299C64-31F9-3916-6D3B-5EC2D2AE8482.png" a
 
 Möchte man nun in der kostenlosen Version die Fotos exportieren, selektiert man einfach alle Fotos und wählt "Teilen" und "in JPG-Format teilen" aus. Anschließend kann man auswählen wo die Fotos auf dem Smartphone gespeichert werden sollen. Fertig.
 
-#### Ergebnisse
+#### Ergebnis
+
+![Dokumentenscanner vs CamScanner](6252)
+ 
+CamScanner kann, obwohl das gleiche Smartphone verwendet wurde, die besten Ergebnisse erzielen. Farbdetails (Halsband) und auch Feinheiten (Finger) sind deutlicher zu erkennen, als bei Google Photoscanner und Photomyne.
+
 
 * Dateigröße: 1,0 MB
 * Auflösung: 3400 x 2400 px
+
+
+* [Link zum Referenzfoto](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Refrenzfoto.jpg)
+* [Link zum Resultat von CamScanner](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/CamScannerErgebnis.jpg)
+* [Link zur direkten Gegenüberstellung](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Dokumentenscanner%20vs%20CamScanner.png)
+
 
 ### Abfotografieren mit der Spiegelreflex
 
@@ -216,35 +240,27 @@ Die letzte Entwicklung an der Software ist 2015 passiert.
 ![Autocorrect Digikam](6243) 
 (nach der Digikam Autokorrektur)
 
+![Dokumentenscanner vs Spiegelreflex](6253)
+ 
 Dateigröße: 2,4 MB
 Auflösung: 3500 x 2300 px
 
+
+Nach der Autokorrektur mit Digikam, sind die Farben und auch die Farbdetails (Halsband) am besten. Von der Qualität bei den Details (Finger) kann das Abfotografieren mit der Spiegelreflex mit CamScanner erstaunlicherweise nicht mithalten. 
+
+* [Link zum Referenzfoto](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Refrenzfoto.jpg)
+* [Link zum Resultat der Spiegelreflex](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/ImageExtractor_Result_Autocorrection.jpg)
+* [Link zur direkten Gegenüberstellung](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Dokumentenscanner%20vs%20Spiegelreflex.png)
+
 ### Fazit
 
-Wer hätte schon gedacht, dass Google die datenschutzfreundlichste Android-App ins Rennen schickt? 
+Wer hätte schon gedacht, dass Google die datenschutzfreundlichste Android-App ins Rennen schickt? Aus Datenschutzsicht kommt nur der Google Fotoscanner und das Fotografieren mit der Spiegelreflex mit anschließender Nachbearbeitung unter Linux in Frage.
 
+Die besten Ergebnisse erhält man mit der CamScanner App, allerdings muss man hier mit den integrierten Trackern leben.
 
-Sehen wir uns die Ergebnisse an. Als Referenz dient auf der linken Seite immer das mit dem Dokumentenscanner Brother ADS-1200 eingescannte Original. Dieses kommt am nähesten an das Original Foto heran.
+Photomyne fällt wegen der Datenschutzbedenken und auch der Ergebnisse komplett raus.
 
-#### Google Fotoscanner App
+Der Unterschied zum Dokumentenscanner ist bei allen Varianten erheblich. Wenn Möglich sollte man also immer die Fotos entnehmen und mit einem ordentlichen Scanner einscannen. Zudem entfällt damit auch das Problem von Verzerrungen.
 
-#### Photomyne App
-
-#### CamScanner
-
-#### Spiegelreflex
-
-Hier noch die Links zu allen Originalfotos:
-
-[Link zum Referenzfoto des Dokumentenscanners]()
-[Link zum Foto mit Google Fotoscanner]()
-...
-...
-
-Am komfortabelsten wäre sicherlich Photomyne. Aber dies kommt aus Datenschutzgründen nicht in Frage.
-
-Die farblich besten Ergebnisse konnte ich mit der Spiegelreflex-Kamera, scannedImageExtract und Digikam erreichen.
-
-Das beste Verhältnis zwischen Ergebnis und Aufwand stellt die Google Fotoscanner App dar.
-
+Der Aufwand ist für alle Varianten ähnlich hoch. Ich persönlich werde wohl, wo es notwendig ist, die CamScanner App in Kombination mit Blokada nutzen.
 
