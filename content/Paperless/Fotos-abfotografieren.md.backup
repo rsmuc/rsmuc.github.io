@@ -95,7 +95,9 @@ Zur Verwendung der App benötigt man einen kostenpflichtigen Account. Hat man si
 
 Aus Sicht des Datenschutz: Durchgefallen mit Note 6.
 
+#### Photomyne - Betriebssysteme
 
+Die App ist nur für Android verfügbar.
 
 #### Photomyne - Preis
 
@@ -132,7 +134,7 @@ Auch hier ein Vergleich mit dem Referenzfoto:
 (Referenzfoto vs. Photomyne)
  
 
-Die Ergebnisse sind ähnlich zum Google Fotoscanner. Deutliche Farbabweichungen und wenig Details.
+Die Ergebnisse sind ähnlich zum Google Fotoscanner. Deutliche Farbabweichungen und wenig Details. Von den Farben jedoch etwas besser als bei Google und die Auflösung ist höher. Dafür mit einer deutlichen Verzerrung, im Vergleich zum Referenzbild.
 
 * Dateigröße: 1,1 MB
 * Auflösung: 3400 x 2300 px
@@ -146,7 +148,9 @@ Die Ergebnisse sind ähnlich zum Google Fotoscanner. Deutliche Farbabweichungen 
 
 ### Smartphone: CamScanner
 
-Als dritte Android-App, kommt noch Camscanner in Frage.
+Als dritte Android-App, kommt noch CamScanner in Frage. CamScanner möchte viel mehr sein als eine reine "Scan-App" für Fotos, sondern möchte auch das Scannen von Dokumenten inkl. OCR übernehmen.
+
+Link zur Herstellerseite: [https://www.camscanner.com/](https://www.camscanner.com/)
 
 #### CamScanner - Datenschutz
 
@@ -159,20 +163,24 @@ Es gibt auch hier keine Option die Tracker zu deaktivieren. Dafür gibt es immer
 
 Trotzdem nicht unbedenklich.
 
+#### CamScanner - Betriebssysteme
+
+Die App ist sowohl für iOS (iPhones) als auch für Android verfügbar.
+
 #### CamScanner - Preis
 
 CamScanner ist eine Lösung die deutlich mehr kann als nur Fotos "scannen". CamScanner hat auch eine OCR-Funktion und vieles weiteres mit dabei.
 
-Zum einfachen digitalisieren von Fotos reicht die kostenlose Version. Soll es dann etwas mehr sein bzw. wird die höchte Auflösung gebraucht, wird die Premium-Version für 49,99 € pro Jahr fällig.
+Zum einfachen Digitalisieren von Fotos reicht die kostenlose Version. Soll es dann etwas mehr sein bzw. wird die höchste Auflösung gebraucht, wird die Premium-Version für 49,99 € pro Jahr fällig.
 
 #### CamScanner - Workflow
 
 Der Workflow ist sehr ähnlich zu den anderen beiden Apps. CamScanner sortiert die Fotos nach dem Aufnehmen in automatisch gennerierte interne Alben.
-Nachdem man ein Foto abfotografiert hat, erscheint sofort die Kantenkorrektur, welche man im Normalfall nur bestätigen muss.
+Nachdem man ein Foto abfotografiert hat, erscheint jedoch sofort die Kantenkorrektur, welche man im Normalfall nur bestätigen muss. Dies ist ein sehr sinnvoller Workflow, denn so bleibt einem das spätere Prüfen und Anpassen des Ergebnisses erspart und man kommt mit deutlich weniger Schritten aus.
 
 
 <img src="
-https://write.tchncs.de/static/media/37299C64-31F9-3916-6D3B-5EC2D2AE8482.png" alt="Kantenkorrektur CamScanner" width="300"/>
+https://write.tchncs.de/static/media/37299C64-31F9-3916-6D3B-5EC2D2AE8482.png" alt="Kantenkorrektur CamScanner" width="300"/><center>(Kantenkorrektur bei CamScanner direkt nach dem Fotografieren)</center>
 
 
 Möchte man nun in der kostenlosen Version die Fotos exportieren, selektiert man einfach alle Fotos und wählt "Teilen" und "in JPG-Format teilen" aus. Anschließend kann man auswählen wo die Fotos auf dem Smartphone gespeichert werden sollen. Fertig.
@@ -180,9 +188,9 @@ Möchte man nun in der kostenlosen Version die Fotos exportieren, selektiert man
 #### CamScanner - Ergebnis
 
 ![Dokumentenscanner vs CamScanner](6252)
-(Referenzfoto vs. CamScanner)
+<center>(Referenzfoto vs. CamScanner)</center>
  
-CamScanner kann, obwohl das gleiche Smartphone verwendet wurde, die besten Ergebnisse erzielen. Farbdetails (Halsband) und auch Feinheiten (Finger) sind deutlicher zu erkennen, als bei Google Photoscanner und Photomyne.
+CamScanner kann, obwohl das gleiche Smartphone verwendet wurde, die besten Ergebnisse erzielen. Farbdetails (Halsband) und auch Feinheiten (Finger) sind deutlicher zu erkennen, als bei Google Photoscanner und Photomyne. Die Auflösung ist ähnlich hoch, wie bei Photomyne, das Ergebnis jedoch deutlich detailreicher. Interessanterweise hat CamScanner trotz der hohen Auflösung die kleinste Dateigröße. Die Verzerrung hält sich in grenzen. Während es beim Google Fotoscanner eher zu einer leichten horizontalen Streckung gekommen ist, hat CamScanner eher eine leicht vertikale Streckung. 
 
 
 * Dateigröße: 1,0 MB
@@ -196,7 +204,9 @@ CamScanner kann, obwohl das gleiche Smartphone verwendet wurde, die besten Ergeb
 
 ### Abfotografieren mit der Spiegelreflex
 
-Als letzte Option bleibt noch das Abfotografieren der Fotos mit der Spiegelreflex Kamera und das Nachbearbeiten am PC mit ScannedImageExtractor.
+Als letzte Option bleibt noch das Abfotografieren der Fotos mit der Spiegelreflex, oder eine anderen guten Kamera und das anschließende Nachbearbeiten am PC mit ScannedImageExtractor und Digikam.
+
+Link zur Projektseite: [http://www.dominik-ruess.de/scannerExtract/](http://www.dominik-ruess.de/scannerExtract/)
 
 #### Spiegelreflex - Datenschutz und Preis
 
@@ -217,7 +227,7 @@ Der grundlegende Workflow ist einfach:
 
 Damit ich die Fotos meiner Spiegelreflex laden konnte, musste ich bei mir allerdings die Bilder von YYY.JPG zu YYY.jpg umbenennen.
 
-Die Erkennung des Fotos erfolgt je nach Hintergrund ähnlich zuverlässig wie bei den Smartphone Apps. Auch hier können wie bei Photomyne mehrere Fotos auf einmal erfasst werden. Allerdings reduziert sich auch dann natürlich wieder die Qualität.
+Die Erkennung des Fotos erfolgt je nach Hintergrund ähnlich zuverlässig wie bei den Smartphone Apps. Die Smartphone-Apps haben hier aber nie Nase vorn. Auch bei scannedImageExgtractor können, wie auch bei Photomyne, mehrere Fotos auf einmal erfasst werden. Allerdings reduziert sich auch dann natürlich wieder die Qualität.
 
 Der Workflow dauert nicht viel länger als bei den Smartphone Apps, da das Fotografieren mit der Spiegelreflex schnell geht und man in scannedImageExtractor über die Pfeil-Buttons von einem Foto zum nächsten springen kann.
 
@@ -228,7 +238,7 @@ Je nach Ergebnis kann es auch noch sinnvoll sein die Farben in Digikam korrigier
 ---
 ***Hinweis:***
 
-Die Installation von scannedImageExtractor war bei mir unter Manjaro ein wenig hakelig. Es ist zwar im AUR verfügbar, allerdings scheiterte der Download. Ich haben dann den Download-Pfad im Build-Script angepasst und konnte es so erfolgreich installieren.
+Die Installation von scannedImageExtractor war bei mir unter Manjaro ein wenig hakelig. Es ist zwar im AUR verfügbar, allerdings scheiterte der Download von sourceforge. Ich haben dann den Download-Pfad im Build-Script angepasst und konnte es so erfolgreich installieren.
 
 Die letzte Entwicklung an der Software ist 2015 passiert.
 
@@ -250,10 +260,16 @@ Dateigröße: 2,4 MB
 Auflösung: 3500 x 2300 px
 
 
-Nach der Autokorrektur mit Digikam, sind die Farben und auch die Farbdetails (Halsband) am besten. Von der Qualität bei den Details (Finger) kann das Abfotografieren mit der Spiegelreflex mit CamScanner erstaunlicherweise nicht mithalten. 
+Nach der Autokorrektur mit Digikam, sind die Farben und auch die Farbdetails (Halsband) am besten. Von der Qualität bei den Details (Finger) kann das Abfotografieren mit der Spiegelreflex mit CamScanner erstaunlicherweise nicht ganz mithalten. Allerdings kann hier man hier mit der "Schärfen"-Funktion von Digikam noch ein wenig arbeiten.  
 
 * [Link zum Referenzfoto](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Referenzfoto.jpg)
-* [Link zum Resultat der Spiegelreflex](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/ImageExtractor_Result_Autocorrection.jpg)
+* [Link zum Resultat der Spiegelreflex - nach Digikam Autokorrektur der Farben](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/ImageExtractor_Result_Autocorrection.jpg)
+
+* [Link zum Resultat der Spiegelreflex - nach Digikam Schärfungder Farben](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/ImageExtractor_Result_v2.jpg)
+
+
+
+
 * [Link zur direkten Gegenüberstellung](https://raw.githubusercontent.com/rsmuc/rsmuc.github.io/test/content/Paperless/pictures/Fotoscanner/Dokumentenscanner%20vs%20Spiegelreflex.png)
 
 ## Fazit
